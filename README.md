@@ -18,9 +18,18 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <details>
 <summary>View cheatsheets</summary>
 
+- [Netcat](hacking/netcat)
+
 </details>
 
 ### 🗃️ Bases de Datos
+
+<details>
+<summary>View cheatsheets</summary>
+
+</details>
+
+### 🔧 Herramientas
 
 <details>
 <summary>View cheatsheets</summary>
