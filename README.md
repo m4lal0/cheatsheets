@@ -19,6 +19,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <summary>View cheatsheets</summary>
 
 - [Netcat](hacking/netcat)
+- [Nmap](hacking/nmap)
 
 </details>
 
