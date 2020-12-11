@@ -2,7 +2,7 @@
 
 ### Mostrar los tipos de contraseñas que John puede decifrar con la velocidad del crack (crack/segundo)
 
-- `john --test
+- `john --test`
 
 ## Modos de Cracking
 
