@@ -18,9 +18,9 @@
 
 ### -Display Options
 
-- 1 Show redirects
-- 2 Show cookies received
-- 3 Show all 200/OK responses
-- 4 Show URLs which require authentication
-- D Debug output
-- E Display all HTTP errors
+- `1` : Show redirects
+- `2` : Show cookies received
+- `3` : Show all 200/OK responses
+- `4` : Show URLs which require authentication
+- `D` : Debug output
+- `E` : Display all HTTP errors
