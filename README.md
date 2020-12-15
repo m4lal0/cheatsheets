@@ -22,6 +22,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Hydra](hacking/hydra)
 - [John](hacking/john)
 - [Netcat](hacking/netcat)
+- [Nikto](hacking/nikto)
 - [Nmap](hacking/nmap)
 
 </details>
