@@ -39,4 +39,6 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <details>
 <summary>View cheatsheets</summary>
 
+- [HTTP-Codes](tools/http-codes)
+
 </details>
