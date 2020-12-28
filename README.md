@@ -24,6 +24,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Netcat](hacking/netcat)
 - [Nikto](hacking/nikto)
 - [Nmap](hacking/nmap)
+- [ps](hacking/ps)
 - [TCPdump](hacking/tcpdump)
 
 </details>
