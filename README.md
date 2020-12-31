@@ -26,6 +26,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Nikto](hacking/nikto)
 - [Nmap](hacking/nmap)
 - [ps](hacking/ps)
+- [Shodan](hacking/shodan)
 - [TCPdump](hacking/tcpdump)
 
 </details>
