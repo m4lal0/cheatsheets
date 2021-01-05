@@ -18,7 +18,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <details>
 <summary>View cheatsheets</summary>
 
-- [Cewl](hacking/cewl)
+- [CeWL](hacking/cewl)
 - [Google Dorks](hacking/google)
 - [Hydra](hacking/hydra)
 - [John](hacking/john)
@@ -26,6 +26,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Nikto](hacking/nikto)
 - [Nmap](hacking/nmap)
 - [ps](hacking/ps)
+- [Searchsploit](hacking/searchsploit)
 - [Shodan](hacking/shodan)
 - [TCPdump](hacking/tcpdump)
 
