@@ -26,6 +26,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Nikto](hacking/nikto)
 - [Nmap](hacking/nmap)
 - [ps](hacking/ps)
+- [Reverse-Shell](hacking/reverse-shell)
 - [Searchsploit](hacking/searchsploit)
 - [Shodan](hacking/shodan)
 - [TCPdump](hacking/tcpdump)
