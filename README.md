@@ -6,13 +6,6 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 ## 📚 Contenido
 
-### 👨‍💻 Programación
-
-<details>
-<summary>View cheatsheets</summary>
-
-</details>
-
 ### 🛡️ Seguridad Informática y Herramientas Hacking
 
 <details>
@@ -30,13 +23,6 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Searchsploit](hacking/searchsploit)
 - [Shodan](hacking/shodan)
 - [TCPdump](hacking/tcpdump)
-
-</details>
-
-### 🗃️ Bases de Datos
-
-<details>
-<summary>View cheatsheets</summary>
 
 </details>
 

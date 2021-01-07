@@ -1,25 +1,31 @@
 # Searchsploit Cheat Sheet
 
 ### Actualizar la BD de exploits
-
-- `searchsploit -u`
+```
+searchsploit -u
+```
 
 ### Buscar vulnerabilidades de una aplicación
-
-- `searchsploit <NombreAlicacion>`
+```
+searchsploit <NombreAlicacion>
+```
 
 ### Mostrar de que trata, la URL y el Path del exploit
-
-- `searchsploit -p <ID>`
+```
+searchsploit -p <ID>
+```
 
 ### Mostrar el script del exploit
-
-- `searchsploit -x <ID>`
+```
+searchsploit -x <ID>
+```
 
 ### Copiar el fichero en el directorio en el que estamos
-
-- `searchsploit -m <ID>`
+```
+searchsploit -m <ID>
+```
 
 ### Mostrar la URL del exploit ligado a la web exploit-db
-
-- `searchsploit -w <NombreAlicacion>`
+```
+searchsploit -w <NombreAlicacion>
+```
