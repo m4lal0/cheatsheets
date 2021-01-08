@@ -12,6 +12,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <summary>View cheatsheets</summary>
 
 - [CeWL](hacking/cewl)
+- [Crunch](hacking/crunch)
 - [Google Dorks](hacking/google)
 - [Hydra](hacking/hydra)
 - [John](hacking/john)
