@@ -14,6 +14,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [CeWL](hacking/cewl)
 - [Crunch](hacking/crunch)
 - [CuPP](hacking/cupp)
+- [Dirsearch](hacking/dirsearch)
 - [Google Dorks](hacking/google)
 - [Hydra](hacking/hydra)
 - [John](hacking/john)
