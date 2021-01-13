@@ -18,6 +18,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Google Dorks](hacking/google)
 - [Hydra](hacking/hydra)
 - [John](hacking/john)
+- [JoomScan](hacking/joomscan)
 - [Netcat](hacking/netcat)
 - [Nikto](hacking/nikto)
 - [Nmap](hacking/nmap)
