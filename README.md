@@ -27,6 +27,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Searchsploit](hacking/searchsploit)
 - [Shodan](hacking/shodan)
 - [TCPdump](hacking/tcpdump)
+- [Whatweb](hacking/whatweb)
 - [WPScan](hacking/wpscan)
 
 </details>
