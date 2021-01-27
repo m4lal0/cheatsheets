@@ -22,6 +22,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Netcat](hacking/netcat)
 - [Nikto](hacking/nikto)
 - [Nmap](hacking/nmap)
+- [Patator](hacking/patator)
 - [ps](hacking/ps)
 - [Reverse-Shell](hacking/reverse-shell)
 - [Searchsploit](hacking/searchsploit)
