@@ -19,6 +19,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Hydra](hacking/hydra)
 - [John](hacking/john)
 - [JoomScan](hacking/joomscan)
+- [Macchanger](hacking/macchanger)
 - [Netcat](hacking/netcat)
 - [Nikto](hacking/nikto)
 - [Nmap](hacking/nmap)
