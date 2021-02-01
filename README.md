@@ -42,6 +42,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <summary>View cheatsheets</summary>
 
 - [HTTP-Codes](tools/http-codes)
+- [Tmux](tools/tmux)
 - [Vim](tools/vim)
 
 </details>
