@@ -82,3 +82,8 @@
 ### Script Categories
 
 - `locate .nse | xargs grep "categories" | grep -oP '".*?"' | sort -u`
+
+---
+:::info
+[:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
+:::

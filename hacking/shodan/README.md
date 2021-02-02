@@ -15,3 +15,8 @@
 | **before**   | Filtrado por antes de una fecha (Formato: day/month/year o day-month-year)    | `before:<date>`       |
 | **after**   | Filtrado por después de una fecha (Formato: day/month/year o day-month-year)    | `after:<date>`       |
 | **vuln**   | Filtrado por el ID del CVE de la vulnerabilidad    | `vuln:<CVE>`       |
+
+---
+:::info
+[:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
+:::

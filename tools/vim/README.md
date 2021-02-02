@@ -51,3 +51,8 @@
 + `esc` - salir del modo visual
 + `>` - indentar a la derecha
 + `<` - indentar a la izquierda
+
+---
+:::info
+[:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
+:::

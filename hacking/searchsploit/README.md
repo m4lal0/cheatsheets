@@ -1,31 +1,36 @@
 # Searchsploit Cheat Sheet
 
-### Actualizar la BD de exploits
+#### Actualizar la BD de exploits
 ```
 searchsploit -u
 ```
 
-### Buscar vulnerabilidades de una aplicación
+#### Buscar vulnerabilidades de una aplicación
 ```
 searchsploit <NombreAlicacion>
 ```
 
-### Mostrar de que trata, la URL y el Path del exploit
+#### Mostrar de que trata, la URL y el Path del exploit
 ```
 searchsploit -p <ID>
 ```
 
-### Mostrar el script del exploit
+#### Mostrar el script del exploit
 ```
 searchsploit -x <ID>
 ```
 
-### Copiar el fichero en el directorio en el que estamos
+#### Copiar el fichero en el directorio en el que estamos
 ```
 searchsploit -m <ID>
 ```
 
-### Mostrar la URL del exploit ligado a la web exploit-db
+#### Mostrar la URL del exploit ligado a la web exploit-db
 ```
 searchsploit -w <NombreAlicacion>
 ```
+
+---
+:::info
+[:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
+:::

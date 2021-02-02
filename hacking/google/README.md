@@ -19,3 +19,8 @@
 | **allinpostauthor**      | Exclusivo para la búsqueda de blogs, este selecciona publicaciones de blog escritas por personas específicas.       | `allinpostauthor:"keyword"`       |
 | **related**      | Muestra las páginas web que son "similares" a una página web específica.       | `related:www.google.com`       |
 | **cache**      | Muestra la versión de la página web que Google tiene en su caché.       | `cache:www.google.com`       |
+
+---
+:::info
+[:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
+:::

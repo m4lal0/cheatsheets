@@ -21,5 +21,6 @@ wafw00f <URL> -a -vvv
 ```
 
 ---
-
+:::info
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
+:::
