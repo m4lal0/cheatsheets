@@ -11,6 +11,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <details>
 <summary>View cheatsheets</summary>
 
+- [Airmon-ng](hacking/airmon-ng)
 - [CeWL](hacking/cewl)
 - [Crunch](hacking/crunch)
 - [CuPP](hacking/cupp)
