@@ -26,6 +26,5 @@ joomscan --url <URL> --random-agent
 ```
 
 ---
-:::info
+
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
-:::

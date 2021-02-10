@@ -80,6 +80,5 @@ A0"#"Az"#"
 ###### Nota: Editar archivo john.conf
 
 ---
-:::info
+
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
-:::

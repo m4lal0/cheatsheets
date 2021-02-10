@@ -49,6 +49,5 @@
 - `echo "" | nc -nv -w1 <IPAddress> <Port>`: Banner Grabbing.
 
 ---
-:::info
+
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
-:::

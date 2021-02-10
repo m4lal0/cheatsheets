@@ -41,6 +41,5 @@ wpscan --url <target> --enumerate ap --plugins-detection mixed
 ```
 
 ---
-:::info
+
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
-:::

@@ -31,6 +31,5 @@ crunch 1 10 -p Hello m4lal0 Users
 ```
 
 ---
-:::info
+
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
-:::

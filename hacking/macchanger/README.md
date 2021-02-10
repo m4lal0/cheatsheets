@@ -36,6 +36,5 @@ macchanger -p <Interface>
 ```
 
 ---
-:::info
+
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
-:::

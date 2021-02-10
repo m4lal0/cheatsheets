@@ -26,6 +26,5 @@
 - `E` : Display all HTTP errors
 
 ---
-:::info
+
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
-:::

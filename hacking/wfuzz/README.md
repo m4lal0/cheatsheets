@@ -41,6 +41,5 @@ wfuzz -c --h=429 -w /Directorio/de/Wordlist -d 'usuario=FUZZ&password=test' http
 ```
 
 ---
-:::info
+
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
-:::

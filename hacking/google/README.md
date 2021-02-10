@@ -21,6 +21,5 @@
 | **cache**      | Muestra la versión de la página web que Google tiene en su caché.       | `cache:www.google.com`       |
 
 ---
-:::info
+
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
-:::

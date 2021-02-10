@@ -26,6 +26,5 @@ patator dns_forward name=FILE0.domain.com 0=lista.txt -x ignore:code=3
 ```
 
 ---
-:::info
+
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
-:::

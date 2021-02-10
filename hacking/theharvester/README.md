@@ -36,6 +36,5 @@ theHarvester -d <Domain> -c -b google
 ```
 
 ---
-:::info
+
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
-:::

@@ -30,6 +30,5 @@ hydra -l none -P <path-to-password.lst> <IPaddress> https-form-post "/db/index.p
 ```
 
 ---
-:::info
+
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
-:::

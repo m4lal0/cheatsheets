@@ -17,6 +17,5 @@
 | **vuln**   | Filtrado por el ID del CVE de la vulnerabilidad    | `vuln:<CVE>`       |
 
 ---
-:::info
+
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
-:::
