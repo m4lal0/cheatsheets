@@ -18,6 +18,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [CuPP](hacking/cupp)
 - [Dirb](hacking/dirb)
 - [Dirsearch](hacking/dirsearch)
+- [DNSenum](hacking/dnsenum)
 - [Gobuster](hacking/Gobuster)
 - [Google Dorks](hacking/google)
 - [Hydra](hacking/hydra)
