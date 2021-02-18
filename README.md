@@ -19,6 +19,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Dirb](hacking/dirb)
 - [Dirsearch](hacking/dirsearch)
 - [DNSenum](hacking/dnsenum)
+- [DNSRecon](hacking/dnsrecon)
 - [Gobuster](hacking/Gobuster)
 - [Google Dorks](hacking/google)
 - [Hydra](hacking/hydra)
