@@ -50,6 +50,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <summary>View cheatsheets</summary>
 
 - [HTTP-Codes](tools/http-codes)
+- [Puertos Comunes](tools/puertos-comunes)
 - [Tmux](tools/tmux)
 - [Vim](tools/vim)
 
