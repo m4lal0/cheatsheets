@@ -2,7 +2,17 @@
 
 ### Lanzar tmux y darle un nombre al área de trabajo
 ```
-tmux new -s <Name>
+tmux new -s <My_Session>
+```
+
+### Listar las sesiones que estan corriendo
+```
+tmux ls
+```
+
+### Volver a conectarse a una sesión
+```
+tmux attach-session -t <My_Session>
 ```
 
 ### Atajos de teclado
@@ -29,6 +39,7 @@ tmux new -s <Name>
 | `prefix + !`      | Manda el contenido de un panel a una pestaña nueva       |
 | `prefix + t`      | Nos muestra la hora actual       |
 | `prefix + m`      | Habilita/Deshabilita el mouse       |
+| `prefix + d`      | Desconectar sesión y dejarla en segundo plano       |
 
 ### Enviar un shell-command
 ```
