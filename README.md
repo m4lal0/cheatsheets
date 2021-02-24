@@ -35,6 +35,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Reverse-Shell](hacking/reverse-shell)
 - [Searchsploit](hacking/searchsploit)
 - [Shodan](hacking/shodan)
+- [Steghide](hacking/steghide)
 - [TCPdump](hacking/tcpdump)
 - [TheHarvester](hacking/theharvester)
 - [Wafw00f](hacking/wafw00f)
