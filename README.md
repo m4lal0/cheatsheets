@@ -27,6 +27,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [JoomScan](hacking/joomscan)
 - [Macchanger](hacking/macchanger)
 - [mdk4](hacking/mdk4)
+- [Metagoofil](hacking/metagoofil)
 - [Netcat](hacking/netcat)
 - [Nikto](hacking/nikto)
 - [Nmap](hacking/nmap)
