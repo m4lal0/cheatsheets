@@ -4,56 +4,56 @@
 
 ### Navegación
 
-+ `b` - ir a la palabra anterior
-+ `w` - ir a la palabra siguiente
-+ `e` - ir al final de la siguiente palabra
-+ `j` - abajo
-+ `h` - izquierda
-+ `k` - arriba
-+ `l` - derecha
-+ `0` - ir al inicio de la linea
-+ `$` - ir al final de la linea
-+ `gg` - mover cursor al inicio del archivo
-+ `G` - mover cursor al final del archivo
-+ `#G` - para movernos a una linea en especifica del archivo (donde '#' es el número de línea, ej. 16G - Se mueve a la linea 16 del archivo)
-+ `gd` - ir a la definición
-+ `gf` - ir a la definición en el archivo
-+ `ctrl + o` - regresar al archivo anterior despues de encontrar la definición
-+ `ctrl + i` - volver al archivo para encontrar nuevamente la definición
-+ `ctrl + g` - nos indica en que linea esta posicionado el cursor
-+ `%` - salto al correspondiente parentesis, llaves ó corchetes, para encontrar cual es su inicio y fin de cada uno
++ <kbd>b</kbd> - ir a la palabra anterior
++ <kbd>w</kbd> - ir a la palabra siguiente
++ <kbd>e</kbd> - ir al final de la siguiente palabra
++ <kbd>j</kbd> - abajo
++ <kbd>h</kbd> - izquierda
++ <kbd>k</kbd> - arriba
++ <kbd>l</kbd> - derecha
++ <kbd>0</kbd> - ir al inicio de la linea
++ <kbd>$</kbd> - ir al final de la linea
++ <kbd>gg</kbd> - mover cursor al inicio del archivo
++ <kbd>G</kbd> - mover cursor al final del archivo
++ <kbd>#G</kbd> - para movernos a una linea en especifica del archivo (donde '#' es el número de línea, ej. 16G - Se mueve a la linea 16 del archivo)
++ <kbd>gd</kbd> - ir a la definición
++ <kbd>gf</kbd> - ir a la definición en el archivo
++ <kbd>ctrl</kbd> + <kbd>o</kbd> - regresar al archivo anterior despues de encontrar la definición
++ <kbd>ctrl</kbd> + <kbd>i</kbd> - volver al archivo para encontrar nuevamente la definición
++ <kbd>ctrl</kbd> + <kbd>g</kbd> - nos indica en que linea esta posicionado el cursor
++ <kbd>%</kbd> - salto al correspondiente parentesis, llaves ó corchetes, para encontrar cual es su inicio y fin de cada uno
 
 ### Inserción
 
-+ `i` - insertar antes del cursor
-+ `a` - insertar después del cursor
-+ `A` - insertar al final de la línea
++ <kbd>i</kbd> - insertar antes del cursor
++ <kbd>a</kbd> - insertar después del cursor
++ <kbd>A</kbd> - insertar al final de la línea
 
 ### Edición
 
-+ `x` - suprimir
-+ `yy` - copiar línea entera
-+ `dw` - borrar palabra delante del cursor
-+ `db` - borra palabra antes del cursor
-+ `dd` - eliminar línea completa y no deja línea vacia
-+ `d$` - eliminar desde el cursor sin eliminar la línea vacia
-+ `p` - pegar en la línea de abajo
-+ `P` - pegar en la línea de arriba
-+ `u` - deshacer
-+ `ctrl + r` - rehacer
-+ `cw` - reemplazar palabra que esta delante del cursor
-+ `ciw` - reemplazar palabra sin importar en que posicion este el cursor en la palabra
-+ `r` - reemplazar un caracteres que esta delante del cursor
-+ `R` - reemplazar todos los caracteres que esta delante del cursor
-+ `o` - crea una linea nueva debajo del cursor
-+ `O` - crea una linea nueva arriba del cursor
++ <kbd>x</kbd> - suprimir
++ <kbd>yy</kbd> - copiar línea entera
++ <kbd>dw</kbd> - borrar palabra delante del cursor
++ <kbd>db</kbd> - borra palabra antes del cursor
++ <kbd>dd</kbd> - eliminar línea completa y no deja línea vacia
++ <kbd>d$</kbd> - eliminar desde el cursor sin eliminar la línea vacia
++ <kbd>p</kbd> - pegar en la línea de abajo
++ <kbd>P</kbd> - pegar en la línea de arriba
++ <kbd>u</kbd> - deshacer
++ <kbd>ctrl</kbd> + <kbd>r</kbd> - rehacer
++ <kbd>cw</kbd> - reemplazar palabra que esta delante del cursor
++ <kbd>ciw</kbd> - reemplazar palabra sin importar en que posicion este el cursor en la palabra
++ <kbd>r</kbd> - reemplazar un caracteres que esta delante del cursor
++ <kbd>R</kbd> - reemplazar todos los caracteres que esta delante del cursor
++ <kbd>o</kbd> - crea una linea nueva debajo del cursor
++ <kbd>O</kbd> - crea una linea nueva arriba del cursor
 
 ### Buscar
 
 + `/palabra` - para buscar una palabra, buscará en adelante de la posición del cursor
 + `?palabra` - para buscar una palabra, buscará atrás de la posición del cursor
-+ `n` - siguiente coincidencia de la palabra encontrada
-+ `N` - regresar a una coincidencia de la palabra encontrada
++ <kbd>n</kbd> - siguiente coincidencia de la palabra encontrada
++ <kbd>N</kbd> - regresar a una coincidencia de la palabra encontrada
 
 ### Comandos
 
@@ -69,13 +69,13 @@
 
 ### Selección texto
 
-+ `v` - entrar a modo visual
-+ `aw` - seleccionar palabra
-+ `y` - copiar texto seleccionado
-+ `d` - borrar texto seleccionado
-+ `esc` - salir del modo visual
-+ `>` - indentar a la derecha
-+ `<` - indentar a la izquierda
++ <kbd>v</kbd> - entrar a modo visual
++ <kbd>aw</kbd> - seleccionar palabra
++ <kbd>y</kbd> - copiar texto seleccionado
++ <kbd>d</kbd> - borrar texto seleccionado
++ <kbd>esc</kbd> - salir del modo visual
++ <kbd>></kbd> - indentar a la derecha
++ <kbd><</kbd> - indentar a la izquierda
 
 ---
 
