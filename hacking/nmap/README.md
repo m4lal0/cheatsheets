@@ -5,13 +5,14 @@
 - `-sA`: Escaneo ACK
 - `-sP`: Escaneo con Ping 
 - `-sR`: Escaneo RPC
-- `-sS`: Escaneo SYN
+- `-sS`: Escaneo SYN "Half-open"
 - `-sT`: Escaneo TCP
 - `-sU`: Escaneo UDP
 - `-sW`: Escaneo a equipos Windows
+- `-sn`: Deshabilitar Escaneo de puertos (ping sweep)
 - `-sX`: Escaneo XMAS
-- `-sn`: Deshabilitar Escaneo de puertos
-- `-sN`: Escaneo NULL
+- `-sN`: Escaneo NULL de TCP
+- `-sF`: Escaneo TCP FIN
 
 ### Scan options
 
@@ -64,24 +65,38 @@
 ### Misc
 
 - `-V`: Imprime la version de NMAP
-- `-f`: Fragmentación
+- `-f`: Fragmentación de paquetes
+- `--mtu <Number>`: Fragmentación más controlada de paquetes
 - `-N`: Resolución DNS
 - `-R`: Reverse Lookup
 - `-n`: No resolución DNS
-- `-Pn`: Deshabilitar descubrimiento de host. Solamente escaneo de puertos.
+- `-Pn`: Deshabilitar descubrimiento de host. Solamente escaneo de puertos
 - `-6`: Habilitar IPv6
+- `--scan-delay <time>ms`: Agrega un retraso entre los paquetes enviados
+- `--badsum`: Genera una suma de comprobación no válida para paquetes
 - `-h`: Panel de Ayuda
 
 ### NSE scripts
 
 - `-sC`: Escanear con scripts NSE por default
 - `--script default`: Escanear con scripts NSE por default
-- `--script <NameScript>`: Escanear con un script en particular
+- `--script <Script-Name>`: Escanear con un script en particular
+- `--script <NSE-Categories>`: Escanear con algunas categorias de NSE
+- `--script-args <Script-Name>.<Argument>`: Si algun script requiere algun argumento
+- `--script-help <script-name>`: Mostrar la ayuda del script a usar
 - `--script-updatedb`: Actualizar la base de datos de scripts
 
 ### Script Categories
 
-- `locate .nse | xargs grep "categories" | grep -oP '".*?"' | sort -u`
+- `locate .nse | xargs grep "categories" | grep -oP '".*?"' | sort -u` - Listar las categorias de NSE
+- `/usr/share/nmap/scripts`: Directorio donde estan almacenados los script en Linux
+- *safe*: - No afectará al objetivo
+- *intrusive*: - No seguro: es probable que afecte al objetivo
+- *vuln*: - Escanear en busca de vulnerabilidades
+- *exploit*: - Intento de aprovechar una vulnerabilidad
+- *auth*: - Intente omitir la autenticación para los servicios en ejecución (por ejemplo, inicie sesión en un servidor FTP de forma anónima)
+- *brute*: - Intento de usar la fuerza bruta de las credenciales para ejecutar servicios
+- *discovery*: - Intente consultar los servicios en ejecución para obtener más información sobre la red (por ejemplo, consultar un servidor SNMP).
 
 ---
 
