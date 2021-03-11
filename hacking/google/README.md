@@ -12,13 +12,16 @@
 | **allintitle**   | Busca apariciones de palabras clave en el título todas a la vez.     | `allintitle:"keyword"`       |
 | **site**   | Busca específicamente ese sitio en particular y enumera todos los resultados de ese sitio.    | `site:"www.google.com"`       |
 | **filetype**   | Busca un tipo de archivo particular mencionado en la consulta.    | `filetype:"pdf"`       |
-| **link**   | Busca enlaces externos a páginas.    | `link:"keyword"`       |
+| **link**   | Este operador busca sitios web o páginas que contienen enlaces al sitio web o página especificados.    | `link:"keyword"`       |
 | **numrange**      | Se usa para ubicar números específicos en sus búsquedas.       | `numrange:321-325`       |
 | **before/after**      | Se usa para buscar dentro de un rango de fechas en particular.       | `filetype:"pdf" & (before:2000-01-01 after:2001-01-01)`       |
 | **inanchor**      | Esto muestra los sitios que tienen los términos clave en los enlaces que apuntan a ellos, en orden de mayor número de enlaces.       | `inanchor:rat`       |
+| **allinanchor**      | La consulta solo devuelve páginas en las que el texto de anclaje de los enlaces a las páginas contiene las palabras "mejor", "nube", "servicio" y "proveedor" .       | `allinanchor: mejor proveedor servicio nube`       |
 | **allinpostauthor**      | Exclusivo para la búsqueda de blogs, este selecciona publicaciones de blog escritas por personas específicas.       | `allinpostauthor:"keyword"`       |
 | **related**      | Muestra las páginas web que son "similares" a una página web específica.       | `related:www.google.com`       |
 | **cache**      | Muestra la versión de la página web que Google tiene en su caché.       | `cache:www.google.com`       |
+| **info**      | Este operador busca información para la página web especificada.       | `info:keyword`       |
+| **location**      | Este operador busca información para una ubicación específica.       | `location:keyword`       |
 
 ---
 
