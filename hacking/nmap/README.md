@@ -13,6 +13,17 @@
 - `-sX`: Escaneo XMAS
 - `-sN`: Escaneo NULL de TCP
 - `-sF`: Escaneo TCP FIN
+- `-sM`: Escaneo TCP Maimon
+- `-sl`: Escaneo IDLE/IPID Header
+- `-PR`: Escaneo ARP ping
+- `-PU`: Escaneo UDP ping
+- `-PE`: Escaneo ICMP ECHO ping
+- `-PE <IP-Range>`: Escaneo ICMP ECHO ping sweep
+- `-PP`: Escaneo ICMP timestamp ping
+- `-PM`: Escaneo ICMP address mask ping
+- `-PS`: Escaneo TCP SYN ping
+- `-PA`: Escaneo TCP ACK ping
+- `-PO`: Escaneo IP Protocol ping
 
 ### Scan options
 

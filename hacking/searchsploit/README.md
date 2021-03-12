@@ -30,6 +30,11 @@ searchsploit -m <ID>
 searchsploit -w <NombreAlicacion>
 ```
 
+#### Mostrar el resultado en formato JSON y comprobar todos los resultados de los servicios de un XML de NMAP
+```
+searchsploit -j --nmap <NmapFile.xml>
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
