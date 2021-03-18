@@ -15,6 +15,8 @@
 - `-sF`: Escaneo TCP FIN
 - `-sM`: Escaneo TCP Maimon
 - `-sl`: Escaneo IDLE/IPID Header
+- `-sY`: Escaneo SCTP INIT
+- `-sZ`: Escaneo SCTP COOKIE ECHO
 - `-PR`: Escaneo ARP ping
 - `-PU`: Escaneo UDP ping
 - `-PE`: Escaneo ICMP ECHO ping
@@ -76,8 +78,6 @@
 ### Misc
 
 - `-V`: Imprime la version de NMAP
-- `-f`: Fragmentación de paquetes
-- `--mtu <Number>`: Fragmentación más controlada de paquetes
 - `-N`: Resolución DNS
 - `-R`: Reverse Lookup
 - `-n`: No resolución DNS
@@ -96,6 +96,15 @@
 - `--script-args <Script-Name>.<Argument>`: Si algun script requiere algun argumento
 - `--script-help <script-name>`: Mostrar la ayuda del script a usar
 - `--script-updatedb`: Actualizar la base de datos de scripts
+
+### Firewall/IDS Evasion
+
+- `-f`: Fragmentación de paquetes
+- `-g <Port-Number>`: Manipulación del puerto origen
+- `--mtu <Number>`: Fragmentación más controlada de paquetes
+- `-D`: Escaneo de señuelos
+- `RND:<Number>`: Genera direcciones IP aleatorias y no reservadas. 
+- `--data-length <Number>`: Agrega datos aleatorios a los paquetes enviados
 
 ### Script Categories
 
