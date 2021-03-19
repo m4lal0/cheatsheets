@@ -35,6 +35,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Nmap](hacking/nmap)
 - [Patator](hacking/patator)
 - [ps](hacking/ps)
+- [Recon-ng](hacking/recon-ng)
 - [Reverse-Shell](hacking/reverse-shell)
 - [Searchsploit](hacking/searchsploit)
 - [Shodan](hacking/shodan)
