@@ -22,6 +22,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Dirsearch](hacking/dirsearch)
 - [DNSenum](hacking/dnsenum)
 - [DNSRecon](hacking/dnsrecon)
+- [Enum4Linux](hacking/enum4linux)
 - [Gobuster](hacking/Gobuster)
 - [Google Dorks](hacking/google)
 - [Hydra](hacking/hydra)
