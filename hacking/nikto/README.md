@@ -1,22 +1,41 @@
 # Nikto Cheat Sheet
 
-#### Escanear un host
+### Escanear un host
+*Realiza escaneo de un host por medio de su IP o nombre al puerto 80.*
+```
+nikto -host [IPAddress/Website]
+```
 
-- `nikto -host [IPAddress/Name]`: Realiza escaneo de un host por medio de su IP o nombre al puerto 80.
+### Escanear un host en multiples puertos
+*Escanear un host en diferentes puertos (el puerto por default es el 80).*
+```
+nikto -host [IPAddress/Website] -port [Port1], [Port2], [Port3]
+```
 
-#### Escanear un host en multiples puertos
+### Escaneo con Tuning
+```
+nikto -host [IPAddress/Website] -Tuning x
+```
 
-- `nikto -host [IPAddress/Name] -port [Port1], [Port2], [Port3]`: Escanear un host en diferentes puertos (el puerto por default es el 80).
+### Buscar directorios CGI
+*Podemos usar filtros como "none" o "all" para escanear todos los directorios CGI o ninguno.*
+```
+nikto -h [IPAddress/Website] -Cgidirs all
+```
 
-#### Escanear un host y el resultado guardarlo en un archivo
+### Escanear un host y el resultado guardarlo en un archivo
+*Guardar el resultado del escaneo en un archivo.*
+```
+nikto -host [IPAddress/Website] -output [FileName]
+``` 
 
-- `nikto -host [IPAddress/Name] -output [FileName]`: Guardar el resultado del escaneo en un archivo.
+### Escanear un host y el resultado guardarlo en un formato HTML
+*Los distintos tipos de formatos son: csv, json, html, nbe, sql, txt y xml.*
+```
+nikto -host [IPAddress/Website] -Fortmat html -output [FileName]
+```
 
-#### Escanear un host y el resultado guardarlo en un formato HTML
-
-- `nikto -host [IPAddress/Name] -Fortmat html -output [FileName]`: Los distintos tipos de formatos son: csv, json, html, nbe, sql, txt y xml.
-
-#### -Display Options
+### Display Options
 
 - `1` : Show redirects
 - `2` : Show cookies received
