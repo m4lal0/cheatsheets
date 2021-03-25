@@ -20,6 +20,11 @@ dnsrecon -d <Domain> -n <DNS-Domain> -D /path/to/Wordlist -t brt
 dnsrecon -d <Domain> -n <DNS-Domain> -t goo
 ```
 
+#### DNSSEC Zone Walking
+```
+dnsrecon -d <Domain> -z
+```
+
 #### Transferencia de Zona
 ```
 dnsrecon -d <Domain> -t axfr
