@@ -34,6 +34,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Netcat](hacking/netcat)
 - [Nikto](hacking/nikto)
 - [Nmap](hacking/nmap)
+- [OSRFramework](hacking/osrframework)
 - [Patator](hacking/patator)
 - [ps](hacking/ps)
 - [Recon-ng](hacking/recon-ng)
