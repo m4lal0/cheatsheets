@@ -104,7 +104,11 @@
 - `--mtu <Number>`: Fragmentación más controlada de paquetes
 - `-D`: Escaneo de señuelos
 - `RND:<Number>`: Genera direcciones IP aleatorias y no reservadas. 
+- `--data <Hexadecimal>`: Para enviar los datos binarios (0's y 1's) como cargas útiles en los paquetes enviados
 - `--data-length <Number>`: Agrega datos aleatorios a los paquetes enviados
+- `--data-string <String>`: Para enviar una cadena regular como cargas útiles en los paquetes enviados a la máquina de destino
+- `--randomize-host`: Para escanear la cantidad de hosts en la red de destino en orden aleatorio
+- `--badsum`: Para enviar los paquetes con sumas de comprobación TCP/UPD erróneas o falsas al objetivo previsto para evitar ciertos conjuntos de reglas de firewall
 
 ### Script Categories
 
