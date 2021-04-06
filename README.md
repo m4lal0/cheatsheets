@@ -25,6 +25,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Enum4Linux](hacking/enum4linux)
 - [Gobuster](hacking/Gobuster)
 - [Google Dorks](hacking/google)
+- [Hping3](hacking/hping3)
 - [Hydra](hacking/hydra)
 - [John](hacking/john)
 - [JoomScan](hacking/joomscan)
