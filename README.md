@@ -33,6 +33,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [mdk4](hacking/mdk4)
 - [Metagoofil](hacking/metagoofil)
 - [Metasploit-Framework](hacking/metasploit)
+- [Msfvenom](hacking/msfvenom)
 - [Netcat](hacking/netcat)
 - [Nikto](hacking/nikto)
 - [Nmap](hacking/nmap)
