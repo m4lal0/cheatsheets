@@ -2,29 +2,35 @@
 
 ### Scan types
 
-- `-sA`: Escaneo ACK
-- `-sP`: Escaneo con Ping 
-- `-sR`: Escaneo RPC
 - `-sS`: Escaneo SYN "Half-open"
 - `-sT`: Escaneo TCP
 - `-sU`: Escaneo UDP
+- `-sA`: Escaneo ACK
 - `-sW`: Escaneo a equipos Windows
-- `-sn`: Deshabilitar Escaneo de puertos (ping sweep)
+- `-sM`: Escaneo TCP Maimon
+- `-sP`: Escaneo con Ping 
+- `-sR`: Escaneo RPC
 - `-sX`: Escaneo XMAS
 - `-sN`: Escaneo NULL de TCP
 - `-sF`: Escaneo TCP FIN
-- `-sM`: Escaneo TCP Maimon
 - `-sl`: Escaneo IDLE/IPID Header
 - `-sY`: Escaneo SCTP INIT
 - `-sZ`: Escaneo SCTP COOKIE ECHO
-- `-PR`: Escaneo ARP ping
+
+### Host Discovery
+
+- `-sL`: No escanear. Listar solamente objetivos
+- `-sn`: Deshabilitar Escaneo de puertos (ping sweep)
+- `-Pn`: Deshabilitar descubrimiento de host. Solamente escaneo de puertos
+- `-PS`: Escaneo TCP SYN ping
+- `-PA`: Escaneo TCP ACK ping
 - `-PU`: Escaneo UDP ping
+- `-PR`: Escaneo ARP ping
+- `-n`: No resolución DNS
 - `-PE`: Escaneo ICMP ECHO ping
 - `-PE <IP-Range>`: Escaneo ICMP ECHO ping sweep
 - `-PP`: Escaneo ICMP timestamp ping
 - `-PM`: Escaneo ICMP address mask ping
-- `-PS`: Escaneo TCP SYN ping
-- `-PA`: Escaneo TCP ACK ping
 - `-PO`: Escaneo IP Protocol ping
 
 ### Scan options
@@ -57,12 +63,14 @@
 - `-oG`: Formato grepeable
 - `-oS`: Formato Script Kiddies
 - `-oA`: Salida en 3 formatos (Normal, XML y Grepeable)
+- `-v`: Aumente el nivel de verbosidad
+- `-vv`: Verbosidad a más detalle
 
 ### OS detection
 
 - `-A`: Detección de SO, version, script de escaneo y traceroute
 - `-O`: Detección de SO
-- `--osscan-guess`: Detección de OS manera agresivo
+- `-O --osscan-guess`: Detección de OS manera agresivo
 
 ### Timing
 
@@ -74,14 +82,13 @@
 - `-T5`: Rápido e intrusivo
 - `--max-rate <number>`: Envia paquetes no más lento que 'cantidad' por segundo
 - `--min-rate <number>`: Envia paquetes no más rápido que 'cantidad' por segundo
+- `--max-retries <tries>`: Especifique el número máximo de retransmisiones de la sonda de escaneo de puertos 
 
 ### Misc
 
 - `-V`: Imprime la version de NMAP
 - `-N`: Resolución DNS
 - `-R`: Reverse Lookup
-- `-n`: No resolución DNS
-- `-Pn`: Deshabilitar descubrimiento de host. Solamente escaneo de puertos
 - `-6`: Habilitar IPv6
 - `--scan-delay <time>ms`: Agrega un retraso entre los paquetes enviados
 - `--badsum`: Genera una suma de comprobación no válida para paquetes
@@ -120,7 +127,7 @@
 - *exploit*: - Intento de aprovechar una vulnerabilidad
 - *auth*: - Intente omitir la autenticación para los servicios en ejecución (por ejemplo, inicie sesión en un servidor FTP de forma anónima)
 - *brute*: - Intento de usar la fuerza bruta de las credenciales para ejecutar servicios
-- *discovery*: - Intente consultar los servicios en ejecución para obtener más información sobre la red (por ejemplo, consultar un servidor SNMP).
+- *discovery*: - Intente consultar los servicios en ejecución para obtener más información sobre la red (por ejemplo, consultar un servidor SNMP)
 
 ---
 
