@@ -11,6 +11,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <details>
 <summary>View cheatsheets</summary>
 
+- [Aircrack-ng](hacking/aircrack-ng)
 - [Aireplay-ng](hacking/aireplay-ng)
 - [Airmon-ng](hacking/airmon-ng)
 - [Airodump-ng](hacking/airodump-ng)
