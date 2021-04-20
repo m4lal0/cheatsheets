@@ -17,6 +17,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Airodump-ng](hacking/airodump-ng)
 - [BurpSuite](hacking/burpsuite)
 - [CeWL](hacking/cewl)
+- [Cowpatty](hacking/cowpatty)
 - [Crunch](hacking/crunch)
 - [CuPP](hacking/cupp)
 - [Dirb](hacking/dirb)
