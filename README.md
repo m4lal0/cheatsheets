@@ -43,6 +43,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [OSRFramework](hacking/osrframework)
 - [Patator](hacking/patator)
 - [ps](hacking/ps)
+- [Pyrit](hacking/pyrit)
 - [Recon-ng](hacking/recon-ng)
 - [Reverse-Shell](hacking/reverse-shell)
 - [Searchsploit](hacking/searchsploit)
