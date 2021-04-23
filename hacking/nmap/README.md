@@ -8,42 +8,45 @@
 - `-sA`: Escaneo ACK
 - `-sW`: Escaneo a equipos Windows
 - `-sM`: Escaneo TCP Maimon
-- `-sP`: Escaneo con Ping 
 - `-sR`: Escaneo RPC
 - `-sX`: Escaneo XMAS
 - `-sN`: Escaneo NULL de TCP
 - `-sF`: Escaneo TCP FIN
-- `-sl`: Escaneo IDLE/IPID Header
+- `-sI`: Escaneo IDLE/IPID Header (Zommbie Scan)
 - `-sY`: Escaneo SCTP INIT
 - `-sZ`: Escaneo SCTP COOKIE ECHO
+- `-sO`: Escaneo protocolo IP
+- `-Pn`: Deshabilitar descubrimiento de host. Solamente escaneo de puertos
 
 ### Host Discovery
 
-- `-sL`: No escanear. Listar solamente objetivos
-- `-sn`: Deshabilitar Escaneo de puertos (ping sweep)
-- `-Pn`: Deshabilitar descubrimiento de host. Solamente escaneo de puertos
+- `-sP`: Escaneo con Ping 
 - `-PS`: Escaneo TCP SYN ping
 - `-PA`: Escaneo TCP ACK ping
 - `-PU`: Escaneo UDP ping
 - `-PR`: Escaneo ARP ping
-- `-n`: No resolución DNS
 - `-PE`: Escaneo ICMP ECHO ping
 - `-PE <IP-Range>`: Escaneo ICMP ECHO ping sweep
 - `-PP`: Escaneo ICMP timestamp ping
 - `-PM`: Escaneo ICMP address mask ping
 - `-PO`: Escaneo IP Protocol ping
+- `-sL`: No escanear. Listar solamente objetivos
+- `-sn`: Deshabilitar Escaneo de puertos (ping sweep)
+- `-n`: No resolución DNS
+- `-PN`: No hacer ping
 
 ### Scan options
 
 - `-p<Port-Range>`: Rango de puertos
 - `-p-`: Escaneo de todos los puertos
-- `-pU:53,U:110,T20-445`: Escaneo mixto TCP y UDP
+- `-pU:53,U:110,T:20-445`: Escaneo mixto TCP y UDP
 - `--top-ports <number>`: Escaneo del top de puertos especificados
 - `--open`: Escaneo de puertos abiertos
 - `-F`: Escaneo rápido (Escanea los 100 puertos más populares)
 - `--spoof-mac <MAC>`: Envia tramas ethernet a la dirección MAC especificada
 - `-e <interface>`: Define Interfaz
 - `--interactive`: Modo interactivo
+- `-r`: No aleatorio
 
 ### Service/Version Detection
 
@@ -75,8 +78,8 @@
 ### Timing
 
 - `-T0`: Paranoico
-- `-T1`: Disimulado
-- `-T2`: Cortes
+- `-T1`: Sigiloso
+- `-T2`: Sofistificado
 - `-T3`: Normal
 - `-T4`: Agresivo
 - `-T5`: Rápido e intrusivo
@@ -110,6 +113,7 @@
 - `-g <Port-Number>`: Manipulación del puerto origen
 - `--mtu <Number>`: Fragmentación más controlada de paquetes
 - `-D`: Escaneo de señuelos
+- `-S`: Falsear dirección origen
 - `RND:<Number>`: Genera direcciones IP aleatorias y no reservadas. 
 - `--data <Hexadecimal>`: Para enviar los datos binarios (0's y 1's) como cargas útiles en los paquetes enviados
 - `--data-length <Number>`: Agrega datos aleatorios a los paquetes enviados
@@ -121,14 +125,24 @@
 
 - `locate .nse | xargs grep "categories" | grep -oP '".*?"' | sort -u` - Listar las categorias de NSE
 - `/usr/share/nmap/scripts`: Directorio donde estan almacenados los script en Linux
-- *safe*: - No afectará al objetivo
-- *intrusive*: - No seguro: es probable que afecte al objetivo
-- *vuln*: - Escanear en busca de vulnerabilidades
+- `nmap --script-help <script.nse>`: Muestra información detallada del uso del script NSE
+- *safe*: - Ejecuta scripts que no son intrusivos
+- *intrusive*: - Utiliza scripts que son considerados intrusivos para la víctima o targeto
+- *vuln*: - Descubre las vulnerabilidades más conocidas
 - *exploit*: - Intento de aprovechar una vulnerabilidad
-- *auth*: - Intente omitir la autenticación para los servicios en ejecución (por ejemplo, inicie sesión en un servidor FTP de forma anónima)
+- *auth*: - Ejecuta todos sus scripts disponibles para autenticación
 - *brute*: - Intento de usar la fuerza bruta de las credenciales para ejecutar servicios
 - *discovery*: - Intente consultar los servicios en ejecución para obtener más información sobre la red (por ejemplo, consultar un servidor SNMP)
+- *external*: - Script para utilizar recursos externos
+- *default*: - Ejecuta los scripts básicos por defecto de la herramienta
+- *malware*: - Revisa si hay conexiones abiertas por códigos maliciosos o backdoors (puertas traseras)
+- *all*: - Ejecuta absolutamente todos los scripts con extensión NSE disponibles
 
+### Ports Status
+
+- *Puerto filtrado*: - Un firewall (cortafuegos) bloquea el acceso al puerto
+- *Puerto cerrado*: - El puerto no está bloqueado pero no hay ninguna aplicación escuchando en él
+- *Puerto abierto*: - El puerto no está bloqueado y hay una aplicación escuchando en él
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
