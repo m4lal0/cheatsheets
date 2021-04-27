@@ -15,6 +15,11 @@ whatweb <URL> -v
 whatweb -a 3 <URL>
 ```
 
+#### Guardar el resultado en un archivo
+```
+whatweb --log-verbose=<NameFile> <URL>
+```
+
 #### Escaneo agresivo y seleccionar el plugin a buscar
 ```
 whatweb -p <PluginName> -a 3 <URL>
