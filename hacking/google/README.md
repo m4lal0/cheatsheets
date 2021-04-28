@@ -22,6 +22,20 @@
 | **cache**      | Muestra la versión de la página web que Google tiene en su caché.       | `cache:www.google.com`       |
 | **info**      | Este operador busca información para la página web especificada.       | `info:keyword`       |
 | **location**      | Este operador busca información para una ubicación específica.       | `location:keyword`       |
+| **define**      | Busca definciones de palabras.       | `define:keyword`       |
+| **weather**      | Nos mostrará el clima de la parte del mundo que queramos ver.       | `wather:keyword`       |
+| **stock**      | Nos mostrará informacion financiera.       | `stock:keyword`       |
+| **date**      | Busca solamente en un rango de meses (De la fecha actual hacia atrás).       | `date:3`       |
+| **phonebook**      | Muestra listado de telefonos.       | `phonebook:keyword`       |
+
+### Símbolos para usar en la búsqueda
+
+| Filtro | Descripción                    | Ejemplo                    |
+| ------------- | ------------------------------ | ------------------------------ |
+| **" "**      | Comillas, buscar frase exacta.       | `"keyword"`       |
+| **+**      | Incluir alguna palabra.       | `+keyword`       |
+| **-**      | Excluir alguna palabra.       | `-keyword`       |
+| *      | Asterisco, comodín, cualquier palabra, pero una sóla palabra.       | `*.google.com`       |
 
 ---
 
