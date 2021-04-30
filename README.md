@@ -52,6 +52,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Steghide](hacking/steghide)
 - [TCPdump](hacking/tcpdump)
 - [TheHarvester](hacking/theharvester)
+- [Uniscan](hacking/uniscan)
 - [Wafw00f](hacking/wafw00f)
 - [Wfuzz](hacking/wfuzz)
 - [Whatweb](hacking/whatweb)
