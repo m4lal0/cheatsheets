@@ -41,6 +41,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Nikto](hacking/nikto)
 - [Nmap](hacking/nmap)
 - [OSRFramework](hacking/osrframework)
+- [P0f](hacking/p0f)
 - [Patator](hacking/patator)
 - [ps](hacking/ps)
 - [pwgen](hacking/pwgen)
