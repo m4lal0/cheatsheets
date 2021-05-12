@@ -38,6 +38,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Meterpreter](hacking/meterpreter)
 - [Msfvenom](hacking/msfvenom)
 - [Netcat](hacking/netcat)
+- [NetDiscover](hacking/netdiscover)
 - [Nikto](hacking/nikto)
 - [Nmap](hacking/nmap)
 - [OSRFramework](hacking/osrframework)
