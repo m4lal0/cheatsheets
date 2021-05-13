@@ -21,7 +21,7 @@ hydra -t 1 -l admin -P <path-to-password.lst> -vV <IPaddress> ftp
 
 #### Cracking con Brute Force en SSH Server
 ```
-hydra -l msfadmin -P <path-to-password.lst> ssh://IPaddress -vV
+hydra -l msfadmin -P <path-to-password.lst> -vV <IPaddress> ssh
 ```
 
 #### Cracking con Brute Force en WEB Login Server

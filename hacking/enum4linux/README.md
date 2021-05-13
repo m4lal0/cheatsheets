@@ -30,6 +30,20 @@ enum4linux -u <User> -p <Password> -G <IP-Address>
 enum4linux -u <User> -p <Password> -S <IP-Address>
 ```
 
+#### Obtener información limitada sobre la ejecución de LDAP
+```
+enum4linux -u <User> -p <Password> -l <IP-Address>
+```
+
+#### Enumerar Impresoras compartidas
+```
+enum4linux -u <User> -p <Password> -i <IP-Address>
+```
+
+#### Enumerar todo
+```
+enum4linux -u <User> -p <Password> -a <IP-Address>
+```
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)

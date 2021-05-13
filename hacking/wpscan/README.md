@@ -57,7 +57,7 @@ wpscan --url <Target> --basic-auth <Username:Password>
 
 #### Fuerza Bruta para el inicio de sesión
 ```
-wpscan --url <Target> --wordlist <Wordlist> --username <Username>
+wpscan --url <Target> --passwords <Wordlist-Password> --usernames <Wordlist-UserName>
 ```
 
 #### Proporcionar cookie para sesiones autenticadas

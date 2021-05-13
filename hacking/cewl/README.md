@@ -5,6 +5,11 @@
 cewl <url> -w <file>
 ```
 
+#### Crear un archivo de palabras de un sitio con una profundidad determinada y una longitud mínima de palabras
+```
+cewl <url> -d <depth> -m <min-word-length> -w <file>
+```
+
 #### Rastrear un sitio y seguir enlaces a otros sitios
 ```
 cewl <url> -o
@@ -15,11 +20,6 @@ cewl <url> -o
 cewl <url> -u <user-agent>
 ```
 
-#### Crear un archivo de palabras de un sitio con una profundidad determinada y una longitud mínima de palabras
-```
-cewl <url> -w <file> -d <depth> -m <min-word-length>
-```
-
 #### Spider a un sitio e incluir un recuento de cada palabra
 ```
 cewl <url> -c
@@ -27,12 +27,12 @@ cewl <url> -c
 
 #### Spider a un sitio que incluya metadatos y separar las palabras de meta_datos
 ```
-cewl <url> -a -meta_file <file>
+cewl <url> -a -meta_file -w <file>
 ```
 
 #### Spider a un sitio y almacenar direcciones de correo electrónico en un archivo separado
 ```
-cewl <url> -e -email_file <file>
+cewl <url> -e -email_file -w <file>
 ```
 
 #### Generar una lista de palabras alfanúmericas
