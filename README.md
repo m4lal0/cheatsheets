@@ -53,6 +53,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Shodan](hacking/shodan)
 - [SSLscan](hacking/sslscan)
 - [Steghide](hacking/steghide)
+- [SQLMap](hacking/sqlmap)
 - [TCPdump](hacking/tcpdump)
 - [TheHarvester](hacking/theharvester)
 - [Uniscan](hacking/uniscan)
