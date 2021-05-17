@@ -10,7 +10,7 @@ dnsrecon -d <Domain>
 dnsrecon -d <Domain> -db /path/to/sqllite.file
 ```
 
-#### Enumerar por fuerza bruta
+#### Enumerar subdominios por fuerza bruta
 ```
 dnsrecon -d <Domain> -n <DNS-Domain> -D /path/to/Wordlist -t brt
 ```
