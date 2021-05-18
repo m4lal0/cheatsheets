@@ -32,6 +32,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [John](hacking/john)
 - [JoomScan](hacking/joomscan)
 - [Macchanger](hacking/macchanger)
+- [Macof](hacking/macof)
 - [mdk4](hacking/mdk4)
 - [Metagoofil](hacking/metagoofil)
 - [Metasploit-Framework](hacking/metasploit)
