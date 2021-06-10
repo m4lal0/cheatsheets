@@ -51,6 +51,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [pwgen](hacking/pwgen)
 - [Pyrit](hacking/pyrit)
 - [Recon-ng](hacking/recon-ng)
+- [Responder](hacking/responder)
 - [Reverse-Shell](hacking/reverse-shell)
 - [Searchsploit](hacking/searchsploit)
 - [Shodan](hacking/shodan)
