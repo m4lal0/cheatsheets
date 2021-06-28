@@ -25,7 +25,7 @@ curl <URL> -o <FILE>
 curl -I <URL>
 ```
 
-#### Hacer redirecciones
+#### Realizar redirecciones
 ```
 curl -L <URL>
 ```
@@ -56,11 +56,21 @@ curl -v --cookie "NAME_COOKIE=VALUE_COOKIE" <URL>
 
 #### Permitir conexiones de servidor inseguras cuando se usa SSL
 ```
-curl -k <URL-whit-HTTPS>
+curl -k <URL-with-HTTPS>
 
 ó
 
-curl --insecure <URL-whit-HTTPS>
+curl --insecure <URL-with-HTTPS>
+```
+
+#### Obtener el código HTTP de respuesta de un sitio
+```
+curl --write-out "%{http_code}\n" -o /dev/null -s <URL>
+```
+
+#### Obtener el código HTTP de respuesta de un sitio con HTTPS
+```
+curl --write-out "%{http_code}\n" -o /dev/null --insecure <URL-with-HTTPS>
 ```
 
 ---
