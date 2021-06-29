@@ -22,7 +22,7 @@ dirb <URL> -w <Wordlist> -N 404
 
 #### Buscando por las extensiones PHP y txt
 ```
-dirb <URL> -w <Wordlist> -X .php,.txt
+dirb <URL> -w <Wordlist> -X ".php,.txt"
 ```
 
 #### Buscando desde un listado de extensiones
@@ -40,9 +40,24 @@ dirb <URL> -w <Wordlist> -R
 dirb <URL> -w <Wordlist> -a <AgentString>
 ```
 
+#### Fuzzing a una URL y usar un proxy
+```
+dirb <URL> -p <URL-Proxy[:port]>
+```
+
+#### Fuzzing a una URL, usando una Cookie
+```
+dirb <URL> -c <Cookie-String>
+```
+
 #### Fuzzing a una URL y usando Autenticación HTTP
 ```
 dirb <URL> -w <Wordlist> -u <Username:Password>
+```
+
+#### Fuzzing a una URL y usar un encabezado personalizado
+```
+dirb <URL> -H <Header-String>
 ```
 
 ---
