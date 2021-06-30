@@ -21,6 +21,8 @@
 ### Host Discovery
 
 - `-sP`: Escaneo con Ping 
+- `-sL`: No escanear. Listar solamente objetivos
+- `-sn`: Deshabilitar Escaneo de puertos (ping sweep)
 - `-PS`: Escaneo TCP SYN ping
 - `-PA`: Escaneo TCP ACK ping
 - `-PU`: Escaneo UDP ping
@@ -30,10 +32,8 @@
 - `-PP`: Escaneo ICMP timestamp ping
 - `-PM`: Escaneo ICMP address mask ping
 - `-PO`: Escaneo IP Protocol ping
-- `-sL`: No escanear. Listar solamente objetivos
-- `-sn`: Deshabilitar Escaneo de puertos (ping sweep)
-- `-n`: No resolución DNS
 - `-PN`: No hacer ping
+- `-n`: No resolución DNS
 
 ### Scan options
 
@@ -74,6 +74,7 @@
 - `-A`: Detección de SO, version, script de escaneo y traceroute
 - `-O`: Detección de SO
 - `-O --osscan-guess`: Detección de OS manera agresivo
+- `-O --osscan-limit`: Limitar la detección del OS
 
 ### Timing
 
@@ -143,6 +144,7 @@
 - *Puerto filtrado*: - Un firewall (cortafuegos) bloquea el acceso al puerto
 - *Puerto cerrado*: - El puerto no está bloqueado pero no hay ninguna aplicación escuchando en él
 - *Puerto abierto*: - El puerto no está bloqueado y hay una aplicación escuchando en él
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
