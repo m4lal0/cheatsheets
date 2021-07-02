@@ -44,6 +44,12 @@ enum4linux -u <User> -p <Password> -i <IP-Address>
 ```
 enum4linux -u <User> -p <Password> -a <IP-Address>
 ```
+
+#### Adivinar por Fuerza Bruta los nombres de los recursos compartidos
+```
+enum4linux -s /usr/share/enum4linux/share-list.txt <IP-Address>
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
