@@ -57,6 +57,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Reverse-Shell](hacking/reverse-shell)
 - [Searchsploit](hacking/searchsploit)
 - [Shodan](hacking/shodan)
+- [SMBclient](hacking/smbclient)
 - [SSLscan](hacking/sslscan)
 - [Steghide](hacking/steghide)
 - [SQLMap](hacking/sqlmap)
