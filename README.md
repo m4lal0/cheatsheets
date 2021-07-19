@@ -61,6 +61,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [SMBclient](hacking/smbclient)
 - [SSLscan](hacking/sslscan)
 - [Steghide](hacking/steghide)
+- [SMBServer](hacking/smbserver)
 - [SQLMap](hacking/sqlmap)
 - [TCPdump](hacking/tcpdump)
 - [TheHarvester](hacking/theharvester)
