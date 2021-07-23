@@ -57,6 +57,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Responder](hacking/responder)
 - [Reverse-Shell](hacking/reverse-shell)
 - [Samrdump](hacking/samrdump)
+- [SCP](hacking/scp)
 - [Searchsploit](hacking/searchsploit)
 - [Shodan](hacking/shodan)
 - [SMBclient](hacking/smbclient)
