@@ -29,7 +29,10 @@
 | **`version`**      | Muestra la versión de Metasploit       |
 | **`msfupdate`**      | Obtener la actualización semanal       |
 | **`search <keyword>`**      | Busca los exploits con la palabra clave dada       |
+| **`connect`**      | Conexión a un host remoto con un clon de Netcat       |
+| **`grep <keyword> search <keyword>`**      | El comando grep es similar al grep de Linux       |
 | **`back`**      | Salir del contexto actual en ejecución (exploit o module)       |
+| **`save`**      | Guardar tu entorno y configuración actual       |
 
 ### Configuración de Modulos (Exploits/Auxiliary/Payloads)
 | Comando| Uso                    |
@@ -60,6 +63,7 @@
 | **`background`** ó <kbd>ctrl</kbd> + <kbd>z</kbd>      | Enviar la sesión acutal a background       |
 | **`jobs`**      | Módulos que se encuentran en ejecución en "background", permite listar y terminar comandos existentes       |
 | **`jobs -k <job-id>`**      | Eliminar un job       |
+| **`kill <job-id>`**      | Eliminar un job       |
 
 
 ---
