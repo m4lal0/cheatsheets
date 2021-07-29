@@ -56,6 +56,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Recon-ng](hacking/recon-ng)
 - [Responder](hacking/responder)
 - [Reverse-Shell](hacking/reverse-shell)
+- [RPCClient](hacking/rpcclient)
 - [Samrdump](hacking/samrdump)
 - [SCP](hacking/scp)
 - [Searchsploit](hacking/searchsploit)
