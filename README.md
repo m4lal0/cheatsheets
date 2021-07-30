@@ -85,6 +85,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [cURL](tools/curl)
 - [Git](tools/git)
 - [HTTP-Codes](tools/http-codes)
+- [Linux CLI](tools/linux-cli)
 - [Puertos Comunes](tools/puertos-comunes)
 - [Tmux](tools/tmux)
 - [Vim](tools/vim)
