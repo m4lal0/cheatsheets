@@ -21,6 +21,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [CeWL](hacking/cewl)
 - [Cipher](hacking/cipher)
 - [Cowpatty](hacking/cowpatty)
+- [CrackMapExec](hacking/crackmapexec)
 - [Crunch](hacking/crunch)
 - [CuPP](hacking/cupp)
 - [Dirb](hacking/dirb)
