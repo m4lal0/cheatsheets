@@ -72,6 +72,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [TheHarvester](hacking/theharvester)
 - [Uniscan](hacking/uniscan)
 - [Wafw00f](hacking/wafw00f)
+- [Weevely](hacking/weevely)
 - [Wevtutil](hacking/wevtutil)
 - [Wfuzz](hacking/wfuzz)
 - [Whatweb](hacking/whatweb)
