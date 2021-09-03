@@ -44,6 +44,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Metasploit-Framework](hacking/metasploit)
 - [Meterpreter](hacking/meterpreter)
 - [Msfvenom](hacking/msfvenom)
+- [Naabu](hacking/naabu)
 - [Netcat](hacking/netcat)
 - [NetDiscover](hacking/netdiscover)
 - [Nikto](hacking/nikto)
