@@ -16,6 +16,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Airmon-ng](hacking/airmon-ng)
 - [Airodump-ng](hacking/airodump-ng)
 - [ARPSpoof](hacking/arpspoof)
+- [Assetfinder](hacking/assetfinder)
 - [Auditpol](hacking/auditpol)
 - [BurpSuite](hacking/burpsuite)
 - [CeWL](hacking/cewl)
