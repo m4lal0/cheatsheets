@@ -74,6 +74,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [TCPdump](hacking/tcpdump)
 - [TheHarvester](hacking/theharvester)
 - [Uniscan](hacking/uniscan)
+- [URLBuster](hacking/urlbuster)
 - [Wafw00f](hacking/wafw00f)
 - [Weevely](hacking/weevely)
 - [Wevtutil](hacking/wevtutil)
