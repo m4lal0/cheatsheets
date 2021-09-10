@@ -31,6 +31,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [DNSRecon](hacking/dnsrecon)
 - [Enum4Linux](hacking/enum4linux)
 - [FeroxBuster](hacking/feroxbuster)
+- [ffuf](hacking/ffuf)
 - [Fping](hacking/fping)
 - [Gobuster](hacking/gobuster)
 - [Google Dorks](hacking/google)
