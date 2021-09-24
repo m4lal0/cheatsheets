@@ -48,6 +48,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Meterpreter](hacking/meterpreter)
 - [Msfvenom](hacking/msfvenom)
 - [Naabu](hacking/naabu)
+- [Nbtscan](hacking/nbtscan)
 - [Netcat](hacking/netcat)
 - [NetDiscover](hacking/netdiscover)
 - [Nikto](hacking/nikto)
