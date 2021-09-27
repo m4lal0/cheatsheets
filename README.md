@@ -69,6 +69,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Searchsploit](hacking/searchsploit)
 - [Shodan](hacking/shodan)
 - [SMBclient](hacking/smbclient)
+- [SMBmap](hacking/smbmap)
 - [SMBServer](hacking/smbserver)
 - [SQLMap](hacking/sqlmap)
 - [SSLscan](hacking/sslscan)
