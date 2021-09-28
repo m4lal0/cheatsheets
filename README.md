@@ -74,6 +74,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [SQLMap](hacking/sqlmap)
 - [SSLscan](hacking/sslscan)
 - [Steghide](hacking/steghide)
+- [Strings](hacking/strings)
 - [Subfinder](hacking/subfinder)
 - [Sublist3r](hacking/sublist3r)
 - [TCPdump](hacking/tcpdump)
