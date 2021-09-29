@@ -30,6 +30,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [DNSenum](hacking/dnsenum)
 - [DNSRecon](hacking/dnsrecon)
 - [Enum4Linux](hacking/enum4linux)
+- [Exiftool](hacking/exiftool)
 - [FcrackZIP](hacking/fcrackzip)
 - [FeroxBuster](hacking/feroxbuster)
 - [ffuf](hacking/ffuf)
