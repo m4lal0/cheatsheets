@@ -64,6 +64,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Responder](hacking/responder)
 - [Reverse-Shell](hacking/reverse-shell)
 - [RPCClient](hacking/rpcclient)
+- [Rustcat](hacking/rustcat)
 - [RustScan](hacking/rustscan)
 - [Samrdump](hacking/samrdump)
 - [SCP](hacking/scp)
