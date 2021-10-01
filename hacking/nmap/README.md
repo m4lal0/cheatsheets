@@ -145,6 +145,12 @@
 - *Puerto cerrado*: - El puerto no está bloqueado pero no hay ninguna aplicación escuchando en él
 - *Puerto abierto*: - El puerto no está bloqueado y hay una aplicación escuchando en él
 
+
+#### Escaneo agresivo
+```
+nmap -sS -n -Pn -p- --max-rtt-timeout 100ms --min-parallelism 1000 <IP-Address>
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
