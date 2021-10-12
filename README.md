@@ -59,6 +59,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Patator](hacking/patator)
 - [ps](hacking/ps)
 - [pwgen](hacking/pwgen)
+- [Pwncat](hacking/pwncat)
 - [Pyrit](hacking/pyrit)
 - [Recon-ng](hacking/recon-ng)
 - [Responder](hacking/responder)
