@@ -37,6 +37,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Fping](hacking/fping)
 - [Gobuster](hacking/gobuster)
 - [Google Dorks](hacking/google)
+- [Hashcat](hacking/hashcat)
 - [Hping3](hacking/hping3)
 - [Hydra](hacking/hydra)
 - [John](hacking/john)
