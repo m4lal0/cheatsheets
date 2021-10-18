@@ -99,12 +99,21 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <details>
 <summary>View cheatsheets</summary>
 
-- [cURL](tools/curl)
+#### Desarrollo
+
 - [Git](tools/git)
 - [HTTP-Codes](tools/http-codes)
-- [Linux CLI](tools/linux-cli)
-- [Puertos Comunes](tools/puertos-comunes)
 - [Tmux](tools/tmux)
 - [Vim](tools/vim)
+
+#### Infraestructura
+
+- [Cisco IOS](tools/cisco)
+- [Puertos Comunes](tools/puertos-comunes)
+
+#### Linux
+
+- [cURL](tools/curl)
+- [Linux CLI](tools/linux-cli)
 
 </details>
