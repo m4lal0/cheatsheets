@@ -6,91 +6,203 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 ## 📚 Contenido
 
-### 🛡️ Seguridad Informática y Herramientas Hacking
+### 🛡️ Seguridad Informática & Herramientas Hacking
 
 <details>
-<summary>View cheatsheets</summary>
+<summary>Ver cheatsheets</summary>
+
+<details>
+<summary>Recopilación de Información</summary>
+
+- [Recon-ng](hacking/recon-ng)
+
+#### Análisis de DNS
+
+- [DNSEnum](hacking/dnsenum)
+- [DNSRecon](hacking/dnsrecon)
+
+#### Análisis de Ruteo
+
+- [NetDiscover](hacking/netdiscover)
+
+#### Análisis OSINT
+
+- [Google Dorks](hacking/google)
+- [Metagoofil](hacking/metagoofil)
+- [OSRFramework](hacking/osrframework)
+- [Shodan](hacking/shodan)
+- [TheHarvester](hacking/theharvester)
+
+#### Análisis SMB
+
+- [Enum4Linux](hacking/enum4linux)
+- [Samrdump](hacking/samrdump)
+- [SMBclient](hacking/smbclient)
+- [SMBmap](hacking/smbmap)
+- [SMBserver](hacking/smbserver)
+
+#### Análisis SSL
+
+- [SSLscan](hacking/sslscan)
+
+#### Capturar Tráfico de Red
+
+- [P0f](hacking/p0f)
+- [TCPdump](hacking/tcpdump)
+
+#### Escáner de Redes
+
+- [Naabu](hacking/naabu)
+- [Nmap](hacking/nmap)
+- [RustScan](hacking/rustscan)
+
+#### Esteganografía
+
+- [Steghide](hacking/steghide)
+
+#### Herramientas para Metadatos
+
+- [Exiftool](hacking/exiftool)
+
+#### Identificación de Host en línea
+
+- [Fping](hacking/fping)
+- [Hping3](hacking/hping3)
+
+#### Identificación de IDS/IPS
+
+- [Wafw00f](hacking/wafw00f)
+
+</details>
+
+<details>
+<summary>Análisis de Aplicaciones Web</summary>
+
+#### Escáner de Vulnerabilidades Web
+
+- [Nikto](hacking/nikto)
+- [Whatweb](hacking/whatweb)
+
+#### Identificación de CMS
+
+- [JoomScan](hacking/joomscan)
+- [WPScan](hacking/wpscan)
+
+#### Identificación de Dominios Web
+
+- [Assetfinder](hacking/assetfinder)
+- [Subfinder](hacking/subfinder)
+- [Sublist3r](hacking/sublist3r)
+
+#### Idexadores Web
+
+- [Dirb](hacking/dirb)
+- [Dirsearch](hacking/dirsearch)
+- [FeroxBuster](hacking/feroxbuster)
+- [ffuf](hacking/ffuf)
+- [Gobuster](hacking/Gobuster)
+- [Uniscan](hacking/uniscan)
+- [URLBuster](hacking/urlbuster)
+- [Wfuzz](hacking/wfuzz)
+
+#### Proxies de Aplicaciones Web
+
+- [BurpSuite](hacking/burpsuite)
+
+</details>
+
+<details>
+<summary>Evaluación de Bases de Datos</summary>
+
+- [SQLMap](hacking/sqlmap)
+
+</details>
+
+<details>
+<summary>Ataques de Contraseñas</summary>
+
+#### Ataques con Conexión
+
+- [Hydra](hacking/hydra)
+- [Patator](hacking/patator)
+
+#### Atawues sin Conexión
+
+- [FcrackZIP](hacking/fcrackzip)
+- [Hashcat](hacking/hashcat)
+- [John](hacking/john)
+
+#### Generadores de Contraseñas y Diccionarios
+
+- [CeWL](hacking/cewl)
+- [Crunch](hacking/crunch)
+- [CuPP](hacking/cupp)
+- [pwgen](hacking/pwgen)
+
+</details>
+
+<details>
+<summary>Ataques Wireless</summary>
 
 - [Aircrack-ng](hacking/aircrack-ng)
 - [Aireplay-ng](hacking/aireplay-ng)
 - [Airmon-ng](hacking/airmon-ng)
 - [Airodump-ng](hacking/airodump-ng)
-- [ARPSpoof](hacking/arpspoof)
-- [Assetfinder](hacking/assetfinder)
-- [Auditpol](hacking/auditpol)
-- [BurpSuite](hacking/burpsuite)
-- [CeWL](hacking/cewl)
-- [Cipher](hacking/cipher)
 - [Cowpatty](hacking/cowpatty)
-- [CrackMapExec](hacking/crackmapexec)
-- [Crunch](hacking/crunch)
-- [CuPP](hacking/cupp)
-- [Dirb](hacking/dirb)
-- [Dirsearch](hacking/dirsearch)
-- [DNSenum](hacking/dnsenum)
-- [DNSRecon](hacking/dnsrecon)
-- [Enum4Linux](hacking/enum4linux)
-- [Exiftool](hacking/exiftool)
-- [FcrackZIP](hacking/fcrackzip)
-- [FeroxBuster](hacking/feroxbuster)
-- [ffuf](hacking/ffuf)
-- [Fping](hacking/fping)
-- [Gobuster](hacking/gobuster)
-- [Google Dorks](hacking/google)
-- [Hashcat](hacking/hashcat)
-- [Hping3](hacking/hping3)
-- [Hydra](hacking/hydra)
-- [John](hacking/john)
-- [JoomScan](hacking/joomscan)
-- [Macchanger](hacking/macchanger)
-- [Macof](hacking/macof)
-- [mdk4](hacking/mdk4)
-- [Metagoofil](hacking/metagoofil)
+- [Mdk4](hacking/mdk4)
+- [Pyrit](hacking/pyrit)
+
+</details>
+
+<details>
+<summary>Herramientas de Explotación</summary>
+
 - [Metasploit-Framework](hacking/metasploit)
 - [Meterpreter](hacking/meterpreter)
 - [Msfvenom](hacking/msfvenom)
-- [Naabu](hacking/naabu)
-- [Nbtscan](hacking/nbtscan)
-- [Netcat](hacking/netcat)
-- [NetDiscover](hacking/netdiscover)
-- [Nikto](hacking/nikto)
-- [Nmap](hacking/nmap)
-- [OSRFramework](hacking/osrframework)
-- [P0f](hacking/p0f)
-- [Patator](hacking/patator)
-- [ps](hacking/ps)
-- [pwgen](hacking/pwgen)
-- [Pwncat](hacking/pwncat)
-- [Pyrit](hacking/pyrit)
-- [Recon-ng](hacking/recon-ng)
-- [Responder](hacking/responder)
-- [Reverse-Shell](hacking/reverse-shell)
-- [RPCClient](hacking/rpcclient)
-- [Rustcat](hacking/rustcat)
-- [RustScan](hacking/rustscan)
-- [Samrdump](hacking/samrdump)
-- [SCP](hacking/scp)
 - [Searchsploit](hacking/searchsploit)
-- [Shodan](hacking/shodan)
-- [SMBclient](hacking/smbclient)
-- [SMBmap](hacking/smbmap)
-- [SMBServer](hacking/smbserver)
-- [SQLMap](hacking/sqlmap)
-- [SSLscan](hacking/sslscan)
-- [Steghide](hacking/steghide)
-- [Strings](hacking/strings)
-- [Subfinder](hacking/subfinder)
-- [Sublist3r](hacking/sublist3r)
-- [TCPdump](hacking/tcpdump)
-- [TheHarvester](hacking/theharvester)
-- [Uniscan](hacking/uniscan)
-- [URLBuster](hacking/urlbuster)
-- [Wafw00f](hacking/wafw00f)
+
+#### Reverse Shell
+
+- [Netcat](hacking/netcat)
+- [Pwncat](hacking/pwncat)
+- [Reverse-Shell](hacking/reverse-shell)
+- [Rustcat](hacking/rustcat)
+
+</details>
+
+<details>
+<summary>Sniffing, Spoofing & MiTM</summary>
+
+- [ARPSpoof](hacking/arpspoof)
+- [Macchanger](hacking/macchanger)
+- [Macof](hacking/macof)
+- [Responder](hacking/responder)
+- [Tshark](hacking/tshark)
+- [Wireshark](hacking/wireshark)
+
+</details>
+
+<details>
+<summary>Post Explotación</summary>
+
+#### Puertas Traseras para Web
+
 - [Weevely](hacking/weevely)
+
+</details>
+
+<details>
+<summary>Windows</summary>
+
+- [Auditpol](hacking/auditpol)
+- [Cipher](hacking/cipher)
+- [CMD](hacking/cmd)
+- [CrackMapExec](hacking/crackmapexec)
+- [RPCClient](hacking/rpcclient)
 - [Wevtutil](hacking/wevtutil)
-- [Wfuzz](hacking/wfuzz)
-- [Whatweb](hacking/whatweb)
-- [WPScan](hacking/wpscan)
+
+</details>
 
 </details>
 
@@ -114,6 +226,11 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 #### Linux
 
 - [cURL](tools/curl)
+- [FTP](hacking/ftp)
 - [Linux CLI](tools/linux-cli)
+- [Nbtscan](hacking/nbtscan)
+- [ps](hacking/ps)
+- [SCP](hacking/scp)
+- [Strings](hacking/strings)
 
 </details>
