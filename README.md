@@ -126,11 +126,12 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Hydra](hacking/hydra)
 - [Patator](hacking/patator)
 
-#### Atawues sin Conexión
+#### Ataques sin Conexión
 
 - [FcrackZIP](hacking/fcrackzip)
 - [Hashcat](hacking/hashcat)
 - [John](hacking/john)
+- [Sucrack](hacking/sucrack)
 
 #### Generadores de Contraseñas y Diccionarios
 
