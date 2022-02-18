@@ -93,6 +93,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Assetfinder](hacking/assetfinder)
 - [Subfinder](hacking/subfinder)
 - [Sublist3r](hacking/sublist3r)
+- [DNSMap](hacking/dnsmap)
 
 #### Idexadores Web
 
