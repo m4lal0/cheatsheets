@@ -32,6 +32,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [OSRFramework](hacking/osrframework)
 - [Shodan](hacking/shodan)
 - [TheHarvester](hacking/theharvester)
+- [URLCrazy](hacking/urlcrazy)
 
 #### Análisis SMB
 
