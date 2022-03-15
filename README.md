@@ -83,6 +83,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 #### Escáner de Vulnerabilidades Web
 
 - [Nikto](hacking/nikto)
+- [Skipfish](hacking/skipfish)
 - [Whatweb](hacking/whatweb)
 
 #### Identificación de CMS
