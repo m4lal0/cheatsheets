@@ -113,6 +113,10 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [BurpSuite](hacking/burpsuite)
 
+#### Clonador de sitios web
+
+- [httrack](hacking/httrack)
+
 </details>
 
 <details>
