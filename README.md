@@ -84,6 +84,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [Nikto](hacking/nikto)
 - [Skipfish](hacking/skipfish)
+- [Wapiti](hacking/wapiti)
 - [Whatweb](hacking/whatweb)
 
 #### Identificación de CMS
