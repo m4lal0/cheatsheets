@@ -45,6 +45,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 #### Análisis SSL
 
 - [SSLscan](hacking/sslscan)
+- [SSLyze](hacking/sslyze)
 
 #### Capturar Tráfico de Red
 
