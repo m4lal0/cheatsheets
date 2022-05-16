@@ -85,6 +85,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 #### Escáner de Vulnerabilidades Web
 
 - [Nikto](hacking/nikto)
+- [Nuclei](hacking/nuclei)
 - [Skipfish](hacking/skipfish)
 - [Wapiti](hacking/wapiti)
 - [Whatweb](hacking/whatweb)
