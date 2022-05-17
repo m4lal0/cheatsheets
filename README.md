@@ -108,7 +108,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Dirsearch](hacking/dirsearch)
 - [FeroxBuster](hacking/feroxbuster)
 - [ffuf](hacking/ffuf)
-- [Gobuster](hacking/Gobuster)
+- [Gobuster](hacking/gobuster)
 - [Uniscan](hacking/uniscan)
 - [URLBuster](hacking/urlbuster)
 - [Wfuzz](hacking/wfuzz)
