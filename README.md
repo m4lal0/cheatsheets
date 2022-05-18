@@ -154,7 +154,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [CuPP](hacking/cupp)
 - [pwgen](hacking/pwgen)
 
-#### Hashes Cifrar/Codificar
+#### Hashes Cifrar/Decifrar
 
 - [HashID](hacking/hashid)
 
@@ -197,8 +197,6 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Macchanger](hacking/macchanger)
 - [Macof](hacking/macof)
 - [Responder](hacking/responder)
-- [Tshark](hacking/tshark)
-- [Wireshark](hacking/wireshark)
 
 </details>
 
@@ -216,7 +214,6 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [Auditpol](hacking/auditpol)
 - [Cipher](hacking/cipher)
-- [CMD](hacking/cmd)
 - [CrackMapExec](hacking/crackmapexec)
 - [RPCClient](hacking/rpcclient)
 - [Wevtutil](hacking/wevtutil)
@@ -245,7 +242,6 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 #### Linux
 
 - [cURL](tools/curl)
-- [FTP](hacking/ftp)
 - [Linux CLI](tools/linux-cli)
 - [Nbtscan](hacking/nbtscan)
 - [ps](hacking/ps)
