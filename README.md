@@ -92,6 +92,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 #### Identificación de CMS
 
+- [DroopeScan](hacking/droopescan)
 - [JoomScan](hacking/joomscan)
 - [WPScan](hacking/wpscan)
 
