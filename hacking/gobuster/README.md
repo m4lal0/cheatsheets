@@ -42,6 +42,13 @@ gobuster dir --url <URL> -w <Wordlist> -x php,txt,js
 gobuster dir --url <URL> -w <Wordlist> -a <AgentString>
 ```
 
+## Modo: Enumerar Subdominios
+
+#### Obtener subdominios o enumeración de virtual hosting
+```
+gobuster vhost -u <URL> -w <Wordlist> -t 200
+```
+
 ## Modo: Subdominos DNS
 
 #### Fuerza bruta para obtener subdominios DNS de un dominio
