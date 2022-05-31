@@ -158,6 +158,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 #### Hashes Cifrar/Decifrar
 
 - [HashID](hacking/hashid)
+- [Name-That-Hash](hacking/name-that-hash)
 
 </details>
 
