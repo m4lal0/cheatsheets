@@ -1,8 +1,13 @@
 # Exiftool Cheat Sheet
 
-#### Listar todos los metadatos de una imagen/archivo
+#### Listar los metadatos de una imagen/archivo
 ```
 exiftool <File-or-Image>
+```
+
+#### Listar todos los metadatos de una imagen/archivo
+```
+exiftool -all <File-or-Image>
 ```
 
 #### Exportar los metadatos a un archivo HTML
@@ -23,6 +28,11 @@ exiftool -json <File-or-Image>
 #### Modificar algun metadato
 ```
 exiftool -overwrite_original <Metadata>="<String>" <File-or-Image>
+```
+
+#### Modificar todos los metadatos a valor NULL
+```
+exiftool -all:all=NULL <File-or-Image>
 ```
 
 ---
