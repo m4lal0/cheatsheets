@@ -244,6 +244,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 #### Linux
 
 - [cURL](tools/curl)
+- [File](tools/file)
 - [Linux CLI](tools/linux-cli)
 - [Nbtscan](hacking/nbtscan)
 - [ps](hacking/ps)
