@@ -58,6 +58,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 #### Escáner de Redes
 
+- [Masscan](hacking/masscan)
 - [Naabu](hacking/naabu)
 - [Nmap](hacking/nmap)
 - [RustScan](hacking/rustscan)
