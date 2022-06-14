@@ -34,6 +34,10 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [TheHarvester](hacking/theharvester)
 - [URLCrazy](hacking/urlcrazy)
 
+#### Análisis SNMP
+
+- [SNMPwalk](hacking/snmpwalk)
+
 #### Análisis SMB
 
 - [Enum4Linux](hacking/enum4linux)
