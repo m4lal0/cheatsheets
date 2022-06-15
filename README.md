@@ -252,6 +252,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [File](tools/file)
 - [Linux CLI](tools/linux-cli)
 - [Nbtscan](hacking/nbtscan)
+- [PDFtk](tools/pdftk)
 - [ps](hacking/ps)
 - [SCP](hacking/scp)
 - [Strings](hacking/strings)
