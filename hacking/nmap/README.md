@@ -51,6 +51,8 @@
 ### Service/Version Detection
 
 - `-sV`: Información de Servicio/Versión
+- `-sV --version-all`: Información de Servicio/Versión cuando correo en un puerto no estándar
+- `-sV --version-intensity 9`: Información de Servicio/Versión cuando correo en un puerto no estándar
 
 ### Input options
 
@@ -72,9 +74,9 @@
 ### OS detection
 
 - `-A`: Detección de SO, version, script de escaneo y traceroute
-- `-O`: Detección de SO
-- `-O --osscan-guess`: Detección de OS manera agresivo
-- `-O --osscan-limit`: Limitar la detección del OS
+- `-sV -O`: Detección de SO
+- `-sV -O --osscan-guess`: Detección de OS manera agresivo
+- `-sV -O --osscan-limit`: Limitar la detección del OS
 
 ### Timing
 
