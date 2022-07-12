@@ -45,6 +45,13 @@ ffuf -w <Wordlist> -o <Output> -u http://target/FUZZ
 ffuf -w <Wordlist> -b <Cookie> -u http://target/FUZZ
 ```
 
+#### Enumeración de subdominios
+```
+ffuf -w <Wordlist> -H "Host: FUZZ.target" -u http://target/ -fw18
+
+ffuf -w <Wordlist> -u "http://FUZZ.target"
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
