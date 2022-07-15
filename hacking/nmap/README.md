@@ -32,6 +32,7 @@
 - `-PP`: Escaneo ICMP timestamp ping
 - `-PM`: Escaneo ICMP address mask ping
 - `-PO`: Escaneo IP Protocol ping
+- `-PY`: Escaneo SCTP ping
 - `-PN`: No hacer ping
 - `-n`: No resolución DNS
 
