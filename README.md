@@ -229,6 +229,13 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 </details>
 
+<details>
+<summary>Mobile - Android</summary>
+
+- [APKTool](hacking/movil/apktool)
+
+</details>
+
 </details>
 
 ### 🔧 Herramientas
