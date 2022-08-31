@@ -5,17 +5,27 @@
 apktool d example.apk
 ```
 
-#### Evitar que el archivo classes.dex sea desensamblado.
+#### Decodificar y guardar con nombre personalizado.
+```
+apktool d example.apk -o Output
+```
+
+#### Decodificar y evitar que el archivo classes.dex sea desensamblado.
 ```
 apktool d -s example.apk
 ```
 
 #### Decodificar y eliminar si existe el directorio.
 ```
-apktool d example.apk -f
+apktool d -f example.apk
 ```
 
-#### Re-empacar una aplicación.
+#### Decodificar y mantener el archivo resources.arsc sin decodificación para sólo editar smali.
+```
+apktool d -r example.apk
+```
+
+#### Re-empacar una aplicación y guardar con nombre personalizado.
 ```
 apktool b Directroio_Aplicacion/ -o NewName.apk
 ```
