@@ -233,6 +233,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <summary>Mobile - Android</summary>
 
 - [APKTool](hacking/movil/apktool)
+- [Dex2Jar](hacking/movil/dex2jar)
 
 </details>
 
