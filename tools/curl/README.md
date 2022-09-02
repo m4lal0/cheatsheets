@@ -8,6 +8,7 @@ curl -v -X GET <URL>
 #### POST HTTP
 ```
 curl -v -X POST --data "<DATA>" <URL>
+curl -v -X POST --data "msg=whoami" <URL>
 ```
 
 #### Modo silencioso
