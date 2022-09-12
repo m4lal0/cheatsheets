@@ -235,6 +235,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [APKTool](hacking/movil/apktool)
 - [Dex2Jar](hacking/movil/dex2jar)
 - [Frida-ps](hacking/movil/frida-ps)
+- [Objection](hacking/movil/objection)
 - [Smali/BakSmali](hacking/movil/smali-baksmali)
 
 </details>
