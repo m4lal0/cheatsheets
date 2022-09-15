@@ -82,6 +82,11 @@ android hooking search classes <PACKAGE_NAME>
 android hooking search methods <PACKAGE_NAME> <CLASSES_NAME>
 ```
 
+#### Conectarse a una BD.
+```
+sqlite connect <BD_PATH>
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
