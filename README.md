@@ -240,6 +240,13 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 </details>
 
+<details>
+<summary>iOS</summary>
+
+- [idb](hacking/movil/idb)
+
+</details>
+
 </details>
 
 ### 🔧 Herramientas
