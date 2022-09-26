@@ -79,6 +79,16 @@ add pull /storage/0/emulated/FILE .
 add push /path/to/FILE /storage/0/emulated/
 ```
 
+#### Realizar un backup de una aplicación
+```
+add backup -apk <PACKAGE_NAME> -f backup.ab
+```
+
+#### Restaurar un backup
+```
+add restore backup.ab
+```
+
 #### Extraer un APK del dispositivio móvil
 ```
 add shell pm path <PACKAGE_NAME>
