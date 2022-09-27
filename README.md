@@ -232,6 +232,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <details>
 <summary>Mobile - Android</summary>
 
+- [Android-Backup-Extractor](hacking/movil/abe)
 - [ADB](hacking/movil/adb)
 - [APKTool](hacking/movil/apktool)
 - [Dex2Jar](hacking/movil/dex2jar)
