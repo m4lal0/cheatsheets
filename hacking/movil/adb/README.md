@@ -1,5 +1,8 @@
 # Android Debug Bridge (adb) Cheat Sheet
 
+
+## Básicos
+
 #### Iniciar servicio ADB
 ```
 adb start-server
@@ -35,10 +38,28 @@ adb connect <HOST>:<PORT>
 adb disconnect <HOST>:<PORT>
 ```
 
-#### Forward en puertos
+#### Entrar a la shell
 ```
-adb forward tcp:<PORT> tcp:<OTHER-PORT>
+add shell
 ```
+
+#### Usar comando con privilegio root
+```
+adb shell “su -c <COMMAND> “
+```
+
+#### Conexión a la shell del dispositivo de acuerdo a su ID
+```
+adb -s <ID> shell
+```
+
+#### Conexión a la shell del dispositivo de acuerdo a su IP y puerto
+```
+adb -H <IP> -P <PORT> shell
+```
+
+
+## Instalación de paquetes
 
 #### Instalar un APK al dispositivo
 ```
@@ -55,19 +76,8 @@ adb -r install <APP-NAME>
 adb uninstall <APP-NAME>
 ```
 
-#### Concer el ID del proceso de una aplicación
-```
-adb shell pidof <PACKAGE_NAME>
-```
 
-#### Mostrar el log del dispositivo
-```
-adb logcat
-adb logcat | grep '<SHEARCH>'
-adb logcat | grep <PROCESS_ID>
-adb logcat > log.txt
-adb logcat -s TAG
-```
+## Operaciones con archivos
 
 #### Extraer un archivo del móvil a tu máquina
 ```
@@ -79,77 +89,8 @@ add pull /storage/0/emulated/FILE .
 add push /path/to/FILE /storage/0/emulated/
 ```
 
-#### Realizar un backup de una aplicación
-```
-add backup -apk <PACKAGE_NAME> -f backup.ab
-```
 
-#### Restaurar un backup
-```
-add restore backup.ab
-```
-
-#### Extraer un APK del dispositivio móvil
-```
-add shell pm path <PACKAGE_NAME>
-adb pull /data/app/<PACKAGE_NAME>/base.apk
-```
-
-#### Enviar pulsaciones de teclado al dispositivo
-```
-adb shell input <text|keyevent>
-```
-
-#### Entrar a la shell
-```
-add shell
-```
-
-#### Conexión a la shell del dispositivo de acuerdo a su ID
-```
-adb -s <ID> shell
-```
-
-#### Conexión a la shell del dispositivo de acuerdo a su IP y puerto
-```
-adb -H <IP> -P <PORT> shell
-```
-
-#### Mostrar los paquetes que tenga instaldo el dispositivo
-```
-adb shell 'pm list packages -f'
-adb shell 'pm list packages -f | grep PACKAGES'
-```
-
-#### Mostrar listado de todos los paquetes instadlos en el equipo
-```
-adb shell pm list packages
-```
-
-#### Mostrar listado de todas las apps del sistema instalados
-```
-adb shell pm list packages -s
-```
-
-#### Mostrar listado de todas las apps de terceros instalados
-```
-adb shell pm list packages -3
-```
-
-#### Listar la ruta de los archivos de una aplicación
-```
-adb shell pm path <PACKAGE_NAME>
-```
-
-#### Borrar la data de una aplicación
-```
-adb shell pm clear <PACKAGE_NAME>
-```
-
-#### Usar comando con privilegio root
-```
-adb shell “su -c <COMMAND> “
-```
+## Información del Móvil
 
 #### Mostrar información sobre CPU
 ```
@@ -209,6 +150,85 @@ adb shell dumpsys activity services <PACKAGE_NAME>
 #### Extraer la información acerca de una aplicación
 ```
 adb shell dumpsys package <PACKAGE_NAME>
+```
+
+
+## Información de Paquetes
+
+#### Extraer un APK del dispositivio móvil
+```
+add shell pm path <PACKAGE_NAME>
+adb pull /data/app/<PACKAGE_NAME>/base.apk
+```
+
+#### Mostrar los paquetes que tenga instaldo el dispositivo
+```
+adb shell 'pm list packages -f'
+adb shell 'pm list packages -f | grep PACKAGES'
+```
+
+#### Mostrar listado de todos los paquetes instadlos en el equipo
+```
+adb shell pm list packages
+```
+
+#### Mostrar listado de todas las apps del sistema instalados
+```
+adb shell pm list packages -s
+```
+
+#### Mostrar listado de todas las apps de terceros instalados
+```
+adb shell pm list packages -3
+```
+
+#### Listar la ruta de los archivos de una aplicación
+```
+adb shell pm path <PACKAGE_NAME>
+```
+
+#### Borrar la data de una aplicación
+```
+adb shell pm clear <PACKAGE_NAME>
+```
+
+## Logs
+
+#### Concer el ID del proceso de una aplicación
+```
+adb shell pidof <PACKAGE_NAME>
+```
+
+#### Mostrar el log del dispositivo
+```
+adb logcat
+adb logcat | grep '<SHEARCH>'
+adb logcat | grep <PROCESS_ID>
+adb logcat > log.txt
+adb logcat -s TAG
+```
+
+
+## Comandos al dispositivo
+
+#### Forward en puertos
+```
+adb forward tcp:<PORT> tcp:<OTHER-PORT>
+```
+
+#### Realizar un backup de una aplicación
+```
+add backup -apk <PACKAGE_NAME> -f backup.ab
+```
+
+#### Restaurar un backup
+```
+add restore backup.ab
+```
+
+#### Enviar pulsaciones de teclado al dispositivo
+```
+adb shell input <text|keyevent>
 ```
 
 #### Iniciar un Activity
