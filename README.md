@@ -278,5 +278,6 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [ps](hacking/ps)
 - [SCP](hacking/scp)
 - [Strings](hacking/strings)
+- [wget](tools/wget)
 
 </details>
