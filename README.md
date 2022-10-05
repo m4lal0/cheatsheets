@@ -277,6 +277,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [PDFtk](tools/pdftk)
 - [ps](hacking/ps)
 - [SCP](hacking/scp)
+- [SSH](tools/ssh)
 - [Strings](hacking/strings)
 - [wget](tools/wget)
 
