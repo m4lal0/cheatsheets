@@ -122,6 +122,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [FeroxBuster](hacking/feroxbuster)
 - [ffuf](hacking/ffuf)
 - [Gobuster](hacking/gobuster)
+- [GoSpider](hacking/gospider)
 - [Uniscan](hacking/uniscan)
 - [URLBuster](hacking/urlbuster)
 - [Wfuzz](hacking/wfuzz)
