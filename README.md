@@ -91,6 +91,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 #### Escáner de Vulnerabilidades Web
 
+- [DalFox](hacking/dalfox)
 - [Nikto](hacking/nikto)
 - [Nuclei](hacking/nuclei)
 - [Skipfish](hacking/skipfish)
