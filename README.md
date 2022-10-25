@@ -97,6 +97,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Skipfish](hacking/skipfish)
 - [Wapiti](hacking/wapiti)
 - [Whatweb](hacking/whatweb)
+- [XSStrike](hacking/xsstrike)
 
 #### Identificación de CMS
 
