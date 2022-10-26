@@ -64,6 +64,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Naabu](hacking/naabu)
 - [Nmap](hacking/nmap)
 - [RustScan](hacking/rustscan)
+- [Smap](hacking/smap)
 
 #### Esteganografía
 
