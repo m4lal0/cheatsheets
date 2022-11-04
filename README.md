@@ -282,6 +282,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [cURL](tools/curl)
 - [File](tools/file)
+- [Grep](tools/grep)
 - [Linux CLI](tools/linux-cli)
 - [Nbtscan](hacking/nbtscan)
 - [PDFtk](tools/pdftk)
