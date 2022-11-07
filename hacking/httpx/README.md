@@ -50,6 +50,11 @@ httpx -silent -probe -fc 404,503 -list <HOST.txt>
 httpx -silent -probe -nf -list <HOST.txt>
 ```
 
+#### Port Scan, Probe and Directory Brute Force
+```
+cat <DOMAINS> | httpx -nc -silent -p 80,443,8080,8443,9000,9001,9002,9003 -path <WORDLIST> -fc 400,404,403 -title -content-length -ip -status-code -server
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
