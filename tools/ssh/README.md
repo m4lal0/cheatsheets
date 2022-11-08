@@ -25,6 +25,15 @@ ssh -D <PORT> <USERNAME>@<HOST>
 ssh <USERNAME>@<HOST> -N -f -L <LOCAL-PORT>:<TARGET-HOST>:<TARGET-PORT>
 ```
 
+#### SSH ocultando nuestra conexión
+```
+ssh -o UserKnownHostsFile=/dev/null -T <USERNAME>@<HOST> 'bash -i'
+
+Su usuario
+- no se añade a /var/log/utmp
+- no aparece en w o who cmd
+- no tiene .profile o .bash_profile
+```
 
 ### Configuraciones
 
