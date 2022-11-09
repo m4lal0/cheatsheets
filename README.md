@@ -118,18 +118,20 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [httpx](hacking/httpx)
 
-#### Idexadores Web
+#### Directory/Fuzzing
 
-- [Arjun](hacking/arjun)
 - [Dirb](hacking/dirb)
 - [Dirsearch](hacking/dirsearch)
 - [FeroxBuster](hacking/feroxbuster)
 - [ffuf](hacking/ffuf)
 - [Gobuster](hacking/gobuster)
-- [GoSpider](hacking/gospider)
 - [Uniscan](hacking/uniscan)
 - [URLBuster](hacking/urlbuster)
 - [Wfuzz](hacking/wfuzz)
+
+#### Idexadores Web
+- [Arjun](hacking/arjun)
+- [GoSpider](hacking/gospider)
 
 #### Proxies de Aplicaciones Web
 
