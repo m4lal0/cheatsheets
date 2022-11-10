@@ -66,6 +66,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Nmap](hacking/nmap)
 - [RustScan](hacking/rustscan)
 - [Smap](hacking/smap)
+- [Zmap](hacking/zmap)
 
 #### Esteganografía
 
