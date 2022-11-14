@@ -133,6 +133,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 #### Idexadores Web
 - [Arjun](hacking/arjun)
 - [GoSpider](hacking/gospider)
+- [Hakrawler](hacking/hakrawler)
 - [Katana](hacking/katana)
 
 #### Proxies de Aplicaciones Web
