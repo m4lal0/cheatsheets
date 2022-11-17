@@ -135,6 +135,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [GoSpider](hacking/gospider)
 - [Hakrawler](hacking/hakrawler)
 - [Katana](hacking/katana)
+- [Waybackurls](hacking/waybackurls)
 
 #### Proxies de Aplicaciones Web
 
