@@ -42,11 +42,19 @@
 
 #### Escanear Puertos TCP
 
-- `nc -nvz <IPAddress> <Port-Range>`: Escanear la IP del host con el rango de puertos.
+Linux:
+- `nc -nvz -w 1 <IPAddress> <Port-Range>`: Escanear la IP del host con el rango de puertos.
+
+MacOS:
+- `nc -nvz -w 1 -G 1 <IPAddress> <Port-Range>`: Escanear la IP del host con el rango de puertos.
 
 #### Escanear Puertos UDP
 
-- `nc -nvzu <IPAddress> <Port-Range>`: Escanear la IP del host con el rango de puertos.
+Linux:
+- `nc -nvzu -w 1 <IPAddress> <Port-Range>`: Escanear la IP del host con el rango de puertos.
+
+MacOS:
+- `nc -nvzu -w 1 -G 1 <IPAddress> <Port-Range>`: Escanear la IP del host con el rango de puertos.
 
 #### Banner Grabbing
 
