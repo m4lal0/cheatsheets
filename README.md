@@ -99,13 +99,14 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Nuclei](hacking/nuclei)
 - [Skipfish](hacking/skipfish)
 - [Wapiti](hacking/wapiti)
-- [Whatweb](hacking/whatweb)
 - [XSStrike](hacking/xsstrike)
 
-#### Identificación de CMS
+#### Identificación de CMS & Tecnologías
 
 - [DroopeScan](hacking/droopescan)
 - [JoomScan](hacking/joomscan)
+- [Webanalyze](hacking/webanalyze)
+- [Whatweb](hacking/whatweb)
 - [WPScan](hacking/wpscan)
 
 #### Identificación de Dominios Web
