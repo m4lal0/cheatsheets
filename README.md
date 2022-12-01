@@ -132,7 +132,9 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Wfuzz](hacking/wfuzz)
 
 #### Idexadores Web
+
 - [Arjun](hacking/arjun)
+- [Dirhunt](hacking/dirhunt)
 - [GoSpider](hacking/gospider)
 - [Hakrawler](hacking/hakrawler)
 - [Katana](hacking/katana)
