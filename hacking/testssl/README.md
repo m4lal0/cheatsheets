@@ -1,5 +1,15 @@
 # TestSSL Cheat Sheet
 
+#### Escaneo general de SSL 
+```
+testssl.sh <HOST|HOST:PORT|URL|URL:PORT>
+```
+
+#### Escaneo general de SSL usando el binario de OpenSSL desde otra dirección
+```
+testssl.sh --openssl=/usr/bin/openssl <HOST|HOST:PORT|URL|URL:PORT>
+```
+
 #### Escaneo general de SSL y guardar el resultado en un archivo HTML
 ```
 testssl.sh --htmlfile <REPORT.html> <HOST|HOST:PORT|URL|URL:PORT>
