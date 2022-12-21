@@ -34,7 +34,7 @@ gobuster dir --url <URL> -w <Wordlist> -r
 
 #### Buscar por extensiones
 ```
-gobuster dir --url <URL> -w <Wordlist> -x php,txt,js
+gobuster dir --url <URL> -w <Wordlist> -x txt,php,sh,cgi,html,zip,bak,sql,old,js
 ```
 
 #### Fuzzing a una URL y definir un User-Agent
