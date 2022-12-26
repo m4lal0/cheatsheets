@@ -25,6 +25,11 @@ ssh -D <PORT> <USERNAME>@<HOST>
 ssh <USERNAME>@<HOST> -N -f -L <LOCAL-PORT>:<TARGET-HOST>:<TARGET-PORT>
 ```
 
+#### SSH evita que se dañe el archivo Host de su equipo
+```
+ssh -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no" <USERNAME>@<HOST> -p <PORT>
+```
+
 #### SSH ocultando nuestra conexión
 ```
 ssh -o UserKnownHostsFile=/dev/null -T <USERNAME>@<HOST> 'bash -i'
