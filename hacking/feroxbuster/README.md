@@ -5,9 +5,9 @@
 feroxbuster -u <URL> -w <Wordlist> -t <Threads> -o <Output>
 ```
 
-### Fuzzing web con follow redirect y no mostrar códigos en 404 y 403
+### Fuzzing web con follow redirect y no mostrar códigos en 404 y 500, con profundidad de 2
 ```
-feroxbuster -u <URL> -w <Wordlist> -t <Threads> -C 404,403 -r -o <Output>
+feroxbuster -u <URL> -w <Wordlist> -t <Threads> -C 404,500 -r --depth 2 -o <Output>
 ```
 
 ### Fuzzing web con follow redirect y mostrar solo con código en 200 y 301
