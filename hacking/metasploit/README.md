@@ -29,6 +29,7 @@
 | **`version`**      | Muestra la versión de Metasploit       |
 | **`msfupdate`**      | Obtener la actualización semanal       |
 | **`search <keyword>`**      | Busca los exploits con la palabra clave dada       |
+| **`search type:auxiliary <keyword>`**      | Buscar solo módulos auxiliares de la palabra clave dada       |
 | **`connect`**      | Conexión a un host remoto con un clon de Netcat       |
 | **`grep <keyword> search <keyword>`**      | El comando grep es similar al grep de Linux       |
 | **`back`**      | Salir del contexto actual en ejecución (exploit o module)       |
@@ -44,6 +45,7 @@
 | **`show advanced`**      | Muestra las opciones avanzadas del exploit seleccionado       |
 | **`set <option> <settings>`**      | Establecer la configuración deseada       |
 | **`unset <option> <settings>`**      | Elimina el valor actual de una variable del exploit o módulo en uso       |
+| **`unset all`**      | Elimina todos los valores actuales de las variables del exploit o módulo en uso       |
 | **`set payload <payload>`**      | Configurar el payload a usar       |
 | **`setg <option> <settings>`**      | Define variables globales que serán empleadas por todos los modulos o exploits cargados       |
 | **`unsetg <option> <settings>`**      | Elimina la variable global       |
