@@ -50,6 +50,11 @@ ffuf -c -w <Wordlist> -o <Output> -u http://target/FUZZ
 ffuf -c -w <Wordlist> -b <Cookie> -u http://target/FUZZ
 ```
 
+#### Fuzzing a cookies
+```
+ffuf -c -w <Wordlist-Sessions> -b PHPSESSID=FUZZ -u http://target/
+```
+
 #### Enumeración de subdominios
 ```
 ffuf -c -w <Wordlist> -H "Host: FUZZ.target" -u http://target/ -fw18 -r
