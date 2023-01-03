@@ -30,6 +30,11 @@ wfuzz -c -t 400 --hl=170 -w /Directorio/de/Wordlist http://Target/FUZZ
 wfuzz -c -t 400 --hc=404 -w /Directorio/de/Wordlist -w extensions.txt http://target/FUZZ.FUZ2Z
 ```
 
+#### Fuzzing a Cookie
+```
+wfuzz -c -w /Directorio/de/Wordlist-Sessions -b PHPSESSID=FUZZ http://target/
+```
+
 #### Cambiar User-Agent
 ```
 wfuzz -c -H " User-Agent: Google Chrome" -t 400 --hc=404 -w /Directorio/de/Wordlist http://target/FUZZ
