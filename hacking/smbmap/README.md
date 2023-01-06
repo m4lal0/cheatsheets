@@ -1,5 +1,15 @@
 # SMBmap Cheat Sheet
 
+#### Enumerar en un Host
+```
+smbmap -H <IP-Address>
+```
+
+#### Enumerar un Host colocando un usuario null
+```
+smbmap -u 'null' -H <IP-Address>
+```
+
 #### Comprueba si hay recursos compartidos en el host especificado con el nombre de usuario y la contraseña proporcionados
 ```
 smbmap -u <Username> -p <Password> -H <IP-Address>
