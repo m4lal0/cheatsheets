@@ -109,7 +109,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Whatweb](hacking/whatweb)
 - [WPScan](hacking/wpscan)
 
-#### Identificación de Dominios Web
+#### Identificación de Dominios y Subdominios Web
 
 - [Assetfinder](hacking/assetfinder)
 - [Subfinder](hacking/subfinder)
@@ -133,13 +133,16 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 #### Idexadores Web
 
-- [Arjun](hacking/arjun)
 - [Dirhunt](hacking/dirhunt)
 - [GoSpider](hacking/gospider)
 - [Hakrawler](hacking/hakrawler)
 - [Katana](hacking/katana)
 - [Meg](hacking/meg)
 - [Waybackurls](hacking/waybackurls)
+
+#### Identificación de parámetros
+
+- [Arjun](hacking/arjun)
 
 #### Proxies de Aplicaciones Web
 
