@@ -30,6 +30,11 @@ wfuzz -c -t 400 --hl=170 -w /Directorio/de/Wordlist http://Target/FUZZ
 wfuzz -c -t 400 --hc=404 -w /Directorio/de/Wordlist -w extensions.txt http://target/FUZZ.FUZ2Z
 ```
 
+#### Doble Payload para Fuzzing de extensiones, especificando las extensiones a buscar (sh,pl,cgi)
+```
+wfuzz -c -t 200 --hc=404 -w /Directorio/de/Wordlist -z list,sh-pl-cgi http://target/FUZZ.FUZ2Z
+```
+
 #### Fuzzing a Cookie
 ```
 wfuzz -c -w /Directorio/de/Wordlist-Sessions -b PHPSESSID=FUZZ http://target/
