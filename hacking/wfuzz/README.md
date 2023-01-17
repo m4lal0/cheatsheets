@@ -50,6 +50,11 @@ wfuzz -c -H " User-Agent: Google Chrome" -t 400 --hc=404 -w /Directorio/de/Wordl
 wfuzz -c --h=429 -w /Directorio/de/Wordlist -d 'usuario=FUZZ&password=test' http://target/login.php
 ```
 
+#### Fuzzing SSRF
+```
+wfuzz -c -z range,1-65535 -d 'formurl=http://localhost:FUZZ+-s&sumbit=Go' http://target/exposed.php
+```
+
 #### Enumerar subdominios
 ```
 wfuzz -c -t 200 -w /usr/share/seclists/Directory/DNS/subdomains-top1million-5000.txt -H "Host: FUZZ.target" http://target
