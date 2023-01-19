@@ -144,6 +144,10 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [Arjun](hacking/arjun)
 
+#### Identificación de encabezados de seguridad HTTP
+
+- [shCheck](hacking/shcheck)
+
 #### Proxies de Aplicaciones Web
 
 - [BurpSuite](hacking/burpsuite)
