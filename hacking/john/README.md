@@ -9,17 +9,17 @@ john --test
 
 #### Para usar una lista de palabras
 ```
-john --worlist=<Wordlist> <PasswordFile>
+john --wordlist=<WORDLIST> <PASSWORD_FILE>
 ```
 
 #### Modo incremental (Brute Force)
 ```
-john --incremental <hashfile>
+john --incremental <HASH_FILE>
 ```
 
 #### Usar una wordlist y una regla
 ```
-john --worlist=<Wordlist> <PasswordFile> --rules=<RulesName>
+john --wordlist=<WORDLIST> <PASSWORD_FILE> --rules=<RULES_NAME>
 ```
 
 #### Mostrar el listado de formatos que se pueden usar
@@ -29,19 +29,19 @@ john --list=formats
 
 #### Forzar hash a un tipo de formato (Ejemplo formato NT)
 ```
-john --format=NT <hashfile>
+john --format=NT <HASH_FILE>
 ```
 
 #### Mostrar resultados después de ejecutar John
 ```
-john --show <hashfile>
+john --show <HASH_FILE>
 ```
 
 ## Sesión y Restauración
 
 #### Restaurar una sesión de John interrumpida
 ```
-john --restore:<name>
+john --restore:<NAME>
 ```
 
 ## Reglas
