@@ -25,6 +25,11 @@ ffuf -c -w <Wordlist> -e php,txt,sh,zip,html,bak,cgi,sql,old -u http://target/FU
 ffuf -c -w <Wordlist> -mc 200,301 -u http://target/FUZZ
 ```
 
+#### Fuzzing web y no mostrar páginas con código 404
+```
+ffuf -c -w <Wordlist> -fc 404 -u http://target/FUZZ
+```
+
 #### Fuzzing web, filtrando solamente páginas con código 200 y 301 y realizando follow redirects
 ```
 ffuf -c -w <Wordlist> -mc 200,301 -r -u http://target/FUZZ
