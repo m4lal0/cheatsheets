@@ -95,6 +95,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 #### Escáner de Vulnerabilidades Web
 
 - [CorsMe](hacking/corsme)
+- [Corsy](hacking/corsy)
 - [DalFox](hacking/dalfox)
 - [Nikto](hacking/nikto)
 - [Nuclei](hacking/nuclei)
