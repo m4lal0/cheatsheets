@@ -94,6 +94,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 #### Escáner de Vulnerabilidades Web
 
+- [Bolt](hacking/bolt)
 - [CorsMe](hacking/corsme)
 - [Corsy](hacking/corsy)
 - [DalFox](hacking/dalfox)
