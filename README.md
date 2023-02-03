@@ -179,6 +179,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 #### Ataques sin Conexión
 
 - [FcrackZIP](hacking/fcrackzip)
+- [Hash-Buster](hacking/hash-buster)
 - [Hashcat](hacking/hashcat)
 - [John](hacking/john)
 - [NCrack](hacking/ncrack)
