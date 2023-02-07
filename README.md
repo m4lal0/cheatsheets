@@ -100,6 +100,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [DalFox](hacking/dalfox)
 - [Nikto](hacking/nikto)
 - [Nuclei](hacking/nuclei)
+- [Parth](hacking/parth)
 - [Skipfish](hacking/skipfish)
 - [Wapiti](hacking/wapiti)
 - [XSStrike](hacking/xsstrike)
