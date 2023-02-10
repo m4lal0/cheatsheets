@@ -10,6 +10,11 @@ exiftool <File-or-Image>
 exiftool -all <File-or-Image>
 ```
 
+#### Mostrar información de los metadatos
+```
+exiftool info <File-or-Image>
+```
+
 #### Exportar los metadatos a un archivo HTML
 ```
 exiftool -h <File-or-Image> > file.html
