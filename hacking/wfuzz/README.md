@@ -65,6 +65,11 @@ wfuzz -c -z range,1-65535 -d 'formurl=http://localhost:FUZZ+-s&sumbit=Go' http:/
 wfuzz -c -t 200 -w /usr/share/seclists/Directory/DNS/subdomains-top1million-5000.txt -H "Host: FUZZ.target" http://target
 ```
 
+#### Fuzzing párametros
+```
+wfuzz -c -t 200 --hc=404 -H "Cookie: PHPSESSID=83432jhbrh32sa32" -w /Directorio/de/Wordlist http://target/dir?FUZZ=
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
