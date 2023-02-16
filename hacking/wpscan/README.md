@@ -2,72 +2,77 @@
 
 #### Uso Básico
 ```
-wpscan --url <Target> -v
+wpscan --url <URL-TARGET> -v
 ```
 
 #### Uso Básico y ocultar el banner de inicio
 ```
-wpscan --url <Target> -v --no-banner
+wpscan --url <URL-TARGET> -v --no-banner
 ```
 
 #### Escaneo Rápido
 ```
-wpscan --url <Target> --threads 8
+wpscan --url <URL-TARGET> --threads 8
 ```
 
 #### Guardar el resultado en un archivo
 ```
-wpscan --url <Target> -o <FileName>
+wpscan --url <URL-TARGET> -o <FileName>
 ```
 
 #### Enumerar plugins, usuarios, temas, timthumbs
 ```
-wpscan --url <Target> --enumerate vp,u,vt,tt
+wpscan --url <URL-TARGET> --enumerate vp,u,vt,tt
 ```
 
 #### Enumerar plugins usando nuestro API Token; Donde API Token lo pueden obtener desde https://wpvulndb.com/users/sign_up
 ```
-wpscan --api-token <API-Token> --url <Target> --plugins-detection aggressive --enumerate vp
+wpscan --api-token <API-Token> --url <URL-TARGET> --plugins-detection aggressive --enumerate vp
 ```
 
 #### Enumerar todos los plugins
 ```
-wpscan --url <Target> --enumerate ap
+wpscan --url <URL-TARGET> --enumerate ap
+```
+
+#### Usar User-Agent random
+```
+wpscan --url <URL-TARGET> --rua
 ```
 
 #### Usar un HTTP proxy
 ```
-wpscan --url <Target> --proxy IP:PORT
+wpscan --url <URL-TARGET> --proxy IP:PORT
 ```
 
 #### Usar un SOCKS5 proxy (necesita cURL >= v7.21.7)
 ```
-wpscan --url <Target> --proxy socks5://IP:PORT
+wpscan --url <URL-TARGET> --proxy socks5://IP:PORT
 ```
 
 #### Deshabilitar la verificación del certificado SSL/TLS 
 ```
-wpscan --url <Target> --disable-tls-checks --enumerate vp,u -o <FileName>
+wpscan --url <URL-TARGET> --disable-tls-checks --enumerate vp,u -o <FileName>
 ```
 
 #### Autenticación básica HTTP 
 ```
-wpscan --url <Target> --basic-auth <Username:Password>
+wpscan --url <URL-TARGET> --basic-auth <Username:Password>
 ```
 
 #### Fuerza Bruta para el inicio de sesión
 ```
-wpscan --url <Target> --passwords <Wordlist-Password> --usernames <Wordlist-UserName>
+wpscan --url <URL-TARGET> --passwords <Wordlist-Password> --usernames <Wordlist-UserName>
 ```
 
 #### Proporcionar cookie para sesiones autenticadas
 ```
-wpscan --url <Target> --cookie <Cookie>
+wpscan --url <URL-TARGET> --cookie <Cookie>
 ```
 
 #### Escaneo Agresivo
 ```
-wpscan --url <Target> --enumerate ap --plugins-detection mixed
+wpscan --url <URL-TARGET> --enumerate ap --plugins-detection mixed
 ```
 
 ---
