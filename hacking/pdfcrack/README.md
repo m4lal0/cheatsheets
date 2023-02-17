@@ -5,6 +5,11 @@
 pdfcrack -f <File>
 ```
 
+#### Fuerza bruta a un archivo PDF usando un WordList
+```
+pdfcrack -f <File> -w <WORDLIST>
+```
+
 #### Fuerza bruta usando alguna palabra y números que contiene el password
 ```
 pdfcrack -f <File> -c coche1234
