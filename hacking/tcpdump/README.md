@@ -10,6 +10,11 @@ tcpdump -D
 tcpdump -i eth0 -w filename.cap -v
 ```
 
+#### Capturar paquetes ICMP
+```
+tcpdump -i eth0 icmp -n
+```
+
 #### Captura de paquetes con salida más detallada
 ```
 tcpdump -i eth0 -nnvvS
