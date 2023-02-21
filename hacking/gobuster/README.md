@@ -7,6 +7,11 @@
 gobuster dir --url <URL> -w <Wordlist>
 ```
 
+#### Fuzzing a una URL, usando una wordlist especifica y agregando un slash al final
+```
+gobuster dir --url <URL> -w <Wordlist> --add-slash
+```
+
 #### Fuzzing a una URL, usando una wordlist especifica y guardar el resultado en un archivo
 ```
 gobuster dir --url <URL> -w <Wordlist> -o <FileName>
