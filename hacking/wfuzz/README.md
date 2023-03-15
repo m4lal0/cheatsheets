@@ -62,12 +62,17 @@ wfuzz -c -z range,1-65535 -d 'formurl=http://localhost:FUZZ+-s&sumbit=Go' http:/
 
 #### Enumerar subdominios
 ```
-wfuzz -c -t 200 -w /usr/share/seclists/Directory/DNS/subdomains-top1million-5000.txt -H "Host: FUZZ.target" http://target
+wfuzz -c -t 200 --hc=301 -w /usr/share/seclists/Directory/DNS/subdomains-top1million-5000.txt -H "Host: FUZZ.target" http://target
 ```
 
 #### Fuzzing párametros
 ```
-wfuzz -c -t 200 --hc=404 -H "Cookie: PHPSESSID=83432jhbrh32sa32" -w /Directorio/de/Wordlist http://target/dir?FUZZ=
+wfuzz -c -t 200 --hc=404 -H "Cookie: PHPSESSID=83432jhbrh32sa32" -w /usr/share/wordlists/seclists/Discovery/Web-Content/burp-parameter-names.txt http://target/dir?FUZZ=
+```
+
+#### Fuzzing para plugins WordPress
+```
+wfuzz -c -t 200 --hc=404 -w /usr/share/wordlists/seclists/Discovery/Web-Content/CMS/wp-plugins.fuzz.txt http://target/FUZZ
 ```
 
 ---
