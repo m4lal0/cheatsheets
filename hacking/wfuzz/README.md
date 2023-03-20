@@ -62,7 +62,7 @@ wfuzz -c -z range,1-65535 -d 'formurl=http://localhost:FUZZ+-s&sumbit=Go' http:/
 
 #### Enumerar subdominios
 ```
-wfuzz -c -t 200 --hc=301 -w /usr/share/seclists/Directory/DNS/subdomains-top1million-5000.txt -H "Host: FUZZ.target" http://target
+wfuzz -c -t 200 --hc=301 -w /usr/share/wordlists/seclists/Directory/DNS/subdomains-top1million-5000.txt -H "Host: FUZZ.target" http://target
 ```
 
 #### Fuzzing párametros
