@@ -260,9 +260,15 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [Auditpol](hacking/auditpol)
 - [Cipher](hacking/cipher)
+- [Wevtutil](hacking/wevtutil)
+
+</details>
+
+<details>
+<summary>Active Directory</summary>
+
 - [CrackMapExec](hacking/crackmapexec)
 - [RPCClient](hacking/rpcclient)
-- [Wevtutil](hacking/wevtutil)
 
 </details>
 
