@@ -2,42 +2,52 @@
 
 #### Acceso con Null Session
 ```
-rpcclient -U "" <IP-Address> -N
+rpcclient -U "" <IP-TARGET> -N
+```
+
+#### Acceso con autenticación
+```
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -N
 ```
 
 #### Enumerar los Dominios
 ```
-rpclcient -U "username%password" <IP-Address> -c "enumdomains"
+rpclcient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c "enumdomains"
 ```
 
 #### Enumerar los usuarios del AD
 ```
-rpcclient -U "username%password" <IP-Address> -c 'enumdomusers'
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'enumdomusers'
 ```
 
 #### Enumerar los grupos del AD
 ```
-rpcclient -U "username%password" <IP-Address> -c 'enumdomgroups'
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'enumdomgroups'
 ```
 
 #### Mostrar los datos y descripción de un usuario
 ```
-rpcclient -U "username%password" <IP-Address> -c 'queryuser <user>'
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'queryuser <user>'
 ```
 
 #### Enumerar los usuarios que son de un 'rid' grupo en especifico del Dominio
 ```
-rpcclient -U "username%password" <IP-Address> -c 'querygroupmem 0x200'
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'querygroupmem 0x200'
 ```
 
 #### Mostrar la información de un usuario por su 'rid'
 ```
-rpcclient -U "username%password" <IP-Address> -c 'queryuser 0x1f4'
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'queryuser 0x1f4'
+```
+
+#### Mostrar la descripción de todos los usuarios
+```
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'querydispinfo'
 ```
 
 #### Crear un usuario del AD (Teniendo los privilegios necesarios)
 ```
-rpclient -U "username%password" <IP-Address>
+rpclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET>
 rpcclient> createdomuser <username>
 rpcclient> setuserinfo2 <username> 24 <password>
 rpcclient> enumdomusers
@@ -45,22 +55,22 @@ rpcclient> enumdomusers
 
 #### Eliminar un usuario del AD
 ```
-rpcclient -U "username%password" <IP-Address> -c 'deletedomuser <user>'
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'deletedomuser <user>'
 ```
 
 #### Enumerar los recursos compartidos
 ```
-rpcclient -U "username%password" <IP-Address> -c 'netshareenum'
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'netshareenum'
 ```
 
 #### Crear un Grupo de Dominio
 ```
-rpcclient -U "username%password" <IP-Address> -c 'createdomgroup <newgroup>'
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'createdomgroup <newgroup>'
 ```
 
 #### Eliminar un Grupo de Dominio
 ```
-rpcclient -U "username%password" <IP-Address> -c 'deletedomgroup <group>"
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'deletedomgroup <group>"
 ```
 
 ---
