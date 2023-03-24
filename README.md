@@ -269,6 +269,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <summary>Active Directory</summary>
 
 - [CrackMapExec](hacking/crackmapexec)
+- [LDAPDomainDump](hacking/ldapdomaindump)
 - [RPCClient](hacking/rpcclient)
 
 </details>
