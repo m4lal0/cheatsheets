@@ -170,6 +170,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <summary>Evaluación de Bases de Datos</summary>
 
 - [SQLMap](hacking/sqlmap)
+- [MSSQLClient](hacking/mssqlclient)
 
 </details>
 
