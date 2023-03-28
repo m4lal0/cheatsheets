@@ -270,6 +270,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [CrackMapExec](hacking/crackmapexec)
 - [LDAPDomainDump](hacking/ldapdomaindump)
+- [LDAPSearch](hacking/ldapsearch)
 - [RPCClient](hacking/rpcclient)
 
 </details>
