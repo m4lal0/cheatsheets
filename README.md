@@ -269,6 +269,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <summary>Active Directory</summary>
 
 - [CrackMapExec](hacking/crackmapexec)
+- [Kerbrute](hacking/kerbrute)
 - [LDAPDomainDump](hacking/ldapdomaindump)
 - [LDAPSearch](hacking/ldapsearch)
 - [RPCClient](hacking/rpcclient)
