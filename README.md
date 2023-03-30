@@ -272,6 +272,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Kerbrute](hacking/kerbrute)
 - [LDAPDomainDump](hacking/ldapdomaindump)
 - [LDAPSearch](hacking/ldapsearch)
+- [LookupSID](hacking/lookupsid)
 - [RPCClient](hacking/rpcclient)
 
 </details>
