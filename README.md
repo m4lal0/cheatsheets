@@ -274,6 +274,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [LDAPSearch](hacking/ldapsearch)
 - [LookupSID](hacking/lookupsid)
 - [RPCClient](hacking/rpcclient)
+- [SecretsDump](hacking/secretsdump)
 
 </details>
 
