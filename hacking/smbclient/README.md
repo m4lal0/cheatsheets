@@ -21,6 +21,11 @@ smbclient //10.130.40.80/C$ -N
 smbclient \\\\10.130.40.80\\WorkSharing -N
 ```
 
+#### Acceder a directorio usando un Hash NTLM
+```
+smbclient //10.10.129.140/Users -U '<USER>' --password='<NTLM-HASH' --pw-nt-hash
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
