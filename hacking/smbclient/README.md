@@ -23,6 +23,11 @@ smbclient \\\\10.130.40.80\\WorkSharing -N
 
 #### Acceder a directorio usando un Hash NTLM
 ```
+smbclient \\\\10.130.40.80\\WorkSharing -U '<USER>' --pw-nt-hash '<NTLM-HASH>'
+```
+
+#### Acceder a directorio usando un Hash NTLM
+```
 smbclient //10.10.129.140/Users -U '<USER>' --password='<NTLM-HASH' --pw-nt-hash
 ```
 
