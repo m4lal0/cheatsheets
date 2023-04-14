@@ -274,6 +274,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [LDAPDomainDump](hacking/ldapdomaindump)
 - [LDAPSearch](hacking/ldapsearch)
 - [LookupSID](hacking/lookupsid)
+- [PTH-WinExe](hacking/pth-winexe)
 - [RPCClient](hacking/rpcclient)
 - [SecretsDump](hacking/secretsdump)
 
