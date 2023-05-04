@@ -18,7 +18,7 @@ evil-winrm -i <IP-TARGET> -c <CERTIFICATE.pem> -k <PRIVATE-KEY.pem> -S -u '<USER
 
 #### Descargar un archivo dentro de sesión evil-winrm
 ```
-Evil-WinRM> download <FILE>
+Evil-WinRM> download C:\PATH\<FILE>
 ```
 
 #### Cargar un archivo dentro de sesión evil-winrm
