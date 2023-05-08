@@ -55,6 +55,11 @@ httpx -silent -probe -nf -list <HOST.txt>
 cat <DOMAINS> | httpx -nc -silent -p 80,443,8080,8443,9000,9001,9002,9003 -path <WORDLIST> -fc 400,404,403 -title -content-length -ip -status-code -server
 ```
 
+#### Obtener un screenshot del sitio web
+```
+httpx -u <URL> -screenshot
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
