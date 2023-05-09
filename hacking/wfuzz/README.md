@@ -10,6 +10,11 @@ wfuzz -c -t 400 --hc=404 -w /Directorio/de/Wordlist http://Target/FUZZ
 wfuzz -c -L -t 400 --hc=404 -w /Directorio/de/Wordlist http://Target/FUZZ
 ```
 
+#### Usar Follow redirect para códigos 301 y guardar los resultado
+```
+wfuzz -c -L -t 400 --hc=404 -f <OUTPUT> -w /Directorio/de/Wordlist http://Target/FUZZ
+```
+
 #### Mostrar directorios con código 200
 ```
 wfuzz -c -t 400 --sc=200 -w /Directorio/de/Wordlist http://Target/FUZZ
