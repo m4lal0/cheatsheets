@@ -35,6 +35,16 @@ crackmapexec smb 192.168.1.0/24 -u '<USERNAME>' -p '<PASSWORD>'
 crackmapexec smb <IP-Address> -u 'null' -p ' ' --shares
 ```
 
+#### Mostrar el contenido de un directorio compartido en SMB con credenciales
+```
+crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --spider <DIRECTORY-NAME> --regex .
+```
+
+#### Descargar un archivo de un directorio compartido
+```
+crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --share <DIRECTORY-NAME> --get-file <FIEL-NAME> <OUTPUT-NAME>
+```
+
 #### Brute Force de usuarios
 ```
 crackmapexec smb <IP> -u 'guest' -p '' --rid-brute
@@ -70,7 +80,7 @@ crackmapexec smb <IP-Address> -u '<USERNAME>' -H '<HASH>' --local-auth
 crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --laps
 ```
 
-#### Fuerza bruta a Kerberos
+#### Fuerza bruta para Autenticación a Kerberos
 ```
 crackmapexec smb <IP-Address> -u users.txt -p '' --kerberos
 ```
