@@ -65,6 +65,16 @@ hashcat -m 13100 <HASH-FILE> /usr/share/wordlists/rockyou.txt -r /usr/share/hash
 hashcat -m 1000 <HASH-FILE> rockyou.txt
 ```
 
+#### Ataque por Diccionario a Net-NTLMv2 (Responder SMB)
+```
+hashcat -m 5600 <HASH-FILE> rockyou.txt
+```
+
+#### Ataque por Diccionario a KeePass
+```
+hashcat -m 13400 <HASH-FILE> /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/rockyou-30000.rule --force
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
