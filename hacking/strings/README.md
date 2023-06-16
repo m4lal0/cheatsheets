@@ -20,6 +20,11 @@ strings -w <File>
 strings -f /bin/*
 ```
 
+#### Extraer las cadenas de texto de un archivo binario mostrando el codificado a 16 bits
+```
+strings -e l /bin/*
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
