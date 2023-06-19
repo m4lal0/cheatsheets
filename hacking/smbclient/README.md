@@ -31,6 +31,11 @@ smbclient \\\\10.130.40.80\\WorkSharing -U '<USER>' --pw-nt-hash '<NTLM-HASH>'
 smbclient //10.10.129.140/Users -U '<USER>' --password='<NTLM-HASH' --pw-nt-hash
 ```
 
+### Listar carpetas compartidas colocando un protocolo
+```
+smbclient -L <IP-ADDRESS> -N --option 'client min protocol = NT1'
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
