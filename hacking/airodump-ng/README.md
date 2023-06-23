@@ -2,27 +2,32 @@
 
 #### Mostrar un listado de puntos de acceso wifi que detecta nuestra interfaz
 ```
-airodump-ng <Interface>
+airodump-ng <INTERFACE>
 ```
 
 #### Mostrar un punto de acceso especifico y sus clientes conectado (si los hay); con tener el BSSID y canal del AP.
 ```
-airodump-ng --bssid <BSSID-AP> -c <Channel-AP> <Interface>
+airodump-ng --bssid <BSSID-AP> -c <CHANNEL-AP> <INTERFACE>
 ```
 
 #### Mostrar un punto de acceso especifico y sus clientes conectado (si los hay); con tener el ESSID y canal del AP.
 ```
-airodump-ng --essid <ESSID-AP> -c <Channel-AP> <Interface>
+airodump-ng --essid <ESSID-AP> -c <CHANNEL-AP> <INTERFACE>
 ```
 
 #### Mostrar un punto de acceso especifico y sus clientes conectado (si los hay); con tener el BSSID, ESSID y canal del AP.
 ```
-airodump-ng --bssid <BSSID-AP> --essid <ESSID-AP> -c <Channel-AP> <Interface>
+airodump-ng --bssid <BSSID-AP> --essid <ESSID-AP> -c <CHANNEL-AP> <INTERFACE>
 ```
 
-#### Guardar las evidencias de un punto de acceso en especifico en un archivo CSV.
+#### Guardar las evidencias de un punto de acceso en especifico en sus diferentes extensiones.
 ```
-airodump-ng --bssid <BSSID-AP> --essid <ESSID-AP> -c <Channel-AP> -w <FileName> <Interface>
+airodump-ng --bssid <BSSID-AP> --essid <ESSID-AP> -c <CHANNEL-AP> -w <OUTPUT-NAME> <INTERFACE>
+```
+
+#### Guardar las evidencias de un punto de acceso en especifico en solamente extensiones CSV y PCAP.
+```
+airodump-ng --bssid <BSSID-AP> --essid <ESSID-AP> -c <CHANNEL-AP> -w <OUTPUT-NAME> --output-format csv,pcap <INTERFACE>
 ```
 
 ---
