@@ -10,7 +10,7 @@ crunch 1 2 0123456789 -o <FileName>
 crunch 2 5 asdf12345 -o <FileName>
 ```
 
-#### Crear una Wordlist donde el objetivo elegido usa la palabra 'pass' más 2 dígitos para sus contraseñas
+#### Crear una Wordlist donde el objetivo elegido usa la palabra 'pass' más 2 dígitos númericos para sus contraseñas
 ```
 crunch 6 6 -t pass%% -o <FileName>
 ```
@@ -29,6 +29,20 @@ crunch 2 3 /usr/share/rainbowcrack/charset.txt -o <FileName>
 ```
 crunch 1 10 -p Hello m4lal0 Users
 ```
+
+### Generar una combinación de palabras y al final colocar 2 digitos númericos.
+```
+crunch 5 5 -t ddd%% -p dog cat bird
+```
+
+---
+
+| OPCION |  USO |
+|:----------:|:----------|
+| %    | Usar caracteres en minúsculas o caracteres de un conjunto definido.   |
+| @    | Caracteres en mayúsculas.   |
+| ,    | Caracteres en números.   |
+| ^    | Caracteres con símbolos.   |
 
 ---
 
