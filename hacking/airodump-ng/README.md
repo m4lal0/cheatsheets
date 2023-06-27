@@ -30,6 +30,11 @@ airodump-ng --bssid <BSSID-AP> --essid <ESSID-AP> -c <CHANNEL-AP> -w <OUTPUT-NAM
 airodump-ng --bssid <BSSID-AP> --essid <ESSID-AP> -c <CHANNEL-AP> -w <OUTPUT-NAME> --output-format csv,pcap <INTERFACE>
 ```
 
+#### Mostrar un listado de puntos de acceso wifi que detecta nuestra interfaz e información WPS si la hay.
+```
+airodump-ng -w <OUTPUT-NAME> --wps <INTERFACE>
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
