@@ -1,5 +1,10 @@
 # Hashcat Cheat Sheet
 
+#### Muestra las especificaciones de los dispositivos instalados de nuestro sistema e indica que OpenCL está configurado correctamente 
+```
+hashcat -I
+```
+
 #### Ataque por Diccionario para MD5
 ```
 hashcat -a 0 -m 0 <HASH-FILE> <WORDLIST>
