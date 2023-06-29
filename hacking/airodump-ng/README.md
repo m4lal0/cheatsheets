@@ -35,6 +35,16 @@ airodump-ng --bssid <BSSID-AP> --essid <ESSID-AP> -c <CHANNEL-AP> -w <OUTPUT-NAM
 airodump-ng -w <OUTPUT-NAME> --wps <INTERFACE>
 ```
 
+#### Mostrar un listado de puntos de acceso wifi en banda 2.4GHz y 5GHz.
+```
+airodump-ng -w <OUTPUT-NAME> --band abg <INTERFACE>
+```
+
+#### Mostrar un listado de puntos de acceso wifi junto con su fabricante.
+```
+airodump-ng -w <OUTPUT-NAME> --manufacturer <INTERFACE>
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
