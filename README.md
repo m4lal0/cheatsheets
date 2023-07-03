@@ -201,6 +201,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Crunch](hacking/crunch)
 - [CuPP](hacking/cupp)
 - [pwgen](hacking/pwgen)
+- [RSMangler](hacking/rsmangler)
 
 #### Hashes Cifrar/Decifrar
 
