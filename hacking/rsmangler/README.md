@@ -10,7 +10,7 @@ rsmangler --file <INPUT-FILE>
 rsmangler --file <INPUT-FILE> --output <OUTPUT>
 ```
 
-### Crear una Wordlist a traves de un archivo de palabras, con un minimo y máximo de longitud de las palabras
+#### Crear una Wordlist a traves de un archivo de palabras, con un minimo y máximo de longitud de las palabras
 ```
 rsmangler --file <INPUT-FILE> --min 12 --max 13
 ```
