@@ -240,6 +240,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Pwncat-cs](hacking/pwncat-cs)
 - [Reverse-Shell](hacking/reverse-shell)
 - [Rustcat](hacking/rustcat)
+- [Sbd](hacking/sbd)
 
 </details>
 
