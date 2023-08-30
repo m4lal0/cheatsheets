@@ -235,6 +235,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 #### Reverse Shell
 
+- [Dbd](hacking/dbd)
 - [Netcat](hacking/netcat)
 - [Pwncat](hacking/pwncat)
 - [Pwncat-cs](hacking/pwncat-cs)
