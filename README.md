@@ -154,6 +154,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 #### Identificación de encabezados de seguridad HTTP
 
+- [Humble](hacking/humble)
 - [shCheck](hacking/shcheck)
 
 #### Proxies de Aplicaciones Web
