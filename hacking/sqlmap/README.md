@@ -96,7 +96,7 @@ sqlmap -u "<URL>" -p <PARAMETER> --cookie="name:value" --threads=2 --no-cast -A 
 
 #### MSSQL
 ```
---tamper=between,charencode,charunicodeencode,equaltolike,greatest,multiplespaces,nonrecursivereplacement,percentage,randomcase,securesphere,sp_password,space2comment,space2dash,space2mssqlblank,space2mysqldash,space2plus,space2randomblank,unionalltounion,unmagicquotes
+--tamper=between,charencode,charunicodeencode,equaltolike,greatest,multiplespaces,percentage,randomcase,sp_password,space2comment,space2dash,space2mssqlblank,space2mysqldash,space2plus,space2randomblank,unionalltounion,unmagicquotes
 ```
 
 #### MySQL
@@ -113,6 +113,15 @@ sqlmap -u "<URL>" -p <PARAMETER> --cookie="name:value" --threads=2 --no-cast -A 
 ```
 --tamper=space2plus,unionalltounion.unmagicquotes,xforwardedfor,ifnull2ifisnull,randomcase,securesphere,space2comment,space2dashmmultiplespaces,nonrecursivereplacement 
 ```
+
+## Techniques
+
+- ``` B ```: Boolean-based blind
+- ``` E ```: Error-based
+- ``` U ```: Union query-based
+- ``` S ```: Stacked queries
+- ``` T ```: Time-based blind
+- ``` Q ```: Inline queries
 
 ---
 
