@@ -146,6 +146,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Hakrawler](hacking/hakrawler)
 - [Katana](hacking/katana)
 - [Meg](hacking/meg)
+- [Parsero](hacking/parsero)
 - [Waybackurls](hacking/waybackurls)
 
 #### Identificación de parámetros
