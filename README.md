@@ -152,6 +152,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 #### Identificación de parámetros
 
 - [Arjun](hacking/arjun)
+- [Paramspider](hacking/paramspider)
 
 #### Identificación de encabezados de seguridad HTTP
 
