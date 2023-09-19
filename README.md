@@ -280,6 +280,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [Auditpol](hacking/auditpol)
 - [Cipher](hacking/cipher)
+- [Mimikatz](hacking/mimikatz)
 - [Wevtutil](hacking/wevtutil)
 
 </details>
