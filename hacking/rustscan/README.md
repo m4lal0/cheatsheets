@@ -5,6 +5,11 @@
 rustscan -a <IP-Address>
 ```
 
+#### Mostrar solo los puertos abiertos en modo grepeable
+```
+rustscan -a <IP-Address> -u 5000 -g
+```
+
 #### Obtener todos los puertos abiertos, la cantidad de puertos analizados por segundo sea de 500 y el limite de archivo sea de 5000
 ```
 rustscan -b 500 -a <IP-Address> -u 5000
