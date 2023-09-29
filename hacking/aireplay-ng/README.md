@@ -1,5 +1,10 @@
 # Aireplay-ng Cheat Sheet
 
+#### Pruebas de inyección y calidad
+```
+aireplay-ng --test <INTERFACE>
+```
+
 #### Deautenticación dirigida
 ```
 aireplay-ng -0 10 -a <BSSID-AP> -c <CLIENT-MAC> <INTERFACE>
