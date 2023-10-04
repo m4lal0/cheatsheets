@@ -221,6 +221,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <summary>Ataques Wireless</summary>
 
 - [Aircrack-ng](hacking/aircrack-ng)
+- [Airdecap-ng](hacking/airdecap-ng)
 - [Aireplay-ng](hacking/aireplay-ng)
 - [Airmon-ng](hacking/airmon-ng)
 - [Airodump-ng](hacking/airodump-ng)
