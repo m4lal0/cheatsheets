@@ -321,6 +321,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <summary>Mobile - iOS</summary>
 
 - [idb](hacking/movil/idb)
+- [ipatool](hacking/movil/ipatool)
 
 </details>
 
