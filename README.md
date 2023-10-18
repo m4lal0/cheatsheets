@@ -274,6 +274,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [Chisel](hacking/chisel)
 - [Ligolo-ng](hacking/ligolo-ng)
+- [Plink](hacking/plink)
 - [Socat](hacking/socat)
 
 #### Puertas Traseras para Web
