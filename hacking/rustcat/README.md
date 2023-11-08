@@ -2,22 +2,22 @@
 
 #### Ponerse en escucha en un puerto
 ```
-rc -lp <Port>
+rc -lp <PORT>
 ```
 
 #### Ponerse en escucha en un puerto y poder usar el comando de history
 ```
-rc -lpH <Port>
+rc -lpH <PORT>
 ```
 
 #### Ponerse en escucha en un puerto UDP
 ```
-rc -lpu <Port>
+rc -lpu <PORT>
 ```
 
 #### Ponerse en escucha en un puerto especificando la IP del host
 ```
-rc -l <IP-Address> <Port>
+rc -l <IP-ADDRRESS> <PORT>
 ```
 
 ---
