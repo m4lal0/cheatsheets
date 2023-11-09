@@ -39,6 +39,11 @@ dalfox url <URL> --mining-dict-word=<WORDLIST_PATH>
 dalfox url <URL> --remote-payloads portswigger,payloadbox
 ```
 
+#### Escaneo con método POST
+```
+dalfox url <URL> --waf-evasion -X POST -d "email=test&pwd=test" -p <PARAMETER>
+```
+
 #### Escaneo XSS desde una linea
 ```
 gospider -s <URL> -c 10 -d 5 --blacklist ".(jpg|jpeg|gif|css|tif|tiff|png|ttf|woff|woff2|ico|pdf|svg|txt)" --other-source | grep -e "code-200" | awk '{print $5}'| grep "=" | qsreplace -a | dalfox pipe | tee result.txt
