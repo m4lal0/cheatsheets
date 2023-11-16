@@ -254,6 +254,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Reverse-Shell](hacking/reverse-shell)
 - [Rustcat](hacking/rustcat)
 - [Sbd](hacking/sbd)
+- [SSHuttle](hacking/sshuttle)
 
 </details>
 
