@@ -249,6 +249,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [Dbd](hacking/dbd)
 - [Netcat](hacking/netcat)
+- [Powercat](hacking/powercat)
 - [Pwncat](hacking/pwncat)
 - [Pwncat-cs](hacking/pwncat-cs)
 - [Reverse-Shell](hacking/reverse-shell)
