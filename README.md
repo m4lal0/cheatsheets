@@ -290,7 +290,6 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [Auditpol](hacking/auditpol)
 - [Cipher](hacking/cipher)
-- [Mimikatz](hacking/mimikatz)
 - [Wevtutil](hacking/wevtutil)
 
 </details>
@@ -304,8 +303,10 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [LDAPDomainDump](hacking/ldapdomaindump)
 - [LDAPSearch](hacking/ldapsearch)
 - [LookupSID](hacking/lookupsid)
+- [Mimikatz](hacking/mimikatz)
 - [PTH-WinExe](hacking/pth-winexe)
 - [RPCClient](hacking/rpcclient)
+- [Rubeus](hacking/rubeus)
 - [SecretsDump](hacking/secretsdump)
 
 </details>
