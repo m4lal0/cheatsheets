@@ -25,6 +25,11 @@ echo <URL> | hakrawler -proxy http://localhost:8080
 echo <URL> | hakrawler -subs
 ```
 
+#### Crawling a un sitio web, mostrando resultados unicos y a una profundidad de 5
+```
+echo <URL> | hakrawler -d 5 -u -i
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
