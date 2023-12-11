@@ -311,6 +311,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [LDAPSearch](hacking/ldapsearch)
 - [LookupSID](hacking/lookupsid)
 - [Mimikatz](hacking/mimikatz)
+- [NetExec](hacking/netexec)
 - [PTH-WinExe](hacking/pth-winexe)
 - [RPCClient](hacking/rpcclient)
 - [Rubeus](hacking/rubeus)
