@@ -247,6 +247,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <details>
 <summary>Herramientas de Explotación</summary>
 
+- [Govenom](hacking/govenom)
 - [Metasploit-Framework](hacking/metasploit)
 - [Meterpreter](hacking/meterpreter)
 - [Msfvenom](hacking/msfvenom)
