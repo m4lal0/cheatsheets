@@ -98,6 +98,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 #### Escáner de Vulnerabilidades Web
 
+- [Afrog](hacking/afrog)
 - [Bolt](hacking/bolt)
 - [CorsMe](hacking/corsme)
 - [Corsy](hacking/corsy)
