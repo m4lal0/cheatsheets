@@ -112,6 +112,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 #### Identificación de CMS & Tecnologías
 
+- [CMSeeK](hacking/cmseek)
 - [DroopeScan](hacking/droopescan)
 - [JoomScan](hacking/joomscan)
 - [Webanalyze](hacking/webanalyze)
