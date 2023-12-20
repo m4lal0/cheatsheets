@@ -20,6 +20,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [DNSEnum](hacking/dnsenum)
 - [DNSRecon](hacking/dnsrecon)
+- [Fierce](hacking/fierce)
 
 #### Análisis de Ruteo
 
