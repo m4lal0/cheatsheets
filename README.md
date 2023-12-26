@@ -189,6 +189,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <details>
 <summary>Evaluación de Bases de Datos</summary>
 
+- [Ghauri](hacking/ghauri)
 - [SQLMap](hacking/sqlmap)
 - [MSSQLClient](hacking/mssqlclient)
 
