@@ -1,70 +1,70 @@
 # ffuf Cheat Sheet
 
-#### Fuzzing web usando una Wordlist
+#### Fuzzing web usando una WORDLIST
 ```
-ffuf -c -w <Wordlist> -u http://target/FUZZ
+ffuf -c -w <WORDLIST> -u http://target/FUZZ
 ```
 
 #### Fuzzing web con recursividad
 ```
-ffuf -c -w <Wordlist> -recursion -u http://target/FUZZ
+ffuf -c -w <WORDLIST> -recursion -u http://target/FUZZ
 ```
 
 #### Fuzzing web con más velocidad modificando el número de hilos a usar
 ```
-ffuf -c -w <Wordlist> -t 60 -u http://target/FUZZ
+ffuf -c -w <WORDLIST> -t 60 -u http://target/FUZZ
 ```
 
 #### Descubrir archivos con extensiones
 ```
-ffuf -c -w <Wordlist> -e php,txt,sh,zip,html,bak,cgi,sql,old -u http://target/FUZZ
+ffuf -c -w <WORDLIST> -e php,txt,sh,zip,html,bak,cgi,sql,old,git -u http://target/FUZZ
 ```
 
 #### Fuzzing web y filtrando solamente páginas con código 200 y 301
 ```
-ffuf -c -w <Wordlist> -mc 200,301 -u http://target/FUZZ
+ffuf -c -w <WORDLIST> -mc 200,301 -u http://target/FUZZ
 ```
 
 #### Fuzzing web y no mostrar páginas con código 404
 ```
-ffuf -c -w <Wordlist> -fc 404 -u http://target/FUZZ
+ffuf -c -w <WORDLIST> -fc 404 -u http://target/FUZZ
 ```
 
 #### Fuzzing web, filtrando solamente páginas con código 200 y 301 y realizando follow redirects
 ```
-ffuf -c -w <Wordlist> -mc 200,301 -r -u http://target/FUZZ
+ffuf -c -w <WORDLIST> -mc 200,301 -r -u http://target/FUZZ
 ```
 
 #### Fuzzing web y guardar el resultado en un archivo html
 ```
-ffuf -c -w <Wordlist> -o <Output> -of html -u http://target/FUZZ
+ffuf -c -w <WORDLIST> -o <OUTPUT> -of html -u http://target/FUZZ
 ```
 
 #### Fuzzing web y guardar el resultado en un archivo md
 ```
-ffuf -c -w <Wordlist> -o <Output> -of md -u http://target/FUZZ
+ffuf -c -w <WORDLIST> -o <OUTPUT> -of md -u http://target/FUZZ
 ```
 
 #### Fuzzing web y guardar el resultado en un archivo JSON
 ```
-ffuf -c -w <Wordlist> -o <Output> -u http://target/FUZZ
+ffuf -c -w <WORDLIST> -o <OUTPUT> -u http://target/FUZZ
 ```
 
 #### Fuzzing web usando una Cookie
 ```
-ffuf -c -w <Wordlist> -b <Cookie> -u http://target/FUZZ
+ffuf -c -w <WORDLIST> -b <COOKIE> -u http://target/FUZZ
 ```
 
 #### Fuzzing a cookies
 ```
-ffuf -c -w <Wordlist-Sessions> -b PHPSESSID=FUZZ -u http://target/
+ffuf -c -w <WORDLIST-SESSIONS> -b PHPSESSID=FUZZ -u http://target/
 ```
 
 #### Enumeración de subdominios
 ```
-ffuf -c -w <Wordlist> -H "Host: FUZZ.target" -u http://target/ -fw18 -r
+ffuf -c -w <WORDLIST> -H "Host: FUZZ.target" -u http://target/ -fw18 -r
 
-ffuf -c -w <Wordlist> -u "http://FUZZ.target"
+ffuf -c -w <WORDLIST> -u "http://FUZZ.target"
 ```
 
 ---
