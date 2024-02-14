@@ -5,6 +5,11 @@
 feroxbuster -u <URL> -w <WORDLIST> -t <THREADS> -o <OUTPUT>
 ```
 
+### Fuzzing web a un sitio con https y guardar el resultado en un archivo
+```
+feroxbuster -u <URL> -w <WORDLIST> -t <THREADS> -o <OUTPUT> -k
+```
+
 ### Fuzzing web con follow redirect y no mostrar códigos en 404 y 500, con profundidad de 2
 ```
 feroxbuster -u <URL> -w <WORDLIST> -t <THREADS> -C 404,500 -r --depth 2 -o <OUTPUT>
