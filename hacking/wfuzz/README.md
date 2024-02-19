@@ -1,5 +1,7 @@
 # Wfuzz Cheat Sheet
 
+### File Discovery
+
 #### Fuzzing a sitio web quitando código 404
 ```
 wfuzz -c -t 400 --hc=404 -w /Directorio/de/Wordlist http://Target/FUZZ
@@ -40,15 +42,43 @@ wfuzz -c -t 400 --hc=404 -w /Directorio/de/Wordlist -w extensions.txt http://tar
 wfuzz -c -t 200 --hc=404 -w /Directorio/de/Wordlist -z list,sh-pl-cgi http://target/FUZZ.FUZ2Z
 ```
 
-#### Fuzzing a Cookie
-```
-wfuzz -c -w /Directorio/de/Wordlist-Sessions -b PHPSESSID=FUZZ http://target/
-```
-
 #### Cambiar User-Agent
 ```
 wfuzz -c -H " User-Agent: Google Chrome" -t 400 --hc=404 -w /Directorio/de/Wordlist http://target/FUZZ
 ```
+
+#### Fuzzing para plugins WordPress
+```
+wfuzz -c -t 200 --hc=404 -w /usr/share/wordlists/seclists/Discovery/Web-Content/CMS/wp-plugins.fuzz.txt http://target/FUZZ
+```
+
+### Directory Discovery
+
+#### Busqueda de directorios y ocultando los resultados con codigo 404 y 301
+```
+wfuzz -c -z file,/usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-directories.txt --hc 404,301 "<URL>/FUZZ/"
+```
+
+### Parameter Discovery
+
+#### Fuzzing párametros en un directorio del sitio web
+```
+wfuzz -c -t 200 --hc=404 -H "Cookie: PHPSESSID=Value" -w /usr/share/wordlists/seclists/Discovery/Web-Content/burp-parameter-names.txt http://target/dir?FUZZ=
+```
+
+#### Fuzzing de parametros
+```
+wfuzz -c -z file,/usr/share/wordlists/seclists/Discovery/Web-Content/burp-parameter-names.txt --hc 404,301 "<URL>/FUZZ=data"
+```
+
+### Fuzzing Parameter Values
+
+#### Busqueda de Valores en un parametro
+```
+wfuzz -c --hh=40060 -z file,/usr/share/wordlists/seclists/Fuzzing/XSS-Fuzzing --hc 404,301 "<URL>/?xss=FUZZ"
+```
+
+### Fuzzing POST Data
 
 #### Fuzzing en Formulario
 ```
@@ -65,19 +95,18 @@ wfuzz -c --hs "No account found with that username." -w /Directorio/de/Wordlist 
 wfuzz -c -z range,1-65535 -d 'formurl=http://localhost:FUZZ+-s&sumbit=Go' http://target/exposed.php
 ```
 
+### Fuzzing Cookies
+
+#### Fuzzing a Cookie
+```
+wfuzz -c -w /Directorio/de/Wordlist-Sessions -b PHPSESSID=FUZZ http://target/
+```
+
+### Subdomains Discovery
+
 #### Enumerar subdominios
 ```
-wfuzz -c -t 200 --hc=301 -w /usr/share/wordlists/seclists/Directory/DNS/subdomains-top1million-5000.txt -H "Host: FUZZ.target" http://target
-```
-
-#### Fuzzing párametros
-```
-wfuzz -c -t 200 --hc=404 -H "Cookie: PHPSESSID=83432jhbrh32sa32" -w /usr/share/wordlists/seclists/Discovery/Web-Content/burp-parameter-names.txt http://target/dir?FUZZ=
-```
-
-#### Fuzzing para plugins WordPress
-```
-wfuzz -c -t 200 --hc=404 -w /usr/share/wordlists/seclists/Discovery/Web-Content/CMS/wp-plugins.fuzz.txt http://target/FUZZ
+wfuzz -c -t 200 --hc=301 -w /usr/share/wordlists/seclists/Directory/DNS/subdomains-top1million-110000.tx -H "Host: FUZZ.target" http://target
 ```
 
 ---
