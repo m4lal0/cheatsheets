@@ -319,6 +319,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [LookupSID](hacking/lookupsid)
 - [Mimikatz](hacking/mimikatz)
 - [NetExec](hacking/netexec)
+- [ntlmrelayx](hacking/ntlmrelayx)
 - [PTH-WinExe](hacking/pth-winexe)
 - [RPCClient](hacking/rpcclient)
 - [Rubeus](hacking/rubeus)
