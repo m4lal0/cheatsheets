@@ -313,6 +313,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [CrackMapExec](hacking/crackmapexec)
 - [Evil-WinRM](hacking/evil-winrm)
+- [Impacket-GetNPUsers](hacking/getnpusers)
 - [Kerbrute](hacking/kerbrute)
 - [LDAPDomainDump](hacking/ldapdomaindump)
 - [LDAPSearch](hacking/ldapsearch)
