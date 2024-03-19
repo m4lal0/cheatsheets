@@ -103,7 +103,7 @@ sqlmap -u "<URL>" -p <PARAMETER> --threads=2 --level=3 --risk=2 --no-cast -A "NO
 
 #### Enviar diferentes Token CSRF en cada petición
 ```
-sqlmap -u "<URL>" -p <PARAMETER> --threads=2 --level=3 --risk=2 --no-cast -A "NONE" --csrf-url='<URL-REQUEST-POST>' --csrf-token="<NAME-TOKEN-CSRF>" --dbs
+sqlmap -u "<URL>" -p <PARAMETER> --level=3 --risk=2 --no-cast -A "NONE" --csrf-url='<URL-REQUEST-POST>' --csrf-token="<NAME-TOKEN-CSRF>" --dbs
 ```
 
 #### Leer un archivo desde un WebServer
