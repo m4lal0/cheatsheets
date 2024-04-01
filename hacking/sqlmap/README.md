@@ -27,7 +27,7 @@ sqlmap -u "<URL>" --cookie="<Cookie-Value>" --users
 
 #### Mostrar los privilegios del usuario de la BD
 ```
-sqlmap -u "<URL>" --cookie="<Cookie-Value>" --current_user --privileges
+sqlmap -u "<URL>" --cookie="<Cookie-Value>" --current-user --privileges
 ```
 
 #### Listar las Bases de Datos del sitio
