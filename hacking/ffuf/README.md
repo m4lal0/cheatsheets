@@ -7,7 +7,7 @@ ffuf -c -w <WORDLIST> -u http://target/FUZZ
 
 #### Fuzzing web con recursividad
 ```
-ffuf -c -w <WORDLIST> -recursion -u http://target/FUZZ
+ffuf -c -w <WORDLIST> -recursion -recursion-depth 2 -u http://target/FUZZ
 ```
 
 #### Fuzzing web con más velocidad modificando el número de hilos a usar
@@ -15,9 +15,14 @@ ffuf -c -w <WORDLIST> -recursion -u http://target/FUZZ
 ffuf -c -w <WORDLIST> -t 60 -u http://target/FUZZ
 ```
 
+#### Fuzzing web e ignorar los comentarios de la wordlists
+```
+ffuf -c -ic -w <WORDLIST> -u http://target/FUZZ
+```
+
 #### Descubrir archivos con extensiones
 ```
-ffuf -c -w <WORDLIST> -e php,txt,sh,zip,html,bak,cgi,sql,old,git -u http://target/FUZZ
+ffuf -c -w <WORDLIST> -e php,txt,sh,zip,html,bak,cgi,sql,old,git,js,bin,pl -u http://target/FUZZ
 ```
 
 #### Fuzzing web y filtrando solamente páginas con código 200 y 301
