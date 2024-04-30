@@ -124,9 +124,10 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 #### Identificación de Dominios y Subdominios Web
 
 - [Assetfinder](hacking/assetfinder)
+- [DNSMap](hacking/dnsmap)
+- [Knockpy](hacking/knockpy)
 - [Subfinder](hacking/subfinder)
 - [Sublist3r](hacking/sublist3r)
-- [DNSMap](hacking/dnsmap)
 
 #### Identificación de Sitios Web
 
