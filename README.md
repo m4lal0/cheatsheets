@@ -75,6 +75,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 #### Herramientas para Metadatos
 
+- [ExifLooter](hacking/exiflooter)
 - [Exiftool](hacking/exiftool)
 
 #### Identificación de Host en línea
