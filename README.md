@@ -161,6 +161,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 #### Identificación de encabezados de seguridad HTTP
 
+- [Hauditor](hacking/hauditor)
 - [Humble](hacking/humble)
 - [shCheck](hacking/shcheck)
 
