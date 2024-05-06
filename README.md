@@ -214,6 +214,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Hashcat](hacking/hashcat)
 - [John](hacking/john)
 - [NCrack](hacking/ncrack)
+- [PassDetective](hacking/passdetective)
 - [PDFCrack](hacking/pdfcrack)
 - [Sucrack](hacking/sucrack)
 
