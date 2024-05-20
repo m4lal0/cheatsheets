@@ -80,6 +80,11 @@ wpscan --url <URL-TARGET> --cookie <COOKIE>
 wpscan --url <URL-TARGET> --enumerate ap --plugins-detection mixed
 ```
 
+#### Escaneo Agresivo
+```
+wpscan --url <URL-TARGET> --disable-tls-checks --api-token <API-TOKEN> -e at -e u -e ap --plugins-detection aggressive --force
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
