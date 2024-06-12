@@ -15,6 +15,11 @@ feroxbuster -u <URL> -w <WORDLIST> -t <THREADS> -o <OUTPUT> -k
 feroxbuster -u <URL> -w <WORDLIST> -t <THREADS> -C 404,500 -r --depth 2 -o <OUTPUT>
 ```
 
+### Fuzzing web con follow redirect y no mostrar códigos en 404 y 500, con todas las profundidades de directorios.
+```
+feroxbuster -u <URL> -w <WORDLIST> -t <THREADS> -C 404,500 -r --depth 0 -o <OUTPUT>
+```
+
 ### Fuzzing web con follow redirect y mostrar solo con código en 200 y 301
 ```
 feroxbuster -u <URL> -w <WORDLIST> -t <THREADS> -s 200,301 -r -o <OUTPUT>
