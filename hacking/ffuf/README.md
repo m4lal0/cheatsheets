@@ -42,7 +42,7 @@ ffuf -c -ic -w <WORDLIST> -mc 200,301 -r -u http://target/FUZZ
 
 #### Fuzzing web, mostrando sitios con código 200,301,302,401 y 500, y quitando de los resultados los que tengan de tamaño 0
 ```
-ffuf -c-ic -w <WORDLIST> -mc 200,301,302,401,500 -r -fs 0 -u http://target/FUZZ
+ffuf -c -ic -w <WORDLIST> -mc 200,301,302,401,500 -r -fs 0 -u http://target/FUZZ
 ```
 
 #### Fuzzing web y filtrando solamente páginas que no tengan de salida de Words (Palabras) 39
