@@ -112,6 +112,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Tplmap](hacking/tplmap)
 - [Wapiti](hacking/wapiti)
 - [XSStrike](hacking/xsstrike)
+- [XXEInjector](hacking/xxeinjector)
 
 #### Identificación de CMS & Tecnologías
 
