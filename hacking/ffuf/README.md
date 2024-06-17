@@ -22,7 +22,7 @@ ffuf -c -ic -w <WORDLIST> -t 60 -u http://target/FUZZ
 
 #### Descubrir archivos con extensiones
 ```
-ffuf -c -ic -w <WORDLIST> -e php,txt,sh,zip,html,bak,cgi,sql,old,git,js,bin,pl -u http://target/FUZZ
+ffuf -c -ic -w <WORDLIST> -e .php,.txt,.sh,.zip,.html,.bak,.cgi,.sql,.old,.git,.js,.bin,.pl -u http://target/FUZZ
 ```
 
 #### Fuzzing web y filtrando solamente páginas con código 200,301,302,401 y 500
@@ -80,11 +80,29 @@ ffuf -c -ic -w <WORDLIST-SESSIONS> -b PHPSESSID=FUZZ -u http://target/
 for i in {0..255}; do echo $i; done | ffuf -c -u 'http://target/?id=FUZZ' -w -
 ```
 
+#### Fuzzing de extensiones
+```
+ffuf -c -ic -w /usr/share/seclists/Discovery/Web-Content/web-extensiones.txt -u "http://<URL>/indexFUZZ"
+```
+
+#### Fuzzing a parametros GET
+```
+ffuf -c -ic -w /usr/share/seclists/Discovery/Web-Content/burp-parameter-names.txt -u "http://<URL>/index.php?FUZZ=data" -fs 0
+```
+
+#### Fuzzing a parametros POST
+```
+ffuf -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt -u http://<URL>:<PORT>/admin/admin.php -X POST -d 'FUZZ=key' -H 'Content-Type: application/x-www-form-urlencoded' -fs xxx
+```
+
+#### Fuzzing Subdominios - DNS
+```
+ffuf -c -ic -w <WORDLIST> -u "http://FUZZ.target"
+```
+
 #### Enumeración de subdominios - VHost
 ```
-ffuf -c -ic -w <WORDLIST> -H "Host: FUZZ.target" -u http://target/ -fs 0 -r
-
-ffuf -c -ic -w <WORDLIST> -u "http://FUZZ.target" -fs 0
+ffuf -c -ic -w <WORDLIST> -H "Host: FUZZ.target" -u http://target/ -r
 ```
 
 #### Fuzzing web y enviar todo el tráfico a un proxy web
