@@ -109,6 +109,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Nuclei](hacking/nuclei)
 - [Parth](hacking/parth)
 - [Skipfish](hacking/skipfish)
+- [SSRFmap](hacking/ssrfmap)
 - [SSTImap](hacking/sstimap)
 - [Tplmap](hacking/tplmap)
 - [Wapiti](hacking/wapiti)
