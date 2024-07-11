@@ -5,6 +5,11 @@
 smbclient -L //10.130.40.80 -N
 ```
 
+#### Enumerar lo que comparte un Host en un puerto diferente
+```
+smbclient -L //10.130.40.80 -N -p <PORT>
+```
+
 #### Enumerar lo que comparte un Host usando el Nombre de grupo, usuario vacio y sin password
 ```
 smbclient -L <Group-Name> -I <IP-Address> -N -U ""
@@ -19,6 +24,11 @@ smbclient //10.130.40.80/C$ -N
 #### Acceder y ver los archivos de una carpeta compartida (llamada WorkSharing)
 ```
 smbclient \\\\10.130.40.80\\WorkSharing -N
+```
+
+#### Acceder y ver los archivos de una carpeta compartida (llamada secret) proporcionando un usuario y en un puerto diferente
+```
+smbclient \\\\10.130.40.80\\WorkSharing -U <USER> -p <PORT>
 ```
 
 #### Acceder a directorio usando un Hash NTLM
