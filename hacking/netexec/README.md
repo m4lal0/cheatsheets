@@ -10,6 +10,11 @@ netexec smb 192.168.1.0/24
 netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -d WORKGROUP
 ```
 
+#### SMB con credenciales y especificando a un puerto
+```
+netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --port <PORT>
+```
+
 #### Password Spraying
 ```
 netexec smb 192.168.1.0/24 -u '<USERNAME>' -p listpassword.txt
@@ -49,6 +54,11 @@ netexec smb <IP-ADDRESS> -u 'null' -p '' --shares
 #### Descargar un archivo de un directorio compartido
 ```
 netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --share <DIRECTORY-NAME> --get-file <FIEL-NAME> <OUTPUT-NAME>
+```
+
+#### Descargar todos los archivos que contenga el servidor
+```
+netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M spider_plus -o DOWNLOAD_FLAG=True
 ```
 
 #### Enviar un archivo de un directorio compartido
