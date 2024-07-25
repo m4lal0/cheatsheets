@@ -52,6 +52,11 @@ wfuzz -c -H " User-Agent: Google Chrome" -t 400 --hc=404 -w /Directorio/de/Wordl
 wfuzz -c -t 200 --hc=404 -w /usr/share/wordlists/seclists/Discovery/Web-Content/CMS/wp-plugins.fuzz.txt http://target/FUZZ
 ```
 
+#### Fuzzing recursivo y solo mostrando sitios con código de respuesta 200 y 301
+```
+wfuzz -c -w /Directorio/de/Wordlist -R 3 --sc 301,200 http://target/FUZZ
+```
+
 ### Directory Discovery
 
 #### Busqueda de directorios y ocultando los resultados con codigo 404 y 301
