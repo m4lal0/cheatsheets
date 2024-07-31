@@ -344,6 +344,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [ADB](hacking/movil/adb)
 - [APKiD](hacking/movil/apkid)
 - [APKTool](hacking/movil/apktool)
+- [APKUrlGrep](hacking/movil/apkurlgrep)
 - [Dex2Jar](hacking/movil/dex2jar)
 - [Frida](hacking/movil/frida)
 - [Objection](hacking/movil/objection)
