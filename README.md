@@ -348,6 +348,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Dex2Jar](hacking/movil/dex2jar)
 - [Frida](hacking/movil/frida)
 - [Objection](hacking/movil/objection)
+- [PIDCat](hacking/movil/pidcat)
 - [Smali/BakSmali](hacking/movil/smali-baksmali)
 
 </details>
