@@ -123,6 +123,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [DroopeScan](hacking/droopescan)
 - [JoomScan](hacking/joomscan)
 - [Webanalyze](hacking/webanalyze)
+- [WebTech](hacking/webtech)
 - [Whatweb](hacking/whatweb)
 - [WPScan](hacking/wpscan)
 
