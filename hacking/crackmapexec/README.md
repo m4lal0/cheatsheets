@@ -45,7 +45,7 @@ crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --spider <DIRECTOR
 crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --share <DIRECTORY-NAME> --get-file <FIEL-NAME> <OUTPUT-NAME>
 ```
 
-#### Brute Force de usuarios
+#### Enumerar usuarios por Brute Force por RID
 ```
 crackmapexec smb <IP> -u 'guest' -p '' --rid-brute
 ```
