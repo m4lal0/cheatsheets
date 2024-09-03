@@ -5,6 +5,11 @@
 rpcclient -U "" <IP-TARGET> -N
 ```
 
+#### Acceso con usuario invitado
+```
+rpcclient -U "gest%" <IP-TARGET> -N
+```
+
 #### Acceso con autenticación
 ```
 rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -N
@@ -27,7 +32,7 @@ rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'enumdomgroups'
 
 #### Mostrar los datos y descripción de un usuario
 ```
-rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'queryuser <user>'
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'queryuser <USER>'
 ```
 
 #### Enumerar los usuarios que son de un 'rid' grupo en especifico del Dominio
@@ -55,7 +60,7 @@ rpcclient> enumdomusers
 
 #### Eliminar un usuario del AD
 ```
-rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'deletedomuser <user>'
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'deletedomuser <USER>'
 ```
 
 #### Enumerar los recursos compartidos
@@ -65,12 +70,29 @@ rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'netshareenum'
 
 #### Crear un Grupo de Dominio
 ```
-rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'createdomgroup <newgroup>'
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'createdomgroup <NEW-GROUP>'
 ```
 
 #### Eliminar un Grupo de Dominio
 ```
-rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'deletedomgroup <group>"
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'deletedomgroup <GROUP>'
+```
+
+#### Obtener el SID de un usuario que sepamos que existe
+```
+rpcclient -U "gest%" <IP-TARGET> -c 'lookupnames <USERNAME>'
+
+rpcclient -U "gest%" <IP-TARGET> -c 'lookupnames administrator'
+```
+
+#### Saber el usuario proporcionando el SID 
+```
+rpcclient -U "gest%" <IP-TARGET> -c 'lookupsids <SID>'
+```
+
+#### Comando para Fuerza Bruta y conocer los usuarios que existen proporcioando el SID del usuario administrator y modificar los ulitmos digitos
+```
+seq 400 2000 | xargs -P 50 -I {} rpcclient -U "gest%" <IP-TARGET> -c 'lookupsids <SID>-{}' | grep -v unknown
 ```
 
 ---
