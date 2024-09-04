@@ -117,6 +117,11 @@ netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --kerberoasting <OUTPU
 netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --asreproast <OUTPUT-FILE>
 ```
 
+#### Enumeración de usuario (Fuerza Bruta) por RID
+```
+netexec smb <IP-ADDRESS> -u 'gest' -p '' --rid-brute
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
