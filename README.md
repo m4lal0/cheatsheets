@@ -359,6 +359,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [idb](hacking/movil/idb)
 - [ipatool](hacking/movil/ipatool)
+- [otool](hacking/movil/otool)
 
 </details>
 
