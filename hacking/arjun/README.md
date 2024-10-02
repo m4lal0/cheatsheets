@@ -44,6 +44,16 @@ arjun -u <URL> -disable-redirects
 arjun -u <URL> --headers "Accept-Language: en-US\nCookie: null"
 ```
 
+### Búsqueda pasiva de parametros
+```
+arjun -u <URL> -oT <OUTPUT>.txt -t 10 --rate-limit 10 --passive -m GET,POST --headers "User-Agent: Mozilla/5.0"
+```
+
+### Búsqueda activa de parametros
+```
+arjun -u <URL> -oT <OUTPUT>.txt -t 10 -m GET,POST -w <WORDLIST> -t 10 --rate-limit 10 --headers "User-Agent: Mozilla/5.0"
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
