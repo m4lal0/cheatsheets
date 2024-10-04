@@ -201,6 +201,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Ghauri](hacking/ghauri)
 - [MSSQLClient](hacking/mssqlclient)
 - [SQLMap](hacking/sqlmap)
+- [SQLMC](hacking/sqlmc)
 
 </details>
 
