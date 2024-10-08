@@ -119,6 +119,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 #### Identificación de CMS & Tecnologías
 
+- [cf-check](hacking/cf-check)
 - [CMSeeK](hacking/cmseek)
 - [CMSmap](hacking/cmsmap)
 - [DroopeScan](hacking/droopescan)
