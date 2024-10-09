@@ -324,6 +324,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <details>
 <summary>Active Directory</summary>
 
+- [Certipy](hacking/certipy)
 - [CrackMapExec](hacking/crackmapexec)
 - [Evil-WinRM](hacking/evil-winrm)
 - [Impacket-GetNPUsers](hacking/getnpusers)
