@@ -369,6 +369,13 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 </details>
 
+<details>
+<summary>Cloud</summary>
+
+- [S3scanner](hacking/s3scanner)
+
+</details>
+
 </details>
 
 ### 🔧 Herramientas
