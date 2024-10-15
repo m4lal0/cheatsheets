@@ -52,32 +52,32 @@ hashcat -m 22921 <HASH-FILE> <WORDLIST> -r <PATH-RULE> --force
 
 #### Ataque por Diccionario a Cache dumping y usando rules
 ```
-hashcat -m 2100 <HASH-FILE> /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force
+hashcat -m 2100 <HASH-FILE> <WORDLIST> -r /usr/share/hashcat/rules/best64.rule --force
 ```
 
 #### Ataque por Diccionario a ASRepRoast y usando rules
 ```
-hashcat -m 18200 <HASH-FILE> /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force
+hashcat -m 18200 <HASH-FILE> <WORDLIST> -r /usr/share/hashcat/rules/best64.rule --force
 ```
 
 #### Ataque por Diccionario a Kerberoasting y usando rules
 ```
-hashcat -m 13100 <HASH-FILE> /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force
+hashcat -m 13100 <HASH-FILE> <WORDLIST> -r /usr/share/hashcat/rules/best64.rule --force
 ```
 
 #### Ataque por Diccionario a NTLM
 ```
-hashcat -m 1000 <HASH-FILE> rockyou.txt
+hashcat -m 1000 <HASH-FILE> <WORDLIST>
 ```
 
 #### Ataque por Diccionario a Net-NTLMv2 (Responder SMB)
 ```
-hashcat -m 5600 <HASH-FILE> rockyou.txt
+hashcat -m 5600 <HASH-FILE> <WORDLIST>
 ```
 
-#### Ataque por Diccionario a KeePass
+#### Ataque por Diccionario a KeePass usando un Rule
 ```
-hashcat -m 13400 <HASH-FILE> /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/rockyou-30000.rule --force
+hashcat -m 13400 <HASH-FILE> <WORDLIST> -r /usr/share/hashcat/rules/rockyou-30000.rule --force
 ```
 
 ---
