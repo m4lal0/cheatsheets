@@ -20,6 +20,11 @@ kerbrute bruteuser --dc <IP-TARGET> -d <DOMAIN> <FILE-PASSWORDS_LIST> <USER>
 kerbrute bruteuser --dc <IP-TARGET> -d <DOMAIN> <FILE-USERNAME_LIST> <PASSWORD>
 ```
 
+#### Password Spraying
+```
+kerbrute passwordspray --dc <IP-TARGET> -d <DOMAIN> <FILE-USERNAME_LIST> <PASSWORD>
+```
+
 #### Fuerza bruta desde un archivo con un listado con formato username:password
 ```
 kerbrute bruteuser --dc <IP-TARGET> -d <DOMAIN> <FILE-USERNAME_PASSWORD_LIST>
