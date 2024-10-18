@@ -30,6 +30,11 @@ smbmap -u <Username> -p <Password> -H <IP-Address> -r 'C$\Users'
 smbmap -u <Username> -p <Password> -H <IP-Address> -R 'C$\Users'
 ```
 
+#### Listar un recurso de manera recursiva pero solo mostrando directorios
+```
+smbmap -u <Username> -p <Password> -H <IP-Address> -R 'C$\Users' --dir-only
+```
+
 #### Listado de unidades
 ```
 smbmap -u <Username> -p <Password> -H <IP-Address> -L
