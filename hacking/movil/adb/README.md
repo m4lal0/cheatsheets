@@ -51,6 +51,8 @@ adb shell “su -c <COMMAND> “
 #### Conexión a la shell del dispositivo de acuerdo a su ID
 ```
 adb -s <ID> shell
+ó
+adb -s <IP-ADDRESS>:<PORT> shell
 ```
 
 #### Conexión a la shell del dispositivo de acuerdo a su IP y puerto
