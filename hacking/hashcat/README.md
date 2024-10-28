@@ -60,9 +60,14 @@ hashcat -m 2100 <HASH-FILE> <WORDLIST> -r /usr/share/hashcat/rules/best64.rule -
 hashcat -m 18200 <HASH-FILE> <WORDLIST> -r /usr/share/hashcat/rules/best64.rule --force
 ```
 
-#### Ataque por Diccionario a Kerberoasting y usando rules
+#### Ataque por Diccionario a Kerberoasting cuando el modo de hash es RC4 y usando rules
 ```
 hashcat -m 13100 <HASH-FILE> <WORDLIST> -r /usr/share/hashcat/rules/best64.rule --force
+```
+
+#### Ataque por Diccionario a Kerberoasting cuando el modo de hash es AES256 y usando rules
+```
+hashcat -m 19700 <HASH-FILE> <WORDLIST> -r /usr/share/hashcat/rules/best64.rule --force
 ```
 
 #### Ataque por Diccionario a NTLM
