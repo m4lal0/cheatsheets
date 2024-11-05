@@ -1,4 +1,4 @@
-# mpacket-GetNPUsers Cheat Sheet
+# GetNPUsers Cheat Sheet
 
 #### Ataque TGT usando un archivo de listado de posbles usuarios
 ```
