@@ -51,7 +51,7 @@ gobuster dir --url <URL> -w <Wordlist> -a <AgentString>
 
 #### Obtener subdominios o enumeración de virtual hosting
 ```
-gobuster vhost -u <URL> -w <Wordlist> -t 200
+gobuster vhost -u <URL> -w <Wordlist> -t 200 --append-domain
 ```
 
 ## Modo: Subdominos DNS
