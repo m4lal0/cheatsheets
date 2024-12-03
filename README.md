@@ -329,6 +329,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Evil-WinRM](hacking/evil-winrm)
 - [Impacket-GetNPUsers](hacking/getnpusers)
 - [Impacket-GetUserSPNs](hacking/getuserspns)
+- [Inveigh](hacking/inveigh)
 - [Kerbrute](hacking/kerbrute)
 - [LDAPDomainDump](hacking/ldapdomaindump)
 - [LDAPSearch](hacking/ldapsearch)
