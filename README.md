@@ -339,6 +339,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [NetExec](hacking/netexec)
 - [ntlmrelayx](hacking/ntlmrelayx)
 - [PTH-WinExe](hacking/pth-winexe)
+- [Pypykatz](hacking/pypykatz)
 - [RPCClient](hacking/rpcclient)
 - [Rubeus](hacking/rubeus)
 - [SecretsDump](hacking/secretsdump)
