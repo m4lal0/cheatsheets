@@ -326,6 +326,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [Certipy](hacking/certipy)
 - [CrackMapExec](hacking/crackmapexec)
+- [DomainPasswordSpray](hacking/domainpasswordspray)
 - [Evil-WinRM](hacking/evil-winrm)
 - [Impacket-GetADUsers](hacking/getadusers)
 - [Impacket-GetNPUsers](hacking/getnpusers)
