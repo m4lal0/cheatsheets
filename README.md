@@ -344,6 +344,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [RPCClient](hacking/rpcclient)
 - [Rubeus](hacking/rubeus)
 - [SecretsDump](hacking/secretsdump)
+- [WindapSearch](hacking/windapsearch)
 
 </details>
 
