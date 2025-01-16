@@ -377,6 +377,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <details>
 <summary>Cloud</summary>
 
+- [AWS CLI](hacking/aws-cli)
 - [S3scanner](hacking/s3scanner)
 
 </details>
