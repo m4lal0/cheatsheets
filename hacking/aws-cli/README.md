@@ -10,9 +10,34 @@ aws configure
 aws configure --profile <NAME>
 ```
 
-#### Obtener el ID de la cuenta que configuramos
+#### Listar los perfiles configurados
 ```
-aws sts get-caller-identity
+aws configure list-profiles
+```
+
+#### Configurar el Access Key en un perfil
+```
+aws configure set aws_access_key_id <ACCESS-KEY> --profile <NAME>
+```
+
+#### Configurar el Secret Access en un perfil
+```
+aws configure set aws_secret_access_key <SECRET-KEY> --profile <NAME>
+```
+
+#### Configurar el Token Session en un perfil
+```
+aws configure set aws_session_token <TOKEN> --profile <NAME>
+```
+
+#### Obtener el ID y su ARN de la cuenta que configuramos (Servicio de Token de Seguridad (STS))
+```
+aws sts get-caller-identity --profile <NAME>
+```
+
+#### Mostrarnos la cuenta asociada a un Access Key
+```
+aws sts get-access-key-info --access-key-id=<ACCESS-KEY>
 ```
 
 #### Listar los usuarios de IAM
