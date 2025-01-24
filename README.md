@@ -234,6 +234,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [CuPP](hacking/cupp)
 - [pwgen](hacking/pwgen)
 - [RSMangler](hacking/rsmangler)
+- [Username-Anarchy](hacking/username-anarchy)
 
 #### Hashes Cifrar/Decifrar
 
