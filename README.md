@@ -282,7 +282,6 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Reverse-Shell](hacking/reverse-shell)
 - [Rustcat](hacking/rustcat)
 - [Sbd](hacking/sbd)
-- [SSHuttle](hacking/sshuttle)
 
 </details>
 
@@ -305,6 +304,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Ligolo-ng](hacking/ligolo-ng)
 - [Plink](hacking/plink)
 - [Socat](hacking/socat)
+- [SSHuttle](hacking/sshuttle)
 
 #### Puertas Traseras para Web
 

