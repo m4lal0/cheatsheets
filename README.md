@@ -298,7 +298,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <details>
 <summary>Post Explotación</summary>
 
-#### Tunnel
+#### Tunnel & Pivoting
 
 - [Chisel](hacking/chisel)
 - [Ligolo-ng](hacking/ligolo-ng)
