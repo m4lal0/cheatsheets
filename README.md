@@ -354,6 +354,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [Android-Backup-Extractor](hacking/movil/abe)
 - [ADB](hacking/movil/adb)
+- [APKHunt](hacking/movil/apkhunt)
 - [APKiD](hacking/movil/apkid)
 - [APKsigner](hacking/movil/apksigner)
 - [APKTool](hacking/movil/apktool)
