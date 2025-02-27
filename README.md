@@ -108,6 +108,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [DotDotPwn](hacking/dotdotpwn)
 - [Nikto](hacking/nikto)
 - [Nuclei](hacking/nuclei)
+- [Oralyzer](hacking/oralyzer)
 - [Parth](hacking/parth)
 - [Skipfish](hacking/skipfish)
 - [SSRFmap](hacking/ssrfmap)
