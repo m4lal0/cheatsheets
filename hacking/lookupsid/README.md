@@ -2,7 +2,7 @@
 
 #### Enumerar usuarios locales del dominio con null session
 ```
-impacket-lookupsid <DOMAIN>/anonymous@<IP-TARGET> | cut -d " " -f2
+impacket-lookupsid anonymous@<DOMAIN> -no-pass | grep SidTypeUser | cut -d' ' -f2 | cut -d'\' -f2 | tr '[:upper:]' '[:lower:]'
 ```
 
 #### Enumerar usuarios locales del dominio, teniendo un usuario y contraseña
