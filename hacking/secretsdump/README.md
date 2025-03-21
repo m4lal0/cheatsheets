@@ -36,7 +36,7 @@ impacket-secretsdump.py -sam <FILE-SAM> -system <FILE-SYSTEM> -system <FILE-SYST
 ```
 timedatectl set-ntp off
 ó 
-timedatectl set-ntp off
+timedatectl set-ntp 0
 
 ntpdate -s <IP>
 ó
