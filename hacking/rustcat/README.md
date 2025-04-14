@@ -2,7 +2,6 @@
 
 #### Ponerse en escucha en un puerto, usando comando de historial, completado de comando y bloqueo de ctrl-c
 ```
-rcat -lp <PORT>
 rcat listen -ib <PORT>
 ```
 
