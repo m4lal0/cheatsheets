@@ -7,7 +7,7 @@ evil-winrm -i <IP-TARGET> -u '<USER>' -p '<PASSWORD>'
 
 #### Conexión usando un NT Hash
 ```
-evil-winrm -i <IP-TARGET> -u '<USER>' -H ':<NT-HASH>'
+evil-winrm -i <IP-TARGET> -u '<USER>' -H '<NT-HASH>'
 ```
 
 #### Conexión por SSL y proporcionando llave publica y privada
