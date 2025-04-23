@@ -5,14 +5,19 @@
 wapiti -u <URL>
 ```
 
+#### Escaneo de URL y mostrar resultados con color
+```
+wapiti -u <URL> --color
+```
+
 #### Escano de URL con ciertos modulos
 ```
-wapiti -u <URL> -m sql,xss,xxe
+wapiti -u <URL> --color -m sql,xss,xxe
 ```
 
 #### Escaneo de URL y guardar un reporte en formato html
 ```
-wapiti -u <URL> -f html -o report
+wapiti -u <URL> --color -f html -o report
 ```
 
 ---
