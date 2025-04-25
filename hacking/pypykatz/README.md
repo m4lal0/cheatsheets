@@ -2,7 +2,12 @@
 
 #### Extraer Hashes de SAM & SYSTEM
 ```
-pypykatz registry --sam <FILE-SAM> <FILE-SYSTEM>
+pypykatz registry --sam <FILE-SAM> --security <FILE-SECURITY> <FILE-SYSTEM>
+```
+
+#### Extraer Hashes de SAM & SYSTEM y guardar los datos en un archivo en JSON
+```
+pypykatz registry --sam <FILE-SAM> --security <FILE-SECURITY> <FILE-SYSTEM> -o <OUTPUT> --json
 ```
 
 #### Extraer credenciales desde un archivo de memoria
