@@ -2,7 +2,12 @@
 
 #### Listar los usuarios del objetivo
 ```
-samrdump.py <IP-Address>
+impacket-samrdump <IP-TARGET>
+```
+
+#### Listar los usuarios utilizando un usuario autenticado
+```
+impacket-samrdump <DOMAIN>/<USER>:<PASSWORD>@<IP-TARGET>
 ```
 
 ---
