@@ -2,7 +2,7 @@
 
 #### Enumerar subdominios
 ```
-subfinder -d <Domain>
+subfinder -d <Domain> -all
 ```
 
 #### Enumerar subdominios, mostrando solo los que encuentra y usando una concurrencia de 50
