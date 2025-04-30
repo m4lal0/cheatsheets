@@ -45,6 +45,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [Enum4Linux](hacking/enum4linux)
 - [Samrdump](hacking/samrdump)
+- [ShareFinder](hacking/sharefinder)
 - [SMBclient](hacking/smbclient)
 - [SMBmap](hacking/smbmap)
 - [SMBserver](hacking/smbserver)
