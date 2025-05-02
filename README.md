@@ -331,6 +331,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [CrackMapExec](hacking/crackmapexec)
 - [DomainPasswordSpray](hacking/domainpasswordspray)
 - [Evil-WinRM](hacking/evil-winrm)
+- [GoSecretsDump](hacking/gosecretsdump)
 - [Impacket-GetADUsers](hacking/getadusers)
 - [Impacket-GetNPUsers](hacking/getnpusers)
 - [Impacket-GetUserSPNs](hacking/getuserspns)
