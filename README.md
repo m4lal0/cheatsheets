@@ -282,6 +282,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Pwncat](hacking/pwncat)
 - [Pwncat-cs](hacking/pwncat-cs)
 - [Reverse-Shell](hacking/reverse-shell)
+- [rlwrap](hacking/rlwrap)
 - [Rustcat](hacking/rustcat)
 - [Sbd](hacking/sbd)
 
