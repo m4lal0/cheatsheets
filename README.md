@@ -319,6 +319,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <summary>Windows</summary>
 
 - [Auditpol](hacking/auditpol)
+- [Certutil](hacking/certutil)
 - [Cipher](hacking/cipher)
 - [Exe2Hex](hacking/exe2hex)
 - [Wevtutil](hacking/wevtutil)
