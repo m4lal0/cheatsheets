@@ -103,21 +103,11 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [Afrog](hacking/afrog)
 - [Bolt](hacking/bolt)
-- [CorsMe](hacking/corsme)
-- [Corsy](hacking/corsy)
-- [DalFox](hacking/dalfox)
-- [DotDotPwn](hacking/dotdotpwn)
 - [Nikto](hacking/nikto)
 - [Nuclei](hacking/nuclei)
-- [Oralyzer](hacking/oralyzer)
 - [Parth](hacking/parth)
 - [Skipfish](hacking/skipfish)
-- [SSRFmap](hacking/ssrfmap)
-- [SSTImap](hacking/sstimap)
-- [Tplmap](hacking/tplmap)
 - [Wapiti](hacking/wapiti)
-- [XSStrike](hacking/xsstrike)
-- [XXEInjector](hacking/xxeinjector)
 
 #### Identificación de CMS & Tecnologías
 
@@ -143,7 +133,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 - [httpx](hacking/httpx)
 
-#### Directory/Fuzzing
+#### Directory Brute Force/Fuzzing
 
 - [Dirb](hacking/dirb)
 - [Dirsearch](hacking/dirsearch)
@@ -154,7 +144,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [URLBuster](hacking/urlbuster)
 - [Wfuzz](hacking/wfuzz)
 
-#### Idexadores Web
+#### Indexadores Web
 
 - [Dirhunt](hacking/dirhunt)
 - [GoSpider](hacking/gospider)
@@ -200,12 +190,59 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 </details>
 
 <details>
-<summary>Evaluación de Bases de Datos</summary>
+<summary>Herramientas de Explotación</summary>
+
+#### Cross-site Scripting (XSS)
+
+- [DalFox](hacking/dalfox)
+- [XSStrike](hacking/xsstrike)
+
+#### SQL Injection
 
 - [Ghauri](hacking/ghauri)
 - [MSSQLClient](hacking/mssqlclient)
 - [SQLMap](hacking/sqlmap)
 - [SQLMC](hacking/sqlmc)
+
+#### Command Injection
+
+#### File Include
+
+- [DotDotPwn](hacking/dotdotpwn)
+
+#### File Upload vulnerability
+
+#### XML External Entity Attack (XXE)
+
+- [XXEInjector](hacking/xxeinjector)
+
+#### Cross-site Request Forgery (CSRF)
+
+#### Open Redirect
+
+- [Oralyzer](hacking/oralyzer)
+
+#### Cross Origin Resource Sharing Misconfiguration (CORS)
+
+- [CorsMe](hacking/corsme)
+- [Corsy](hacking/corsy)
+
+#### Server-Side Request Forgery (SSRF)
+
+- [SSRFmap](hacking/ssrfmap)
+
+#### Server-Side Template Injection (SSTI)
+
+- [SSTImap](hacking/sstimap)
+- [Tplmap](hacking/tplmap)
+
+#### Exploit Framework
+
+- [Govenom](hacking/govenom)
+- [Metasploit-Framework](hacking/metasploit)
+- [Meterpreter](hacking/meterpreter)
+- [Msfvenom](hacking/msfvenom)
+- [Searchsploit](hacking/searchsploit)
 
 </details>
 
@@ -246,6 +283,26 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 </details>
 
 <details>
+<summary>Manteniendo el Acceso</summary>
+
+#### Reverse Shell
+
+- [Reverse-Shell](hacking/reverse-shell)
+
+#### Listener
+
+- [Dbd](hacking/dbd)
+- [Netcat](hacking/netcat)
+- [Powercat](hacking/powercat)
+- [Pwncat](hacking/pwncat)
+- [Pwncat-cs](hacking/pwncat-cs)
+- [rlwrap](hacking/rlwrap)
+- [Rustcat](hacking/rustcat)
+- [Sbd](hacking/sbd)
+
+</details>
+
+<details>
 <summary>Ataques Wireless</summary>
 
 - [Airbase-nd](hacking/airbase-ng)
@@ -262,29 +319,6 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Pyrit](hacking/pyrit)
 - [Reaver](hacking/reaver)
 - [Wash](hacking/wash)
-
-</details>
-
-<details>
-<summary>Herramientas de Explotación</summary>
-
-- [Govenom](hacking/govenom)
-- [Metasploit-Framework](hacking/metasploit)
-- [Meterpreter](hacking/meterpreter)
-- [Msfvenom](hacking/msfvenom)
-- [Searchsploit](hacking/searchsploit)
-
-#### Reverse Shell
-
-- [Dbd](hacking/dbd)
-- [Netcat](hacking/netcat)
-- [Powercat](hacking/powercat)
-- [Pwncat](hacking/pwncat)
-- [Pwncat-cs](hacking/pwncat-cs)
-- [Reverse-Shell](hacking/reverse-shell)
-- [rlwrap](hacking/rlwrap)
-- [Rustcat](hacking/rustcat)
-- [Sbd](hacking/sbd)
 
 </details>
 
@@ -355,7 +389,9 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 </details>
 
 <details>
-<summary>Mobile - Android</summary>
+<summary> Mobile App</summary>
+
+#### Mobile - Android
 
 - [Android-Backup-Extractor](hacking/movil/abe)
 - [ADB](hacking/movil/adb)
@@ -370,10 +406,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [PIDCat](hacking/movil/pidcat)
 - [Smali/BakSmali](hacking/movil/smali-baksmali)
 
-</details>
-
-<details>
-<summary>Mobile - iOS</summary>
+#### Mobile - iOS
 
 - [idb](hacking/movil/idb)
 - [ipatool](hacking/movil/ipatool)
@@ -383,6 +416,8 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 
 <details>
 <summary>Cloud</summary>
+
+#### AWS
 
 - [AWS CLI](hacking/aws-cli)
 - [S3scanner](hacking/s3scanner)
