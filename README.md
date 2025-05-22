@@ -375,6 +375,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Kerbrute](hacking/kerbrute)
 - [LDAPDomainDump](hacking/ldapdomaindump)
 - [LDAPSearch](hacking/ldapsearch)
+- [Ldeep](hacking/ldeep)
 - [LookupSID](hacking/lookupsid)
 - [Mimikatz](hacking/mimikatz)
 - [NetExec](hacking/netexec)
@@ -389,7 +390,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 </details>
 
 <details>
-<summary> Mobile App</summary>
+<summary>Mobile App</summary>
 
 #### Mobile - Android
 
