@@ -363,6 +363,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 <details>
 <summary>Active Directory</summary>
 
+- [ad-ldap-enum](hacking/ad-ldap-enum)
 - [Certipy](hacking/certipy)
 - [CrackMapExec](hacking/crackmapexec)
 - [DomainPasswordSpray](hacking/domainpasswordspray)
