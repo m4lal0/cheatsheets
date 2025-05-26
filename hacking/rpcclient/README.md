@@ -12,12 +12,22 @@ rpcclient -U "gest%" <IP-TARGET> -N
 
 #### Acceso con autenticación
 ```
-rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -N
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET>
+```
+
+#### Acceso con autenticación por Hash NT
+```
+rpcclient -U "<USERNAME>%<NT-HASH>" <IP-TARGET> --pw-nt-hash
 ```
 
 #### Password Spraying - Conocer a través de una lista de usuarios cuales tienen acceso con una contraseña dada
 ```
 for u in $(cat valid_users.txt);do rpcclient -U "$u%<PASSWORD>" -c "getusername;quit" <IP-TARGET> | grep Authority; done
+```
+
+#### Mostrar el Dominio y su SID
+```
+rpclcient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c "lsaquery"
 ```
 
 #### Enumerar los Dominios
@@ -33,6 +43,11 @@ rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'enumdomusers'
 #### Enumerar los grupos del AD
 ```
 rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'enumdomgroups'
+```
+
+#### Mostrar el SID de un usuario dado
+```
+rpcclient -U "<USERNAME>%<PASSWORD>" <IP-TARGET> -c 'lookupnames <USER>'
 ```
 
 #### Mostrar los datos y descripción de un usuario
