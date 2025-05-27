@@ -383,6 +383,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [ntlmrelayx](hacking/ntlmrelayx)
 - [PTH-WinExe](hacking/pth-winexe)
 - [Pypykatz](hacking/pypykatz)
+- [RIDEnum](hacking/ridenum)
 - [RPCClient](hacking/rpcclient)
 - [Rubeus](hacking/rubeus)
 - [SecretsDump](hacking/secretsdump)
