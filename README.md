@@ -375,6 +375,7 @@ Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñ
 - [Inveigh](hacking/inveigh)
 - [Kerbrute](hacking/kerbrute)
 - [LDAPDomainDump](hacking/ldapdomaindump)
+- [LDAPHunter](hacking/ldaphunter)
 - [LDAPSearch](hacking/ldapsearch)
 - [Ldeep](hacking/ldeep)
 - [LookupSID](hacking/lookupsid)
