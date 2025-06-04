@@ -95,6 +95,11 @@ ffuf -c -ic -w /usr/share/seclists/Discovery/Web-Content/burp-parameter-names.tx
 ffuf -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt -u http://<URL>:<PORT>/admin/admin.php -X POST -d 'FUZZ=key' -H 'Content-Type: application/x-www-form-urlencoded' -fs xxx
 ```
 
+#### Fuzzing a parametros POST y filtrando por un mensaje de error
+```
+ffuf -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt -u http://<URL>:<PORT>/admin/admin.php -X POST -d 'FUZZ=key' -H 'Content-Type: application/x-www-form-urlencoded' -fr "Unknown user"
+```
+
 #### Fuzzing a Login POST usando un request de Burp y encontrar usuarios validos
 ```
 ffuf -request request.txt -fw 10 -request-proto http -mode pitchfork -w /usr/share/wordlists/seclists/Usernames/Names/names.txt:USERFUZZ -mc 200
