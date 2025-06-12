@@ -1,10 +1,26 @@
+<p align="center"><img width=450 alt="CheatSheets" src="./images/logo.png"></p>
+
 # Cheatsheets
 
-Normalmente hago un cheat sheet cuando quiero mejorar mis habilidades en un lenguaje de programación, un framework o una herramienta de seguridad informática. Para realizar un mejor seguimiento del historial, los reorganicé todos en este único repositorio. La mayor parte del contenido proviene de documentación oficial y de algunos libros que he leído. Cada vez que vaya aprendiendo algo nuevo lo voy a incluir en este repositorio.
+Este repositorio es una colección personal de cheat sheets que he creado mientras profundizo en herramientas, lenguajes de programación, frameworks y técnicas relacionadas con la ciberseguridad y el ethical hacking.
 
-Siéntete libre de echar un vistazo. Puedes aprender cosas nuevas. Se han diseñado para proporcionar una forma rápida de evaluar sus conocimientos y ahorrarle tiempo.
+El objetivo principal de este repositorio es facilitar un acceso rápido y estructurado a los comandos, conceptos clave y buenas prácticas que suelen ser necesarios durante auditorías de seguridad, pruebas de penetración o simplemente al aprender nuevas herramientas. La mayoría del contenido proviene de fuentes confiables como documentación oficial, libros especializados y experiencia práctica.
 
-## 📚 Contenido
+### 🔍 ¿Qué puedes encontrar aquí?
++ Resúmenes y comandos esenciales para herramientas populares de hacking.
++ Guías rápidas para lenguajes usados en seguridad ofensiva (como Python, Bash, PowerShell, etc.).
++ Fragmentos de código, flujos de trabajo y atajos útiles para ahorrar tiempo.
++ Material en constante crecimiento a medida que aprendo y exploro nuevas técnicas.
+
+### 🎯 ¿Para quién es esto?
+Ideal para:
++ Profesionales de seguridad ofensiva.
++ Estudiantes de ciberseguridad.
++ Entusiastas del hacking ético que desean tener una referencia rápida.
+
+Siente total libertad de explorar, reutilizar y contribuir. Este repositorio está pensado para ahorrar tiempo, reforzar conocimientos y acompañarte en tu aprendizaje continuo.
+
+# 📚 Contenido
 
 ### 🛡️ Seguridad Informática & Herramientas Hacking
 
