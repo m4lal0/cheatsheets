@@ -92,7 +92,7 @@ ffuf -c -ic -w /usr/share/seclists/Discovery/Web-Content/burp-parameter-names.tx
 
 #### Fuzzing a parametros POST
 ```
-ffuf -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt -u http://<URL>:<PORT>/admin/admin.php -X POST -d 'FUZZ=key' -H 'Content-Type: application/x-www-form-urlencoded' -fs xxx
+ffuf -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt -u http://<URL>:<PORT>/admin/admin.php -X POST -d 'FUZZ=key' -H 'Content-Type: application/x-www-form-urlencoded' -b "PHPSESSID=hpuqc6h0nc7jbcbtnkish21di8" -fs xxx
 ```
 
 #### Fuzzing a parametros POST y filtrando por un mensaje de error
