@@ -222,6 +222,8 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 
 #### Command Injection
 
+- [Commix](hacking/commix)
+
 #### File Include
 
 - [DotDotPwn](hacking/dotdotpwn)
@@ -388,22 +390,22 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 - [Impacket-GetADUsers](hacking/getadusers)
 - [Impacket-GetNPUsers](hacking/getnpusers)
 - [Impacket-GetUserSPNs](hacking/getuserspns)
+- [Impacket-LookupSID](hacking/lookupsid)
+- [Impacket-ntlmrelayx](hacking/ntlmrelayx)
+- [Impacket-SecretsDump](hacking/secretsdump)
 - [Inveigh](hacking/inveigh)
 - [Kerbrute](hacking/kerbrute)
 - [LDAPDomainDump](hacking/ldapdomaindump)
 - [LDAPHunter](hacking/ldaphunter)
 - [LDAPSearch](hacking/ldapsearch)
 - [Ldeep](hacking/ldeep)
-- [LookupSID](hacking/lookupsid)
 - [Mimikatz](hacking/mimikatz)
 - [NetExec](hacking/netexec)
-- [ntlmrelayx](hacking/ntlmrelayx)
 - [PTH-WinExe](hacking/pth-winexe)
 - [Pypykatz](hacking/pypykatz)
 - [RIDEnum](hacking/ridenum)
 - [RPCClient](hacking/rpcclient)
 - [Rubeus](hacking/rubeus)
-- [SecretsDump](hacking/secretsdump)
 - [WindapSearch](hacking/windapsearch)
 
 </details>
