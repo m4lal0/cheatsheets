@@ -7,7 +7,7 @@ kerbrute userenum --dc <IP-TARGET> -d <DOMAIN> <WORDLISTS>
 
 #### Enumerar usuarios validos y guardar el resultado
 ```
-kerbrute userenum --dc <IP-TARGET> -d <DOMAIN> -o <OUTPUT> <WORDLISTS>
+kerbrute userenum --dc <IP-TARGET> -d <DOMAIN> <WORDLISTS> -o <OUTPUT>
 ```
 
 #### Fuerza bruta de contraseñas a un usuario en particular
@@ -27,7 +27,7 @@ kerbrute passwordspray --dc <IP-TARGET> -d <DOMAIN> <FILE-USERNAME_LIST> <PASSWO
 
 #### Fuerza bruta desde un archivo con un listado con formato username:password
 ```
-kerbrute bruteuser --dc <IP-TARGET> -d <DOMAIN> <FILE-USERNAME_PASSWORD_LIST>
+kerbrute bruteuser --dc <IP-TARGET> -d <DOMAIN> <FILE-USERNAME_PASSWORD_LIST> <USER>
 ```
 
 #### ASREP-Roasting Attack
