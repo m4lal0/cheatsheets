@@ -417,6 +417,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 
 - [Android-Backup-Extractor](hacking/movil/abe)
 - [ADB](hacking/movil/adb)
+- [APK2URL](hacking/movil/apk2url)
 - [APKHunt](hacking/movil/apkhunt)
 - [APKiD](hacking/movil/apkid)
 - [APKsigner](hacking/movil/apksigner)
