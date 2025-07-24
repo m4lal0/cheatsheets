@@ -389,6 +389,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 - [GoSecretsDump](hacking/gosecretsdump)
 - [Impacket-GetADComputers](hacking/getadcomputers)
 - [Impacket-GetADUsers](hacking/getadusers)
+- [Impacket-GetLAPSPassword](hacking/getlapspassword)
 - [Impacket-GetNPUsers](hacking/getnpusers)
 - [Impacket-GetUserSPNs](hacking/getuserspns)
 - [Impacket-LookupSID](hacking/lookupsid)
