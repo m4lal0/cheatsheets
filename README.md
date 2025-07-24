@@ -387,6 +387,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 - [DomainPasswordSpray](hacking/domainpasswordspray)
 - [Evil-WinRM](hacking/evil-winrm)
 - [GoSecretsDump](hacking/gosecretsdump)
+- [Impacket-Atexec](hacking/atexec)
 - [Impacket-GetADComputers](hacking/getadcomputers)
 - [Impacket-GetADUsers](hacking/getadusers)
 - [Impacket-GetLAPSPassword](hacking/getlapspassword)
