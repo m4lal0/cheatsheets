@@ -443,6 +443,8 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 <details>
 <summary>Cloud</summary>
 
+- [Prowler](hacking/prowler)
+
 #### AWS
 
 - [AWS CLI](hacking/aws-cli)
