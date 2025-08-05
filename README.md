@@ -443,6 +443,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 <details>
 <summary>Cloud</summary>
 
+- [CloudFox](hacking/cloudfox)
 - [Prowler](hacking/prowler)
 
 #### AWS
