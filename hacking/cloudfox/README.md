@@ -1,10 +1,14 @@
 # CloudFox Cheat Sheet
 
-#### Escanear un proyecto de GCP ejecutando todos los comandos
+#### Escanear AWS ejecutando todos los comandos
 ```
-cloudfox gcp all-checks --project <ID-PROJECT>
+cloudfox aws --profile <PROFILE-NAME> all-checks
 ```
 
+#### Escanear un proyecto de GCP ejecutando todos los comandos
+```
+cloudfox gcp --project <ID-PROJECT> all-checks 
+```
 
 ---
 
