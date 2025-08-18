@@ -252,6 +252,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 #### Server-Side Template Injection (SSTI)
 
 - [SSTImap](hacking/sstimap)
+- [Tinja](hacking/tinja)
 - [Tplmap](hacking/tplmap)
 
 #### Exploit Framework
