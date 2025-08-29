@@ -453,6 +453,10 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 - [AWS CLI](hacking/aws-cli)
 - [S3scanner](hacking/s3scanner)
 
+#### GCP
+
+- [GCP CLI](hacking/gcp-cli)
+
 </details>
 
 </details>
