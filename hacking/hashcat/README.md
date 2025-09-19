@@ -85,6 +85,11 @@ hashcat -m 5600 <HASH-FILE> <WORDLIST>
 hashcat -m 13400 <HASH-FILE> <WORDLIST> -r /usr/share/hashcat/rules/rockyou-30000.rule --force
 ```
 
+#### Ataque por Diccionario a JWT usando un Rule
+```
+hashcat -m 16500 --force -a 0 --rules=/usr/share/hashcat/rules/InsidePro-PasswordsPro.rule token.jwt <WORDLIST>
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
