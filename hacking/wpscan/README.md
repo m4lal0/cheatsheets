@@ -85,6 +85,12 @@ wpscan --url <URL-TARGET> --enumerate ap --plugins-detection mixed
 wpscan --url <URL-TARGET> --disable-tls-checks --api-token <API-TOKEN> -e at -e u -e ap --plugins-detection aggressive --force
 ```
 
+#### Escaneo de WordPress, enumerando plugins populares, deshabilitar la verificación del certificado SSL/TLS, no mostrar el banner, enumerando plugins de manera pasiva
+```
+wpscan --url <URL-TARGET> --disable-tls-checks --no-banner -e p --plugins-detection passive -t 100
+
+```
+
 ---
 
 [:arrow_left: Regresar](https://github.com/m4lal0/cheatsheets)
