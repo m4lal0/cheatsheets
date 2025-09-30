@@ -40,6 +40,11 @@ crackmapexec smb <IP-Address> -u 'null' -p ' ' --shares
 crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --spider <DIRECTORY-NAME> --regex .
 ```
 
+#### Mostrar el contenido de un directorio compartido en SMB con credenciales
+```
+crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --spider <DIRECTORY-NAME> --pattern .
+```
+
 #### Descargar un archivo de un directorio compartido
 ```
 crackmapexec smb <IP-Address> -u '<USERNAME>' -p '<PASSWORD>' --share <DIRECTORY-NAME> --get-file <FIEL-NAME> <OUTPUT-NAME>
