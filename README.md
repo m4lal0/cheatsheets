@@ -384,6 +384,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 <summary>Active Directory</summary>
 
 - [ad-ldap-enum](hacking/ad-ldap-enum)
+- [BloodHoun-Python](hacking/bloodhound-python)
 - [Certipy](hacking/certipy)
 - [CrackMapExec](hacking/crackmapexec)
 - [DomainPasswordSpray](hacking/domainpasswordspray)
@@ -422,6 +423,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 
 - [Android-Backup-Extractor](hacking/movil/abe)
 - [ADB](hacking/movil/adb)
+- [Androguard](hacking/movil/androguard)
 - [APK2URL](hacking/movil/apk2url)
 - [APKHunt](hacking/movil/apkhunt)
 - [APKiD](hacking/movil/apkid)
