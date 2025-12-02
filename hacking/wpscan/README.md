@@ -70,6 +70,11 @@ wpscan --url <URL-TARGET> -P <WORDLIST-PASSWORD>
 wpscan --url <URL-TARGET> --passwords <WORDLIST-PASSWORD> --usernames <WORDLIST-USERNAME>
 ```
 
+#### Fuerza Bruta para el XMLRPC, usando dos usuarios y un listado de contraseñas
+```
+wpscan --url <URL-TARGET> --password-attack xmlrpc -t 20 -U admin, david -P passwords.txt
+```
+
 #### Proporcionar cookie para sesiones autenticadas
 ```
 wpscan --url <URL-TARGET> --cookie <COOKIE>
