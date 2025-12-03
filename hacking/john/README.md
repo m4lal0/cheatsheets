@@ -12,6 +12,11 @@ john --test
 john --wordlist=<WORDLIST> <PASSWORD_FILE>
 ```
 
+#### Modo Single útil para credenciales de Linux
+```
+john --single <HASH_FILE>
+```
+
 #### Modo incremental (Brute Force)
 ```
 john --incremental <HASH_FILE>
