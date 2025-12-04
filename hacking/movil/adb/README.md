@@ -109,6 +109,11 @@ adb shell settings list global http_proxy | grep proxy
 adb shell settings put global http_proxy 192.168.0.56:8080
 ```
 
+#### Deshabilitar el proxy en el dispositivo
+```
+adb shell settings put global http_proxy :0
+```
+
 #### Obtener el primer IMEI del dispositivo
 ```
 adb shell "service call iphonesubinfo 1 | toybox cut -d \"'\" -f2 | toybox grep -Eo '[0-9]' | toybox xargs | toybox sed 's/\ //g'"
@@ -299,7 +304,7 @@ curl -s http://burp/cert -x http://127.0.0.1:8080 -o cacert.der
 openssl x509 -inform DER -in cacert.der -out cacert.pem
 export CERT_HASH=$(openssl x509 -inform PEM -subject_hash_old -in cacert.pem | head -1)
 adb root && adb remount
-adb push cacert.pem "/system/etc/security/${CERT_HASH}.0"
+adb push cacert.pem "/system/etc/security/cacerts/${CERT_HASH}.0"
 adb shell "su -c 'chmod 644 /system/etc/security/cacerts/${CERT_HASH}.0'"
 rm -rf cacert.*
 ```
