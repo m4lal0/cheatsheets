@@ -4,6 +4,7 @@
 ```
 hashcat -I
 ```
+## Ataque de Diccionario
 
 #### Ataque por Diccionario para MD5
 ```
@@ -12,38 +13,54 @@ hashcat -a 0 -m 0 <HASH-FILE> <WORDLIST>
 
 #### Ataque por Diccionario para SHA-256 y guardar el resultado en un archivo
 ```
-hashcat -a 0 -m 1400 -o <Output> <HASH-FILE> <WORDLIST>
+hashcat -a 0 -m 1400 -o <OUTPUT> <HASH-FILE> <WORDLIST>
 ```
 
-#### Ataque por Diccionario y usando rules
+#### Ataque por Diccionario y usando rules (/usr/share/hashcat/rules/)
 ```
-hashcat -a 0 -m 1400 -o <Output> <HASH-FILE> <WORDLIST> -r <PATH-RULE>
+hashcat -a 0 -m 1400 -o <OUTPUT> <HASH-FILE> <WORDLIST> -r <PATH-RULE>
 ```
 
 #### Ataque por Combinación de diccionarios
 ```
-hashcat -a 1 -m 1400 -o <Output> <HASH-FILE> <WORDLIST-1> <WORDLIST-2>
+hashcat -a 1 -m 1400 -o <OUTPUT> <HASH-FILE> <WORDLIST-1> <WORDLIST-2>
 ```
 
-#### Ataque por Fuerza Bruta usando mascaras de 6 letras minisculas al inicio y 2 números al final
+## Ataque de Máscara
+
+### Máscaras que se pueden usar (-m 3)
+| Símbolo| Charset |
+|----------|----------|
+| ?l    | abcdefghijklmnoparstuvwxyz   |
+| ?u    | ABCDEFGHIJKLMNOPQRSTUVWXYZ   |
+| ?d    | 0123456789   |
+| ?h    | 0123456789abcdef   |
+| ?H    | 0123456789ABCDEF   |
+| ?s    | «space»!» #$%&'()*+,-. /:;<=>? @[]^_`{   |
+| ?a    | ? ¿L? ¿U? ¿D? s   |
+| ?b    | 0x00 - 0xff   |
+
+#### Ataque de máscara por Fuerza Bruta (definido por el usuario) usando 6 letras minisculas al inicio y 2 números al final
 ```
-hashcat -a 3 -m 1400 -o <Output> <HASH-FILE> ?l?l?l?l?l?l?d?d
+hashcat -a 3 -m 1400 -o <OUTPUT> <HASH-FILE> ?l?l?l?l?l?l?d?d
 ```
 
 #### Ataque por Fuerza Bruta usando mascaras full de 6 digitos
 ```
-hashcat -a 3 -m 1400 -o <Output> <HASH-FILE> ?a?a?a?a?a?a
+hashcat -a 3 -m 1400 -o <OUTPUT> <HASH-FILE> ?a?a?a?a?a?a
 ```
 
 #### Ataque por Fuerza Bruta usando una mascara cualquiera seguido de la palabra megatron
 ```
-hashcat -a 3 -m 1400 -o <Output> <HASH-FILE> megatron?a?a?a
+hashcat -a 3 -m 1400 -o <OUTPUT> <HASH-FILE> megatron?a?a?a
 ```
 
 #### Ataque por Fuerza Bruta usando una mascara que sean 2 mayusculas, 2 minusculas, 2 números y 2 caracteres especiales
 ```
-hashcat -a 3 -m 1400 -o <Output> <HASH-FILE> ?u?u?l?l?d?d?s?s
+hashcat -a 3 -m 1400 -o <OUTPUT> <HASH-FILE> ?u?u?l?l?d?d?s?s
 ```
+
+## Ataques específicos
 
 #### Ataque por Diccionario a SSH (id_rsa) y usando rules
 ```
