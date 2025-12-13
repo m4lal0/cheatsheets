@@ -256,6 +256,10 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 - [Tinja](hacking/tinja)
 - [Tplmap](hacking/tplmap)
 
+#### JWT
+
+- [jwt_tool](hacking/jwt_tool)
+
 #### Exploit Framework
 
 - [Govenom](hacking/govenom)
