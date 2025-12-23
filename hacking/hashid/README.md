@@ -10,6 +10,16 @@ hashid <HASH>
 hashid -mj <HASH>
 ```
 
+#### Identificar el Hash y mostrar el modo de usar en John the Ripper
+```
+hashid -j <HASH>
+```
+
+#### Identificar el Hash y mostrar el modo de usar en Hashcat
+```
+hashid -m <HASH>
+```
+
 #### Identificar el Hash y guardar el resultado en un archivo
 ```
 hashid <HASH> -o <OUTPUT>
