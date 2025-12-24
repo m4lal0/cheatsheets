@@ -260,6 +260,10 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 
 - [jwt_tool](hacking/jwt_tool)
 
+#### GraphQL
+
+- [grphw00f](hacking/graphw00f)
+
 #### Exploit Framework
 
 - [Govenom](hacking/govenom)
