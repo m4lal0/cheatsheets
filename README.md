@@ -262,6 +262,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 
 #### GraphQL
 
+- [graphql-cop](hacking/graphql-cop)
 - [grphw00f](hacking/graphw00f)
 
 #### Exploit Framework
