@@ -22,13 +22,17 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 
 # 📚 Contenido
 
-### 🛡️ Seguridad Informática & Herramientas Hacking
+<table>
+<tr>
+<td>
+
+### :shield: Seguridad Informática & Herramientas Hacking
 
 <details>
-<summary>Ver cheatsheets</summary>
+<summary><i>Ver cheatsheets</i></summary>
 
 <details>
-<summary>Recopilación de Información</summary>
+<summary>🕵️ Recopilación de Información</summary>
 
 - [Recon-ng](hacking/recon-ng)
 
@@ -113,7 +117,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 </details>
 
 <details>
-<summary>Análisis de Aplicaciones Web</summary>
+<summary>🌐 Análisis de Aplicaciones Web</summary>
 
 #### Escáner de Vulnerabilidades Web
 
@@ -207,7 +211,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 </details>
 
 <details>
-<summary>Herramientas de Explotación</summary>
+<summary>💥 Herramientas de Explotación</summary>
 
 #### Cross-site Scripting (XSS)
 
@@ -276,7 +280,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 </details>
 
 <details>
-<summary>Ataques de Contraseñas</summary>
+<summary>🔓 Ataques de Contraseñas</summary>
 
 #### Ataques con Conexión
 
@@ -312,7 +316,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 </details>
 
 <details>
-<summary>Manteniendo el Acceso</summary>
+<summary>🚪 Manteniendo el Acceso</summary>
 
 #### Reverse Shell
 
@@ -332,7 +336,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 </details>
 
 <details>
-<summary>Ataques Wireless</summary>
+<summary>📡 Ataques Wireless</summary>
 
 - [Airbase-nd](hacking/airbase-ng)
 - [Aircrack-ng](hacking/aircrack-ng)
@@ -352,7 +356,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 </details>
 
 <details>
-<summary>Sniffing, Spoofing & MiTM</summary>
+<summary>🎣 Sniffing, Spoofing & MiTM</summary>
 
 - [ARPSpoof](hacking/arpspoof)
 - [Macchanger](hacking/macchanger)
@@ -362,7 +366,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 </details>
 
 <details>
-<summary>Post Explotación</summary>
+<summary>🚩 Post Explotación</summary>
 
 #### Tunnel & Pivoting
 
@@ -379,7 +383,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 </details>
 
 <details>
-<summary>Windows</summary>
+<summary>💻 Windows</summary>
 
 - [Auditpol](hacking/auditpol)
 - [Certutil](hacking/certutil)
@@ -390,7 +394,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 </details>
 
 <details>
-<summary>Active Directory</summary>
+<summary>🏢 Active Directory</summary>
 
 - [ad-ldap-enum](hacking/ad-ldap-enum)
 - [BloodHound-Python](hacking/bloodhound-python)
@@ -427,7 +431,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 </details>
 
 <details>
-<summary>Mobile App</summary>
+<summary>📱 Mobile App</summary>
 
 #### Mobile - Android
 
@@ -455,7 +459,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 </details>
 
 <details>
-<summary>Cloud</summary>
+<summary>☁️ Cloud</summary>
 
 - [CloudFox](hacking/cloudfox)
 - [Prowler](hacking/prowler)
@@ -473,24 +477,32 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 
 </details>
 
-### 🔧 Herramientas
+</td>
+</tr>
+<table>
+
+<table>
+<tr>
+<td>
+
+### :toolbox: Herramientas
 
 <details>
-<summary>View cheatsheets</summary>
+<summary><i>View cheatsheets</i></summary>
 
-#### Desarrollo
+#### :hammer_and_wrench: Desarrollo
 
 - [Git](tools/git)
 - [HTTP-Codes](tools/http-codes)
 - [Tmux](tools/tmux)
 - [Vim](tools/vim)
 
-#### Infraestructura
+#### :desktop_computer: Infraestructura
 
 - [Cisco IOS](tools/cisco)
 - [Puertos Comunes](tools/puertos-comunes)
 
-#### Linux
+#### :penguin: Linux
 
 - [cURL](tools/curl)
 - [File](tools/file)
@@ -505,3 +517,7 @@ Siente total libertad de explorar, reutilizar y contribuir. Este repositorio est
 - [wget](tools/wget)
 
 </details>
+
+</td>
+</tr>
+<table>
